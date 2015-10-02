@@ -1,0 +1,33 @@
+title: MATD Experiment
+desc:
+baseurl:  /experiment
+font_name: experiment
+family_name: Experiment
+family_weight_1: Light
+family_weight_2: ExtraBold
+thumb_url:
+string_sinhala: එරට එරට රට එට රටට එරට එරට රට එට එරට පර එට පර රටට එරට රටට පට එරට එරට පට රටට එ එරට එරට රට ප රටට රට එරට රටට රටට රටට රට රට එට පර රටට පර එරට රටට රටට රටට එට එරට පර එරට එරට එරට පර ට පර ට එරට රටට පර එරට එට රටට පර රටට එරට එරට රටට එරට රටට එරට ට පර පට රටට රටට එ එරට රට පට එරට එරට පර පට එට රටට
+string_tamil: சிறுபராய வாழ்வில் தனக்கு நேர்ந்த துஷ்பிரயோகங்கள், சோகங்கள் ஆகியவற்றை, உண்மையான கதைகளின் வாயிலாக பதிவு செய்தார். அன்பே அனைத்துமானது என அடிக்கடி சொல்கின்ற அவரின் எண்ணத்தின் சொற்களில் துணிச்சல் இருக்கும்; ஆர்வம் இருக்கும்; உண்மை இருக்கும். கலாநிதி. மாயா என்ஜெலோவின் மேற்கோள்களைப் படிக்கின்ற போது, சவில் தனக்கு நேர்ந்த துஷ்பிரயோககளில் நிலையில் மாறுதல் தோன்ற வேண்டும்; அன்பை ஆராதிக்க வேண்டும் போன்ற இயல்பான எண்ணங்கள் யாவும் மனதில் ஒட்டிக் கொண்டு உதஅன்பே அனைத்துமானது என அடிக்கடி சொல்கின்ற அவரின்்டிருக்கும். அவர் ஒரு மிகச்சிறந்த கதைசொல்லி, அவரின் கதை சொல்கின்ற பாணி மிகவும் கவர்ச்சியானது. அவர் சொல்கின்ற கதைகளின் விஷேடதன்மை, அவை யாவும் உண்மையானவை என்பதுதான். அநீதி, அசாதாரணம் ஆகியவை தொடர்பான தனது சொந்தக் கருத்துக்களை மனதில் அவை பதிந்து போவது போல் சொல்கின்ற அவரின் பாங்கு வியக்கத்தக்கது. “நீங்கள் சொல்வதை, மக்கள் மறந்துவிடுவார்கள். நீங்கள் அவர்களுக்கு ஏதாவது, செய்தால்கூட ஒரு தருணத்தில் அவற்றை,
+string_latin: Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. 01234567890
+string_mix: එරට එරට රට එට රටට එරට එරට රට එට එරට පර එට පර රටට එරට රටට පට එරට එරට පට රටට එ එරට එරට රට ප රටට රට එරට රටට රටට රටට රට රට එට පර රටට පර එරට රටට රටට රටට එට එරට පර එරට එරට එරට පර ට පර ට එරට රටට පර එරට එට රටට පර රටට එරට එරට රටට එරට රටට එරට ට පර පට රටට රටට එ එරට රට පට එරට එරට පර පට එට රටට
+safe: false
+lsi: false
+
+
+# About/contact
+author:
+  name:              Pathum Egodawatta
+  url:               https://twitter.com/pathumego
+  email:             pathum@mooniak.com
+
+# Custom vars
+version:             0.0.1
+
+exclude:
+  - README.md
+  - TRADEMARKS.md
+  - FONTLOG.md
+  - COPYRIGHT.md
+  - scripts
+  - sources
+  - documentation
