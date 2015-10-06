@@ -1,6 +1,8 @@
 #Brief
 
-> A Typeface family for present day web newspapers with complex and responsive typographic layouts for different screen sizes. Family will contain optical sizes optimised for different screen sizes wide to narrow. The Family will consist of Latin, Cyrillic/X, Sinhala and Tamil with emphasis style for Sinhala.
+## A Typeface family for present day web newspapers with complex and responsive typographic layouts for different screen sizes. Family will contain optical sizes optimised for different screen sizes wide to narrow. The Family will consist of Latin, Cyrillic/X, Sinhala and Tamil with emphasis style for Sinhala.
+
+---
 
 ## **Areas of Research**
 
