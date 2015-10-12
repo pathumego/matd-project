@@ -20,7 +20,7 @@
 
 
 
-## Patterns
+## Patterns to consider
 
 - Counters: Bigger, open
-- Connection between outer and inner curves so things could shrink
+- Connection between outer and inner curves so things could shrink horizontally while keeping the same appearance.
