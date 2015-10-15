@@ -9,13 +9,17 @@
 **Latin** 
 - Size specific adjustments that has been done
 - Responsive web typography common practices
+- Adjustments in Condensed families. 
 - Responsive web typography best practices
 - Recent developments of web type
 - Recent trends of News website/ app design
 - Anticipations in news content delivery
 
 **Sinhala**
-- History of Modulation development
+- History of Modulation development.
+- Initial ideas of modulation.
+
+
 
 
 
@@ -25,3 +29,4 @@
 - Counters: Bigger, open
 - Connection between outer and inner curves so things could shrink horizontally while keeping the same appearance.
 - How to make charchters condensed without making them look condensed. 
+
