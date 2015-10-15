@@ -20,7 +20,8 @@
 
 
 
-## Patterns to consider
+## Patterns to consider/ explore
 
 - Counters: Bigger, open
 - Connection between outer and inner curves so things could shrink horizontally while keeping the same appearance.
+- How to make charchters condensed without making them look condensed. 
