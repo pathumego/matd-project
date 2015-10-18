@@ -1,6 +1,6 @@
 #Brief
 
-## A Typeface family for present day web newspapers with complex and responsive typographic layouts for different screen sizes. Family will contain optical sizes optimised for different screen sizes wide to narrow. The Family will consist of Latin, Cyrillic/X, Sinhala and Tamil with emphasis style for Sinhala.
+## A Typeface family for present day web newspapers with complex and responsive typographic layouts for different screen sizes. Family will contain optical sizes optimised for different screen sizes wide to narrow. The Family will consist of Latin, Thaana, Sinhala and Tamil with emphasis style for Sinhala.  
 
 ---
 
@@ -19,6 +19,13 @@
 - History of Modulation development.
 - Initial ideas of modulation.
 
+
+**Thaana**
+- History of the scripts
+- Relationships to arabic calligraphic traditions
+- Relationship to Old Divehi Akuru
+- Modern interpretations: late 19th century books, government books, educational publications, recent fonts
+- Naseema Mohamed and National Centre of Linguistic and Historical Research (NCLHR) Male, Maldives
 
 
 
