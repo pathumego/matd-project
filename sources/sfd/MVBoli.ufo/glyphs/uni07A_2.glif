@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni07A2" format="1">
+  <advance width="1130"/>
+  <unicode hex="07A2"/>
+  <outline>
+    <contour>
+      <point x="540" y="-300" type="move" name="Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="595" y="1300" type="move" name="Anchor-0"/>
+    </contour>
+    <component base="thn_Alifu"/>
+    <component base="DotBelow" xOffset="188" yOffset="-207"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thn_P" format="1">
+  <advance width="1057"/>
+  <unicode hex="0795"/>
+  <outline>
+    <contour>
+      <point x="580" y="-300" type="move" name="Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="420" y="1300" type="move" name="Anchor-0"/>
+    </contour>
+    <component base="thn_F"/>
+    <component base="DotBelow" xOffset="297" yOffset="-309"/>
+  </outline>
+</glyph>

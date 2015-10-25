@@ -1,0 +1,233 @@
+languagesystem thaa dflt;
+
+
+# GSUB 
+
+
+lookup ccmpGlyphCompositionDecompositi {
+  lookupflag RightToLeft;
+    sub \uni07A6 by \uni07A6nsp ;
+    sub \uni07A7 by \uni07A7nsp ;
+    sub \uni07A8 by \uni07A8nsp ;
+    sub \uni07A9 by \uni07A9nsp ;
+    sub \uni07AA by \uni07AAnsp ;
+    sub \uni07AB by \uni07ABnsp ;
+    sub \uni07AC by \uni07ACnsp ;
+    sub \uni07AD by \uni07ADnsp ;
+    sub \uni07AE by \uni07AEnsp ;
+    sub \uni07AF by \uni07AFnsp ;
+    sub \uni07B0 by \uni07B0nsp ;
+} ccmpGlyphCompositionDecompositi;
+
+feature ccmp {
+
+ script thaa;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositi;
+} ccmp;
+
+# GPOS 
+
+
+lookup markMarkPositioninginThaanalook {
+  lookupflag RightToLeft;
+  markClass [\uni07A6 \uni07A6nsp ] <anchor 310 969> @Anchor0;
+  markClass [\uni07A7 \uni07A7nsp ] <anchor 445 969> @Anchor0;
+  markClass [\uni07AA \uni07AAnsp ] <anchor 250 969> @Anchor0;
+  markClass [\uni07AB \uni07ABnsp ] <anchor 500 969> @Anchor0;
+  markClass [\uni07AC \uni07ACnsp ] <anchor 280 969> @Anchor0;
+  markClass [\uni07AD \uni07ADnsp ] <anchor 566 969> @Anchor0;
+  markClass [\uni07AE \uni07AEnsp ] <anchor 505 969> @Anchor0;
+  markClass [\uni07AF \uni07AFnsp ] <anchor 544 969> @Anchor0;
+  markClass [\uni07B0 \uni07B0nsp ] <anchor 350 969> @Anchor0;
+  markClass [\uni07A8 \uni07A8nsp ] <anchor 315 0> @Anchor1;
+  markClass [\uni07A9 \uni07A9nsp ] <anchor 510 0> @Anchor1;
+  pos base [\thn_H \uni0799 \uni079A ] <anchor 520 -220> mark @Anchor1
+	<anchor 589 1300> mark @Anchor0;
+  pos base [\thn_SH ] <anchor 800 -220> mark @Anchor1
+	<anchor 720 1300> mark @Anchor0;
+  pos base [\thn_N \thn_R \uni079C ] <anchor 780 -220> mark @Anchor1
+	<anchor 820 1300> mark @Anchor0;
+  pos base [\thn_B ] <anchor 765 -220> mark @Anchor1
+	<anchor 797 1300> mark @Anchor0;
+  pos base [\thn_L ] <anchor 760 -220> mark @Anchor1
+	<anchor 585 1300> mark @Anchor0;
+  pos base [\hn_K \thn_LL ] <anchor 550 -220> mark @Anchor1
+	<anchor 650 1300> mark @Anchor0;
+  pos base [\thn_Alifu \uni07A3 ] <anchor 540 -220> mark @Anchor1
+	<anchor 595 1300> mark @Anchor0;
+  pos base [\thn_V \uni07A5 ] <anchor 440 -220> mark @Anchor1
+	<anchor 461 1300> mark @Anchor0;
+  pos base [\thn_M ] <anchor 525 -220> mark @Anchor1
+	<anchor 510 1300> mark @Anchor0;
+  pos base [\thn_F ] <anchor 560 -300> mark @Anchor1
+	<anchor 420 1300> mark @Anchor0;
+  pos base [\thn_D \uni079B ] <anchor 660 -300> mark @Anchor1
+	<anchor 570 1300> mark @Anchor0;
+  pos base [\thn_T \thn_C \uni0798 \uni07A0 \uni07A1 ] <anchor 630 -300> mark @Anchor1
+	<anchor 625 1300> mark @Anchor0;
+  pos base [\thn_G \uni07A4 ] <anchor 555 -300> mark @Anchor1
+	<anchor 600 1300> mark @Anchor0;
+  pos base [\thn_GN ] <anchor 715 -360> mark @Anchor1
+	<anchor 720 1300> mark @Anchor0;
+  pos base [\thn_S \uni079D \uni079E \uni079F ] <anchor 1110 -220> mark @Anchor1
+	<anchor 1120 1300> mark @Anchor0;
+  pos base [\thn_DD ] <anchor 465 -300> mark @Anchor1
+	<anchor 405 1300> mark @Anchor0;
+  pos base [\thn_Z ] <anchor 600 -360> mark @Anchor1
+	<anchor 595 1300> mark @Anchor0;
+  pos base [\thn_TT ] <anchor 735 -445> mark @Anchor1
+	<anchor 820 1300> mark @Anchor0;
+  pos base [\thn_Y ] <anchor 680 -220> mark @Anchor1
+	<anchor 720 1300> mark @Anchor0;
+  pos base [\thn_P ] <anchor 580 -300> mark @Anchor1
+	<anchor 420 1300> mark @Anchor0;
+  pos base [\thn_J ] <anchor 660 -445> mark @Anchor1
+	<anchor 480 1300> mark @Anchor0;
+  pos base [\uni07A2 ] <anchor 540 -300> mark @Anchor1
+	<anchor 595 1300> mark @Anchor0;
+  pos base [\uni07B1 ] <anchor 435 -445> mark @Anchor1
+	<anchor 487 1300> mark @Anchor0;
+  pos base [\uni25CC ] <anchor 615 -100> mark @Anchor1
+	<anchor 615 1400> mark @Anchor0;
+} markMarkPositioninginThaanalook;
+
+lookup kernHorizontalKerninginThaanalo {
+  lookupflag RightToLeft IgnoreMarks;
+    @kc2_first_1 = [\thn_H ];
+    @kc2_first_2 = [\thn_SH ];
+    @kc2_first_3 = [\thn_N ];
+    @kc2_first_4 = [\thn_R ];
+    @kc2_first_5 = [\thn_L ];
+    @kc2_first_6 = [\thn_V ];
+    @kc2_first_7 = [\thn_M ];
+    @kc2_first_8 = [\thn_F ];
+    @kc2_first_9 = [\thn_D ];
+    @kc2_first_10 = [\thn_T ];
+    @kc2_first_11 = [\thn_LL ];
+    @kc2_first_12 = [\thn_G ];
+    @kc2_first_13 = [\thn_Y ];
+    @kc2_first_14 = [\thn_P ];
+    @kc2_first_15 = [\thn_J ];
+    @kc2_first_16 = [\thn_C ];
+    @kc2_first_17 = [\uni0798 ];
+    @kc2_first_18 = [\uni0799 ];
+    @kc2_first_19 = [\uni079A ];
+    @kc2_first_20 = [\uni079B ];
+    @kc2_first_21 = [\uni079C ];
+    @kc2_first_22 = [\uni07A0 ];
+    @kc2_first_23 = [\uni07A1 ];
+    @kc2_first_24 = [\uni07A4 ];
+    @kc2_first_25 = [\uni07A5 ];
+    @kc2_second_1 = [\thn_Alifu ];
+    @kc2_second_2 = [\thn_DD ];
+    @kc2_second_3 = [\thn_Z ];
+    @kc2_second_4 = [\thn_TT ];
+    pos @kc2_first_1 @kc2_second_1 60;
+    pos @kc2_first_1 @kc2_second_2 180;
+    pos @kc2_first_1 @kc2_second_3 160;
+    pos @kc2_first_2 @kc2_second_1 60;
+    pos @kc2_first_2 @kc2_second_2 180;
+    pos @kc2_first_2 @kc2_second_3 160;
+    pos @kc2_first_3 @kc2_second_1 60;
+    pos @kc2_first_3 @kc2_second_2 180;
+    pos @kc2_first_3 @kc2_second_3 160;
+    pos @kc2_first_4 @kc2_second_1 60;
+    pos @kc2_first_4 @kc2_second_2 180;
+    pos @kc2_first_4 @kc2_second_3 160;
+    pos @kc2_first_5 @kc2_second_1 60;
+    pos @kc2_first_5 @kc2_second_2 180;
+    pos @kc2_first_5 @kc2_second_3 160;
+    pos @kc2_first_6 @kc2_second_1 60;
+    pos @kc2_first_6 @kc2_second_2 180;
+    pos @kc2_first_6 @kc2_second_3 160;
+    pos @kc2_first_7 @kc2_second_1 60;
+    pos @kc2_first_7 @kc2_second_2 180;
+    pos @kc2_first_7 @kc2_second_3 160;
+    pos @kc2_first_8 @kc2_second_2 240;
+    pos @kc2_first_8 @kc2_second_3 270;
+    pos @kc2_first_8 @kc2_second_4 160;
+    pos @kc2_first_9 @kc2_second_2 240;
+    pos @kc2_first_9 @kc2_second_3 270;
+    pos @kc2_first_9 @kc2_second_4 100;
+    pos @kc2_first_10 @kc2_second_2 180;
+    pos @kc2_first_10 @kc2_second_3 150;
+    pos @kc2_first_11 @kc2_second_2 240;
+    pos @kc2_first_11 @kc2_second_3 270;
+    pos @kc2_first_11 @kc2_second_4 100;
+    pos @kc2_first_12 @kc2_second_1 60;
+    pos @kc2_first_12 @kc2_second_2 150;
+    pos @kc2_first_12 @kc2_second_3 120;
+    pos @kc2_first_13 @kc2_second_1 60;
+    pos @kc2_first_13 @kc2_second_2 220;
+    pos @kc2_first_13 @kc2_second_3 180;
+    pos @kc2_first_14 @kc2_second_2 240;
+    pos @kc2_first_14 @kc2_second_3 270;
+    pos @kc2_first_14 @kc2_second_4 160;
+    pos @kc2_first_15 @kc2_second_1 60;
+    pos @kc2_first_15 @kc2_second_2 180;
+    pos @kc2_first_15 @kc2_second_3 180;
+    pos @kc2_first_16 @kc2_second_2 180;
+    pos @kc2_first_16 @kc2_second_3 150;
+    pos @kc2_first_17 @kc2_second_2 180;
+    pos @kc2_first_17 @kc2_second_3 150;
+    pos @kc2_first_18 @kc2_second_1 60;
+    pos @kc2_first_18 @kc2_second_2 180;
+    pos @kc2_first_18 @kc2_second_3 160;
+    pos @kc2_first_19 @kc2_second_1 60;
+    pos @kc2_first_19 @kc2_second_2 180;
+    pos @kc2_first_19 @kc2_second_3 160;
+    pos @kc2_first_20 @kc2_second_2 240;
+    pos @kc2_first_20 @kc2_second_3 270;
+    pos @kc2_first_20 @kc2_second_4 100;
+    pos @kc2_first_21 @kc2_second_1 60;
+    pos @kc2_first_21 @kc2_second_2 180;
+    pos @kc2_first_21 @kc2_second_3 160;
+    pos @kc2_first_22 @kc2_second_2 180;
+    pos @kc2_first_22 @kc2_second_3 150;
+    pos @kc2_first_23 @kc2_second_2 180;
+    pos @kc2_first_23 @kc2_second_3 150;
+    pos @kc2_first_24 @kc2_second_1 60;
+    pos @kc2_first_24 @kc2_second_2 150;
+    pos @kc2_first_24 @kc2_second_3 120;
+    pos @kc2_first_25 @kc2_second_1 60;
+    pos @kc2_first_25 @kc2_second_2 180;
+    pos @kc2_first_25 @kc2_second_3 180;
+} kernHorizontalKerninginThaanalo;
+
+feature mark {
+
+ script thaa;
+     language dflt ;
+      lookup markMarkPositioninginThaanalook;
+} mark;
+
+feature kern {
+
+ script thaa;
+     language dflt ;
+      lookup kernHorizontalKerninginThaanalo;
+} kern;
+
+@GDEF_Simple = [\.notdef \.null \nonmarkingreturn \space \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \bracketleft 
+	\backslash \bracketright \braceleft \bar \braceright \bullet \guillemotleft 
+	\guillemotright \endash \emdash \quotedblleft \quotedblright \quoteleft 
+	\quoteright \uni00B7 \afii57388 \afii57403 \afii57407 \thn_H \thn_SH \thn_N 
+	\thn_R \thn_B \thn_L \hn_K \thn_Alifu \thn_V \thn_M \thn_F \thn_D \thn_T \thn_LL 
+	\thn_G \thn_GN \thn_S \thn_DD \thn_Z \thn_TT \thn_Y \thn_P \thn_J \thn_C \uni0798 
+	\uni0799 \uni079A \uni079B \uni079C \uni079D \uni079E \uni079F \uni07A0 \uni07A1 
+	\uni07A2 \uni07A3 \uni07A4 \uni07A5 \uni07B1 \DotAbove \DotBelow \TwoDots 
+	\ThreeDots \uni25CC \uniFDF2 ];
+@GDEF_Mark = [\uni07A6 \uni07A7 \uni07A8 \uni07A9 \uni07AA \uni07AB \uni07AC 
+	\uni07AD \uni07AE \uni07AF \uni07B0 \uni07A6nsp \uni07A7nsp \uni07A8nsp 
+	\uni07A9nsp \uni07AAnsp \uni07ABnsp \uni07ACnsp \uni07ADnsp \uni07AEnsp 
+	\uni07AFnsp \uni07B0nsp ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+

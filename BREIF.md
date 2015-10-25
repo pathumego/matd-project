@@ -30,7 +30,6 @@
 
 
 
-
 ## Patterns to consider/ explore
 
 - Counters: Bigger, open

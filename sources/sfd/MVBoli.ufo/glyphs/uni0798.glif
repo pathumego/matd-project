@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0798" format="1">
+  <advance width="1153"/>
+  <unicode hex="0798"/>
+  <outline>
+    <contour>
+      <point x="630" y="-300" type="move" name="Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="625" y="1450" type="move" name="Anchor-0"/>
+    </contour>
+    <component base="thn_T"/>
+    <component base="ThreeDots" xOffset="489" yOffset="870"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni07AFnsp" format="1">
+  <advance width="0"/>
+  <unicode hex="07AF"/>
+  <outline>
+    <contour>
+      <point x="544" y="969" type="move" name="_Anchor-0"/>
+    </contour>
+    <component base="uni07AF"/>
+  </outline>
+</glyph>

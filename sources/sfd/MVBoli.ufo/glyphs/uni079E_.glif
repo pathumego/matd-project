@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni079E" format="1">
+  <advance width="2195"/>
+  <unicode hex="079E"/>
+  <outline>
+    <contour>
+      <point x="1110" y="-220" type="move" name="Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="1120" y="1300" type="move" name="Anchor-0"/>
+    </contour>
+    <component base="thn_S"/>
+    <component base="DotBelow" xOffset="813" yOffset="90"/>
+  </outline>
+</glyph>
