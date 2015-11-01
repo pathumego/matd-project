@@ -84,11 +84,11 @@ GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
-NameList: AGL For New Fonts
+NameList: thaana
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 15 10
+WinInfo: 0 13 9
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning in Thaana lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning in Thaana lookup 1 subtable" 
 BeginChars: 65542 95
 
@@ -258,7 +258,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni060C
+StartChar: afii57388
 Encoding: 1548 1548 8
 Width: 745
 GlyphClass: 2
@@ -285,7 +285,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni061B
+StartChar: afii57403
 Encoding: 1563 1563 9
 Width: 745
 GlyphClass: 2
@@ -322,7 +322,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni061F
+StartChar: afii57407
 Encoding: 1567 1567 10
 Width: 980
 GlyphClass: 2
@@ -366,7 +366,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0780
+StartChar: thn_H
 Encoding: 1920 1920 11
 Width: 1084
 GlyphClass: 2
@@ -396,7 +396,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0781
+StartChar: thn_SH
 Encoding: 1921 1921 12
 Width: 1389
 GlyphClass: 2
@@ -434,7 +434,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0782
+StartChar: thn_N
 Encoding: 1922 1922 13
 Width: 1656
 GlyphClass: 2
@@ -487,7 +487,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0783
+StartChar: thn_R
 Encoding: 1923 1923 14
 Width: 1329
 GlyphClass: 2
@@ -531,7 +531,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0784
+StartChar: thn_B
 Encoding: 1924 1924 15
 Width: 1458
 GlyphClass: 2
@@ -573,7 +573,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0785
+StartChar: thn_L
 Encoding: 1925 1925 16
 Width: 1117
 GlyphClass: 2
@@ -611,7 +611,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0786
+StartChar: hn_K
 Encoding: 1926 1926 17
 Width: 1126
 GlyphClass: 2
@@ -646,7 +646,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0787
+StartChar: thn_Alifu
 Encoding: 1927 1927 18
 Width: 1091
 GlyphClass: 2
@@ -681,7 +681,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0788
+StartChar: thn_V
 Encoding: 1928 1928 19
 Width: 1102
 GlyphClass: 2
@@ -720,7 +720,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0789
+StartChar: thn_M
 Encoding: 1929 1929 20
 Width: 1060
 GlyphClass: 2
@@ -754,7 +754,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni078A
+StartChar: thn_F
 Encoding: 1930 1930 21
 Width: 920
 GlyphClass: 2
@@ -804,11 +804,11 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni078B
+StartChar: thn_D
 Encoding: 1931 1931 22
 Width: 1298
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-1" 500 -120 basechar 0
 AnchorPoint: "Anchor-0" 640 1060 basechar 0
 LayerCount: 2
@@ -853,7 +853,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni078C
+StartChar: thn_T
 Encoding: 1932 1932 23
 Width: 1330
 GlyphClass: 2
@@ -902,7 +902,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni078D
+StartChar: thn_LL
 Encoding: 1933 1933 24
 Width: 1179
 GlyphClass: 2
@@ -944,7 +944,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni078E
+StartChar: thn_G
 Encoding: 1934 1934 25
 Width: 1023
 GlyphClass: 2
@@ -986,7 +986,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni078F
+StartChar: thn_GN
 Encoding: 1935 1935 26
 Width: 1478
 GlyphClass: 2
@@ -1045,7 +1045,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0790
+StartChar: thn_S
 Encoding: 1936 1936 27
 Width: 2087
 GlyphClass: 2
@@ -1085,7 +1085,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0791
+StartChar: thn_DD
 Encoding: 1937 1937 28
 Width: 799
 GlyphClass: 2
@@ -1131,7 +1131,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0792
+StartChar: thn_Z
 Encoding: 1938 1938 29
 Width: 1168
 GlyphClass: 2
@@ -1183,7 +1183,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0793
+StartChar: thn_TT
 Encoding: 1939 1939 30
 Width: 1375
 GlyphClass: 2
@@ -1241,7 +1241,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0794
+StartChar: thn_Y
 Encoding: 1940 1940 31
 Width: 1491
 GlyphClass: 2
@@ -1287,7 +1287,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0795
+StartChar: thn_P
 Encoding: 1941 1941 32
 Width: 920
 GlyphClass: 2
@@ -1301,7 +1301,7 @@ Refer: 21 1930 N 1 0 0 1 0 0 1
 Refer: 68 -1 N 1 0 0 1 195 -308 0
 EndChar
 
-StartChar: uni0796
+StartChar: thn_J
 Encoding: 1942 1942 33
 Width: 1193
 GlyphClass: 2
@@ -1359,7 +1359,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0797
+StartChar: thn_C
 Encoding: 1943 1943 34
 Width: 1322
 GlyphClass: 2
@@ -1416,7 +1416,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0798
+StartChar: thn_Tt
 Encoding: 1944 1944 35
 Width: 1265
 GlyphClass: 2
@@ -1430,7 +1430,7 @@ Refer: 23 1932 N 1 0 0 1 -64 0 0
 Refer: 69 -1 N 1 0 0 1 592 850 0
 EndChar
 
-StartChar: uni0799
+StartChar: thn_Hh
 Encoding: 1945 1945 36
 Width: 1109
 GlyphClass: 2
@@ -1444,7 +1444,7 @@ Refer: 11 1920 N 1 0 0 1 0 0 0
 Refer: 68 -1 N 1 0 0 1 527 0 0
 EndChar
 
-StartChar: uni079A
+StartChar: thn_Kh
 Encoding: 1946 1946 37
 Width: 1109
 GlyphClass: 2
@@ -1612,7 +1612,7 @@ Refer: 19 1928 N 1 0 0 1 -64 0 0
 Refer: 67 -1 N 1 0 0 1 358 0 0
 EndChar
 
-StartChar: uni07A6
+StartChar: uni07A6nsp
 Encoding: 1958 1958 49
 Width: 0
 GlyphClass: 4
@@ -1637,7 +1637,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07A7
+StartChar: uni07A7nsp
 Encoding: 1959 1959 50
 Width: 0
 GlyphClass: 4
@@ -1674,7 +1674,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07A8
+StartChar: uni07A8nsp
 Encoding: 1960 1960 51
 Width: 0
 GlyphClass: 4
@@ -1699,7 +1699,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07A9
+StartChar: uni07A9nsp
 Encoding: 1961 1961 52
 Width: 0
 GlyphClass: 4
@@ -1736,7 +1736,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07AA
+StartChar: uni07AAnsp
 Encoding: 1962 1962 53
 Width: 0
 GlyphClass: 4
@@ -1767,7 +1767,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07AB
+StartChar: uni07ABnsp
 Encoding: 1963 1963 54
 Width: 0
 GlyphClass: 4
@@ -1815,7 +1815,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07AC
+StartChar: uni07ACnsp
 Encoding: 1964 1964 55
 Width: 0
 GlyphClass: 4
@@ -1849,7 +1849,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07AD
+StartChar: uni07ADnsp
 Encoding: 1965 1965 56
 Width: 0
 GlyphClass: 4
@@ -1904,7 +1904,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07AE
+StartChar: uni07AEnsp
 Encoding: 1966 1966 57
 Width: 0
 GlyphClass: 4
@@ -1953,7 +1953,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07AF
+StartChar: uni07AFnsp
 Encoding: 1967 1967 58
 Width: 0
 GlyphClass: 4
@@ -1994,7 +1994,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni07B0
+StartChar: uni07B0nsp
 Encoding: 1968 1968 59
 Width: 0
 GlyphClass: 4
