@@ -4,7 +4,7 @@ cd ../sources/sfd/
 
 fontforge ../../scripts/fontconvert experiment-sinhala-1.sfd --otf
 fontforge ../../scripts/fontconvert experiment-thaana-1.sfd --otf
-fontforge ../../scripts/fontconvert experiment-narrow-sinhala-0.sfd --otf
+fontforge ../../scripts/fontconvert experiment-narrow-sinhala-1.sfd --otf
 
 
 

@@ -16,10 +16,10 @@ layout: project_site
         <!-- Schema.org markup for Google+ -->
 
 	<style>
-	@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-sinhala-0.otf');font-weight:  900;}
+            @font-face {font-family: 'Experiment'; src: url('./fonts/experiment-thaana-1.otf');font-weight:  400;}
+
 	@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-sinhala-1.otf');font-weight:  400;}
-    @font-face {font-family: 'Experiment'; src: url('./fonts/experiment-thaana-1.otf');font-weight:  400;}
-    @font-face {font-family: 'Experiment-Narrow'; src: url('./fonts/experiment-narrow-sinhala-.otf');font-weight:  800;}
+    @font-face {font-family: 'Experiment-Narrow'; src: url('./fonts/experiment-narrow-sinhala-1.otf');font-weight:  400;}
 
 
 
@@ -28,7 +28,7 @@ layout: project_site
 
 body{font-family: 'Source Code Pro';}
 	p { font-family: 'Experiment', AdobeBlank; font-size: 36px;}
-    p.narrow { font-family: 'Experiment-Narrow', AdobeBlank; font-size: 36px;}
+    .narrow { font-family: 'Experiment-Narrow', AdobeBlank;}
 
 	.lable{ font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -64,15 +64,14 @@ body{font-family: 'Source Code Pro';}
 			<div class="col-1-1">
 					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 70px</span>
 					<p class="alphabet" style="font-weight:400;">
-{{ site.glyphs }}and  
+{{ site.glyphs }}
                         
-                        ޓޓްޓަޓާޓުޓޫޓިޓީޓޮހހްހަހާހުހޫހިހީހޮހެހޭ ނންނަނާނުނޫނިނީނޮނެނޭ
                         
                        
 </p>
                 					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 70px</span>
-					<p class="alphabet" style="font-weight:800;">
-{{ site.glyphs }}andނހުނ
+					<p class="alphabet narrow " style="font-weight:400;">
+{{ site.glyphs }}
 
 </p>
 
@@ -92,7 +91,7 @@ body{font-family: 'Source Code Pro';}
 <h3>Condensed vs Normal</h3>
 			<div class="col-1-3">
 					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-					<p  style="font-weight:400;font-size:10px;">
+				 <p  style="font-weight:400;font-size:10px;">
 						{{ site.string_latin }}
 
 		 </div>
@@ -100,11 +99,14 @@ body{font-family: 'Source Code Pro';}
 
 
 		 <div class="col-1-3">
-				 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }}- Condensed 10px 10px</span>
-				 <p  style="font-weight:800;font-size:10px;">
+				 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }}- Condensed  10px</span>
+				 <p class="narrow" style="font-weight:400;font-size:10px;">
 					 {{ site.string_latin }}
 				 </p>
 		</div>
+
+            
+          
 
 
 		<div class="col-1-3">
@@ -116,121 +118,7 @@ body{font-family: 'Source Code Pro';}
 	 </div>
 	</div>
 
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-				<p  style="font-weight:400;font-size:10px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-
-
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-			 <p  style="font-weight:800;font-size:10px;">
-				 {{ site.string_sinhala }}
-			 </p>
-	</div>
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-			<p  style="font-weight:300;font-size:10px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-			 <p  style="font-weight:300;font-size:16px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-			<p  style="font-weight:300;font-size:16px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-				<p  style="font-weight:300;font-size:24px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-			 <p  style="font-weight:300;font-size:24px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-			<p  style="font-weight:300;font-size:24px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-				<p  style="font-weight:300;font-size:36px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-			 <p  style="font-weight:300;font-size:36px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-			<p  style="font-weight:300;font-size:36px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_sinhala }}{{ site.string_tamil}}{{ site.string_latin }}
-				</p>
-	 </div>
-	</div>
-
+	
 	<div class="grid grid-pad">
 
 		<div class="col-1-1">
@@ -240,166 +128,22 @@ body{font-family: 'Source Code Pro';}
 				</p>
 	 </div>
 	</div>
+
+	
 
 	<div class="grid grid-pad">
 
 		<div class="col-1-1">
 				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-				<p  style="font-weight:300;font-size:24px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
+				<p  style="font-weight:400;font-size:24px;">
 					{{ site.string_mix }}
 				</p>
 	 </div>
 	</div>
 
 
-	<!-- {{ site.family_weight_2 }} -->
+	
 
-
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-				<p  style="font-weight:900;font-size:10px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-			 <p  style="font-weight:900;font-size:10px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-
-
-
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-			<p  style="font-weight:900;font-size:10px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-				<p  style="font-weight:900;font-size:12px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-			 <p  style="font-weight:900;font-size:12px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-			<p  style="font-weight:900;font-size:12px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-				<p  style="font-weight:900;font-size:16px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-			 <p  style="font-weight:900;font-size:16px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-			<p  style="font-weight:900;font-size:16px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-				<p  style="font-weight:900;font-size:24px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-			 <p  style="font-weight:900;font-size:24px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-			<p  style="font-weight:900;font-size:24px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-			 <p  style="font-weight:900;font-size:36px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-			<p  style="font-weight:900;font-size:36px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-				<p  style="font-weight:900;font-size:24px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
 
 
 		<!-- footer -->
