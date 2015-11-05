@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1446595012
+ModificationTime: 1446678632
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,14 +44,14 @@ OS2Vendor: 'PfEd'
 Lookup: 260 1 0 "'abvm' Above Base Mark in Thaana lookup 0" { "'abvm' Above Base Mark in Thaana lookup 0-1"  } ['abvm' ('thaa' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: Custom
+Encoding: ISO8859-1
 Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 0 16 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -73,7 +73,7 @@ Grid
  4096 1411.48144531 l 1024
 EndSplineSet
 AnchorClass2: "thn_ubufibi" "'abvm' Above Base Mark in Thaana lookup 0-1" 
-BeginChars: 273 16
+BeginChars: 263 17
 
 StartChar: uni0DA7
 Encoding: 256 3495 0
@@ -218,7 +218,7 @@ Layer: 3
 EndChar
 
 StartChar: space
-Encoding: 259 32 3
+Encoding: 32 32 3
 GlifName: space
 Width: 250
 VWidth: 0
@@ -231,7 +231,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0DBB
-Encoding: 260 3515 4
+Encoding: 259 3515 4
 GlifName: si_R_a
 Width: 1179
 VWidth: 30
@@ -261,7 +261,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0DA0
-Encoding: 261 3488 5
+Encoding: 260 3488 5
 GlifName: si_C_a
 Width: 1318
 VWidth: 6
@@ -301,12 +301,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-33 616 m 1
+33 646 m 1
  776 645 l 1
- 776 543 l 1
- 215 543 l 1
- 29 500 l 1
- 33 616 l 1
+ 776 523 l 1
+ 215 523 l 1
+ 29 510 l 1
+ 33 646 l 1
 637 571 m 1
  657 635 l 1
  645 733 l 1
@@ -316,22 +316,22 @@ SplineSet
  273 776 264 817 264 850 c 0
  264 928 350 968 463 967 c 0
  764 964 795 717 795 717 c 0
- 776 543 l 1
+ 776 523 l 1
  637 571 l 1
-559 567 m 1
- 555 567 328 434 328 309 c 5
- 332 227 430 155 670 154 c 0
- 1004 152 1100 438 1100 688 c 1
+579 567 m 1
+ 575 567 328 424 328 299 c 1
+ 332 217 460 155 680 154 c 0
+ 1014.00292969 152.481445312 1100 438 1100 688 c 1
  1100 1036 979 1237 649 1251 c 1
  479 1243 186 1110 180 1110 c 1
  143 1208 l 0
  215 1255 475 1390 651 1389 c 0
  1061 1387 1264 1102 1264 678 c 0
- 1264 252 1095 -41 694 -41 c 0
- 389 -41 164 61 164 299 c 4
- 164 389 205 444 248 475 c 5
- 412 565 l 1
- 559 567 l 1
+ 1264 252 1085 -41 684 -41 c 0
+ 329 -41 164 111 164 279 c 0
+ 164 359 210 416 210 416 c 1
+ 432 565 l 1
+ 579 567 l 1
 EndSplineSet
 Layer: 2
 SplineSet
@@ -365,7 +365,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0061
-Encoding: 262 97 6
+Encoding: 97 97 6
 GlifName: uni0061
 Width: 1122
 VWidth: 79
@@ -446,7 +446,7 @@ Layer: 3
 EndChar
 
 StartChar: uni006E
-Encoding: 263 110 7
+Encoding: 110 110 7
 GlifName: uni006E_
 Width: 1394
 VWidth: 79
@@ -510,7 +510,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0064
-Encoding: 264 100 8
+Encoding: 100 100 8
 GlifName: uni0064
 Width: 1288
 VWidth: 153
@@ -528,39 +528,39 @@ SplineSet
  750 1483 776 1538 823 1538 c 1
  1042 1538 l 0
  1069 1485 l 1
-887 846 m 1
- 887 846 735 913 606 915 c 1
- 385 915 276 788 276 489 c 1
- 290 289 437 115 567 115 c 0
+887 876 m 1
+ 887 876 735 943 606 945 c 1
+ 385 945 276 788 276 489 c 1
+ 290 269 447 115 577 125 c 0
  891 188 l 1
  965 236 l 1
  973 98 l 1
  973 98 746 -25 547 -25 c 0
  246 -25 102 219 102 508 c 0
- 102 930 356 1097 616 1077 c 1
- 909 993 l 1
- 887 846 l 1
+ 102 930 356 1127 616 1107 c 1
+ 909 1023 l 1
+ 887 876 l 1
 918 104 m 1
  1053 225 l 0
  1186 137 l 1
  1145 -10 l 1
  977 42 l 1
  918 104 l 1
-897 125 m 6
+897 125 m 2
  870 301 l 1
  870 1454 l 1
  1069 1485 l 1
  1053 1196 l 1
  1053 338 l 1
  1059 216 1114 182 1114 182 c 1
- 897 125 l 6
+ 897 125 l 2
 EndSplineSet
 Layer: 2
 Layer: 3
 EndChar
 
 StartChar: uni0068
-Encoding: 266 104 9
+Encoding: 104 104 9
 GlifName: uni0068
 Width: 1417
 VWidth: 79
@@ -571,38 +571,38 @@ LayerCount: 4
 Back
 Fore
 SplineSet
+1062 115 m 1
+ 1215 199 l 0
+ 1217 127 1242 98 1285 88 c 1
+ 1388 72 l 1
+ 1400 37 1378 0 1366 0 c 1
+ 1307 0 1231 0 1172 0 c 0x78
+ 1121 0 1062 39 1062 115 c 1
+1204 121 m 1
+ 1204 45 1122 0 1071 0 c 0x78
+ 1012 0 993 0 934 0 c 1
+ 922 0 886 0 886 51 c 1xb8
+ 917 100 l 1
+ 962 100 1030 102 1032 172 c 0
+ 1204 121 l 1
 283 115 m 1
  436 199 l 0
  438 127 463 98 506 88 c 1
- 609 82 l 1
- 621 47 646 0 617 0 c 1
- 558 0 452 0 393 0 c 0x78
+ 609 72 l 1
+ 621 37 599 0 587 0 c 1
+ 528 0 452 0 393 0 c 0x78
  342 0 283 39 283 115 c 1
-1202 121 m 1
- 1202 45 1120 0 1069 0 c 0x78
- 1010 0 1011 0 952 0 c 1
- 940 0 845 0 845 31 c 5xb8
- 876 80 l 5
- 921 80 1028 102 1030 172 c 0
- 1202 121 l 1
-1051 115 m 1
- 1204 199 l 0
- 1206 127 1231 108 1274 104 c 1
- 1327 92 l 1
- 1339 57 1364 0 1335 0 c 1
- 1276 0 1220 0 1161 0 c 0x78
- 1110 0 1051 39 1051 115 c 1
-1192 0 m 1
- 1135 2 1091 -2 1030 0 c 1
+1212 0 m 1
+ 1155 2 1091 -2 1030 0 c 1
  1030 145 l 1
  1030 231 1036 752 1028 834 c 0
  1018 955 899 979 758 983 c 1
- 334 846 l 1
+ 334 826 l 5
  350 967 l 0
  350 967 571 1116 770 1116 c 0
- 1008 1116 1178 1039 1198 877 c 0
- 1210 787 1208 673 1208 575 c 0
- 1208 409 1208 129 1192 0 c 1
+ 1008 1116 1181 1039 1201 877 c 0
+ 1213 787 1211 673 1211 575 c 0
+ 1211 409 1218 129 1212 0 c 1
 424 121 m 1
  424 45 342 0 291 0 c 0x78
  232 0 213 0 154 0 c 1
@@ -633,7 +633,7 @@ Layer: 3
 EndChar
 
 StartChar: uni006F
-Encoding: 267 111 10
+Encoding: 111 111 10
 GlifName: uni006F_
 Width: 1252
 VWidth: 153
@@ -660,7 +660,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0065
-Encoding: 268 101 11
+Encoding: 101 101 11
 GlifName: uni0065
 Width: 1148
 VWidth: 79
@@ -703,7 +703,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0069
-Encoding: 269 105 12
+Encoding: 105 105 12
 GlifName: uni0069
 Width: 669
 VWidth: 79
@@ -750,7 +750,7 @@ Layer: 3
 EndChar
 
 StartChar: si_CI
-Encoding: 270 -1 13
+Encoding: 261 -1 13
 GlifName: si_C_I_
 Width: 1439
 VWidth: 6
@@ -802,7 +802,7 @@ Layer: 3
 EndChar
 
 StartChar: uni0D8A
-Encoding: 271 3466 14
+Encoding: 262 3466 14
 GlifName: si_I_i
 Width: 1179
 VWidth: 30
@@ -828,13 +828,43 @@ Layer: 3
 EndChar
 
 StartChar: .notdef
-Encoding: 272 0 15
+Encoding: 0 0 15
 Width: 2048
 VWidth: 0
 Flags: HW
 LayerCount: 4
 Back
 Fore
+Layer: 2
+Layer: 3
+EndChar
+
+StartChar: uni0073
+Encoding: 115 115 16
+Width: 1022
+VWidth: 0
+Flags: HWO
+LayerCount: 4
+Back
+Fore
+SplineSet
+279 180 m 1
+ 279 180 371 100 543 100 c 0
+ 676.12890625 100 768.92578125 213.095703125 769 306 c 0
+ 769.103515625 434.741210938 138.768554688 475.728515625 136 804.297851562 c 4
+ 134.182617188 1020.00195312 313.585521393 1125.09626743 535 1126 c 0
+ 780 1127 927 968 927 968 c 1
+ 940.807741489 927.556871561 933.323083417 888.773997574 913 850.9921875 c 9
+ 779 824.297851562 l 1
+ 698 921 l 17
+ 672.511361016 943.299447705 599.2109375 988.461914062 520 987.663085938 c 0
+ 400.318359375 986.456054688 298.142578125 918.813476562 296 814.297851562 c 4
+ 292.7109375 653.874023438 950.174804688 620.102539062 945 294 c 0
+ 941.465820312 71.27734375 815 -56 547 -56 c 0
+ 225.004882812 -56 101.095703125 87.5986328125 81 250 c 1
+ 111 362 263 336 263 336 c 9
+ 279 180 l 1
+EndSplineSet
 Layer: 2
 Layer: 3
 EndChar

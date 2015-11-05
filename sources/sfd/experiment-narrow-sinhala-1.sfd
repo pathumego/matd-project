@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1446595498
+ModificationTime: 1446629900
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -222,7 +222,7 @@ Encoding: 259 32 3
 GlifName: space
 Width: 270
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 4
 Back
 Fore
@@ -265,7 +265,7 @@ Encoding: 261 3488 5
 GlifName: si_C_a
 Width: 1318
 VWidth: 6
-Flags: HMW
+Flags: HMWO
 LayerCount: 4
 Back
 SplineSet
@@ -301,12 +301,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-33 616 m 1
+33 646 m 1
  776 645 l 1
- 776 543 l 1
- 215 543 l 1
- 29 500 l 1
- 33 616 l 1
+ 776 523 l 5
+ 215 523 l 5
+ 29 510 l 1
+ 33 646 l 1
 637 571 m 1
  657 635 l 1
  645 733 l 1
@@ -316,10 +316,10 @@ SplineSet
  273 776 264 817 264 850 c 0
  264 928 350 968 463 967 c 0
  764 964 795 717 795 717 c 0
- 776 543 l 1
+ 776 523 l 5
  637 571 l 1
-559 567 m 1
- 555 567 328 434 328 309 c 5
+579 567 m 1
+ 575 567 328 434 328 309 c 1
  332 227 430 155 670 154 c 0
  1004 152 1100 438 1100 688 c 1
  1100 1036 979 1237 649 1251 c 1
@@ -328,10 +328,10 @@ SplineSet
  215 1255 475 1390 651 1389 c 0
  1061 1387 1264 1102 1264 678 c 0
  1264 252 1095 -41 694 -41 c 0
- 389 -41 164 61 164 299 c 4
- 164 389 205 444 248 475 c 5
- 412 565 l 1
- 559 567 l 1
+ 389 -41 164 71 164 289 c 0
+ 164 399 238 455 238 455 c 1
+ 432 565 l 1
+ 579 567 l 1
 EndSplineSet
 Layer: 2
 SplineSet
