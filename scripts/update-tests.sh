@@ -3,7 +3,8 @@
 cd ../sources/sfd/
 
 fontforge ../../scripts/fontconvert experiment-latin-0.sfd --remove-overlap --otf
-fontforge ../../scripts/fontconvert experiment-sinhala-0.sfd --remove-overlap --otf
+fontforge ../../scripts/fontconvert experiment-sinhala-0.sfd --remove-overlap --ot
+fontforge ../../scripts/fontconvert experiment-sinhala-cursive-0.sfd --remove-overlap --otf
 fontforge ../../scripts/fontconvert experiment-thaana-0.sfd --remove-overlap --otf
 fontforge ../../scripts/fontconvert experiment-narrow-latin-0.sfd --remove-overlap --otf
 
