@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1455466280
+ModificationTime: 1455466371
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -949,7 +949,7 @@ Encoding: 114 114 10
 GlifName: r
 Width: 594
 VWidth: 79
-Flags: HWO
+Flags: HW
 LayerCount: 5
 Back
 SplineSet
@@ -3491,7 +3491,7 @@ StartChar: G
 Encoding: 71 71 85
 Width: 748
 VWidth: 79
-Flags: HW
+Flags: HWO
 LayerCount: 5
 Back
 Fore
@@ -3512,14 +3512,14 @@ SplineSet
  733 183 l 1
  660 58 549 -27 402 -27 c 0
  198 -27 58 92 57 299 c 0
- 55 537 172 802 483 802 c 0
- 644 802 713 766 713 766 c 1
+ 55 537 192 802 503 802 c 0
+ 634 802 713 766 713 766 c 1
  716 715 712 605 709 563 c 1
  643 566 l 1
  611 654 538 748 492 755 c 1
- 506 776 698 752 645 657 c 5
- 628 661 561 730 438 730 c 0
- 288 730 193 589 190 393 c 0
+ 506 776 718 722 665 627 c 5
+ 648 631 581 730 458 730 c 0
+ 308 730 193 589 190 393 c 0
 EndSplineSet
 Layer: 2
 Layer: 3
