@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1455464955
+ModificationTime: 1455465287
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2115,7 +2115,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 424 -203 2
+Refer: 102 96 N 1 0 0 1 424 -3 2
 Refer: 18 65 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -2477,7 +2477,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 266 -391 2
+Refer: 102 96 N 1 0 0 1 266 -191 2
 Refer: 1 97 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -2492,7 +2492,7 @@ Flags: HW
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 246.092 -391 2
+Refer: 102 96 N 1 0 0 1 246.092 -191 2
 Refer: 5 101 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -2507,7 +2507,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 135 -154 2
+Refer: 102 96 N 1 0 0 1 135 46 2
 Refer: 6 105 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -2522,7 +2522,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 277.182 -390.995 2
+Refer: 102 96 N 1 0 0 1 277.182 -190.995 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -2537,7 +2537,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 542 -391 2
+Refer: 102 96 N 1 0 0 1 542 -191 2
 Refer: 34 117 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3046,7 +3046,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 137.03 -192 2
+Refer: 37 44 N 1 0 0 1 143.951 -182.43 2
 Refer: 10 114 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3226,7 +3226,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 289.53 -192 2
+Refer: 37 44 N 1 0 0 1 296.451 -182.43 2
 Refer: 35 107 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3241,7 +3241,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 115.53 -192 2
+Refer: 37 44 N 1 0 0 1 122.451 -182.43 2
 Refer: 31 108 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3271,7 +3271,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 320.53 -192 2
+Refer: 37 44 N 1 0 0 1 327.451 -182.43 2
 Refer: 2 110 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3496,19 +3496,19 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-384 403 m 1
- 490 403 625 403 734 403 c 1
- 711 285 l 1
- 652 313 580 323 398 324 c 1
- 384 403 l 1
-649 403 m 1
- 736 403 l 1
- 743 341 741 247 733 183 c 1
+374 403 m 1
+ 480 403 615 403 724 403 c 1
+ 701 285 l 1
+ 642 313 570 323 388 324 c 1
+ 374 403 l 1
+639 403 m 1
+ 726 403 l 1
+ 733 341 741 247 733 183 c 1
  619 103 l 1
- 659 203 649 344 649 403 c 1
+ 659 203 639 344 639 403 c 1
 190 393 m 0
  187 219 261 81 438 79 c 0
- 547 77 619 134 664 186 c 5
+ 547 77 619 134 664 186 c 1
  733 183 l 1
  660 58 549 -27 402 -27 c 0
  198 -27 58 92 57 299 c 0
@@ -3516,9 +3516,9 @@ SplineSet
  644 802 713 766 713 766 c 1
  716 715 712 605 709 563 c 1
  643 566 l 1
- 611 654 528 748 482 755 c 1
- 496 776 678 732 625 637 c 1
- 608 641 561 730 438 730 c 0
+ 611 654 538 748 492 755 c 1
+ 506 776 698 752 645 657 c 5
+ 628 661 561 730 438 730 c 0
  288 730 193 589 190 393 c 0
 EndSplineSet
 Layer: 2
@@ -3817,7 +3817,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 111.03 -192.444 2
+Refer: 37 44 N 1 0 0 1 117.951 -182.874 2
 Refer: 82 82 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3847,7 +3847,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 313.53 -209 2
+Refer: 37 44 N 1 0 0 1 313.451 -209.43 2
 Refer: 85 71 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3862,7 +3862,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 319.53 -192 2
+Refer: 37 44 N 1 0 0 1 326.451 -182.43 2
 Refer: 88 75 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3877,7 +3877,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 247.03 -192 2
+Refer: 37 44 N 1 0 0 1 253.951 -182.43 2
 Refer: 84 76 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3907,7 +3907,7 @@ Flags: HW
 LayerCount: 5
 Back
 Fore
-Refer: 37 44 N 1 0 0 1 615.53 -209 2
+Refer: 37 44 N 1 0 0 1 622.451 -199.43 2
 Refer: 92 78 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -3985,11 +3985,11 @@ LayerCount: 5
 Back
 Fore
 SplineSet
-73 1120 m 9
- 83 1066 l 17
- 191 1081 368 1158 431 1204 c 9
- 371 1298 l 21
- 308 1232 165 1142 73 1120 c 9
+73 920 m 13
+ 83 866 l 21
+ 191 881 368 958 431 1004 c 13
+ 371 1098 l 21
+ 308 1032 165 942 73 920 c 13
 EndSplineSet
 Layer: 2
 Layer: 3
@@ -4210,7 +4210,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 535 -203 2
+Refer: 102 96 N 1 0 0 1 535 -3 2
 Refer: 20 87 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4255,7 +4255,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 243.5 -203 2
+Refer: 102 96 N 1 0 0 1 243.5 -3 2
 Refer: 90 89 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4390,7 +4390,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 413.5 -391 2
+Refer: 102 96 N 1 0 0 1 413.5 -191 2
 Refer: 22 119 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4450,7 +4450,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 248.5 -391 2
+Refer: 102 96 N 1 0 0 1 248.5 -191 2
 Refer: 30 121 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4510,7 +4510,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 517.939 -203 2
+Refer: 102 96 N 1 0 0 1 517.939 -3 2
 Refer: 54 69 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4540,7 +4540,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 314 -203 2
+Refer: 102 96 N 1 0 0 1 314 -3 2
 Refer: 59 73 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4585,7 +4585,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 354.111 -202.996 2
+Refer: 102 96 N 1 0 0 1 354.111 -2.99623 2
 Refer: 60 79 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
@@ -4615,7 +4615,7 @@ Flags: H
 LayerCount: 5
 Back
 Fore
-Refer: 102 96 N 1 0 0 1 297 -203 2
+Refer: 102 96 N 1 0 0 1 297 -3 2
 Refer: 58 85 N 1 0 0 1 0 0 3
 Layer: 2
 Layer: 3
