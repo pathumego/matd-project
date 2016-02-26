@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: Experiment-Latin-Italic
-FullName: Experiment-Latin
-FamilyName: Experiment-Latin
+FontName: Experiment2-Latin-Italic
+FullName: Experiment2-Latin
+FamilyName: Experiment2-Latin
 Weight: Italic
 Copyright: Copyright (c) 2015, Pathum Egodawatta
 UComments: "2015-9-29: Created with FontForge (http://fontforge.org)"
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1456235114
+ModificationTime: 1456491656
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -422,7 +422,7 @@ Encoding: 115 115 7
 GlifName: uni0073
 Width: 560
 VWidth: 153
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
