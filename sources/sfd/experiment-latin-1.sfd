@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1458604535
+ModificationTime: 1458610437
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,9 +48,9 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: Adobe-Latin-1
+Encoding: Adobe-Latin-2
 UnicodeInterp: none
-NameList: Adobe Glyph List
+NameList: AMS Names
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
@@ -79,7 +79,7 @@ EndSplineSet
 AnchorClass2: "thn_ubufibi" "" 
 BeginChars: 304 156
 
-StartChar: uni0020
+StartChar: space
 Encoding: 0 32 0
 GlifName: space
 Width: 225
@@ -91,7 +91,7 @@ Fore
 Layer: 2
 EndChar
 
-StartChar: uni0061
+StartChar: a
 Encoding: 65 97 1
 AltUni2: 0000aa.ffffffff.0
 GlifName: uni0061
@@ -192,7 +192,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni006E
+StartChar: n
 Encoding: 78 110 2
 GlifName: uni006E_
 Width: 833
@@ -341,7 +341,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0064
+StartChar: d
 Encoding: 68 100 3
 GlifName: uni0064
 Width: 779
@@ -425,7 +425,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0068
+StartChar: h
 Encoding: 72 104 4
 GlifName: uni0068
 Width: 823
@@ -546,7 +546,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0065
+StartChar: e
 Encoding: 69 101 5
 GlifName: uni0065
 Width: 622
@@ -606,7 +606,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0069
+StartChar: i
 Encoding: 73 105 6
 GlifName: uni0069
 Width: 453
@@ -685,7 +685,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0073
+StartChar: s
 Encoding: 83 115 7
 GlifName: uni0073
 Width: 555
@@ -760,56 +760,56 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni006F
+StartChar: o
 Encoding: 79 111 8
 AltUni2: 0000ba.ffffffff.0
 GlifName: o
-Width: 662
+Width: 656
 VWidth: 153
 Flags: HMW
 LayerCount: 3
 Back
 SplineSet
-44 246 m 4
- 45 90 121 -15 299 -18 c 4
- 522 -22 611 148 616 324 c 4
- 622 531 516 614 362 615 c 4
- 179 616 42 466 44 246 c 4
-171 318 m 4
- 176 505 267 552 313 556 c 4
- 424 566 503 455 498 298 c 4
- 494 168 441 55 344 44 c 4
- 230 31 166 156 171 318 c 4
+38 246 m 4
+ 39 90 115 -15 293 -18 c 4
+ 516 -22 605 148 610 324 c 4
+ 616 531 510 614 356 615 c 4
+ 173 616 36 466 38 246 c 4
+165 318 m 4
+ 170 505 261 552 307 556 c 4
+ 418 566 497 455 492 298 c 4
+ 488 168 435 55 338 44 c 4
+ 224 31 160 156 165 318 c 4
 EndSplineSet
 Fore
 SplineSet
-44 246 m 4
- 45 90 121 -15 299 -18 c 4
- 522 -22 621 148 626 324 c 4
- 632 531 516 614 362 615 c 4
- 179 616 42 466 44 246 c 4
-212 318 m 4
- 217 425 260.124023438 520.534179688 316 526 c 4
- 397.166015625 533.940429688 458 445 463 308 c 4
- 467.743600716 178.025340377 431.263671875 88.80078125 365 74 c 4
- 281.776367188 55.4111328125 204.434570312 156.099609375 212 318 c 4
+30 262 m 0
+ 31.5595703125 106.004882812 97 -29 275 -32 c 0
+ 498 -36 625 149 630 325 c 0
+ 636 532 520 615 376 616 c 0
+ 193.001953125 617.270507812 28 462 30 262 c 0
+216 338 m 0
+ 217 451 256.12890625 517.329101562 317 519 c 0
+ 388.530273438 520.962890625 442 445 447 308 c 0
+ 451.927734375 172.956054688 422.334960938 69.814453125 343 71.701171875 c 0
+ 272.383789062 73.380859375 214.696409398 190.694261929 216 338 c 0
 EndSplineSet
 Layer: 2
 SplineSet
-44 246 m 0
- 45 90 121 -15 299 -18 c 0
- 522 -22 611 148 616 324 c 0
- 622 531 516 614 362 615 c 0
- 179 616 42 466 44 246 c 0
-161 298 m 4
- 166 466 237 532 293 546 c 0
- 401.122070312 573.030273438 503 476 508 308 c 0
- 511.86916547 177.99604022 463 60 366 49 c 0
- 252 36 156.178410471 135.994591836 161 298 c 4
+38 246 m 0
+ 39 90 115 -15 293 -18 c 0
+ 516 -22 605 148 610 324 c 0
+ 616 531 510 614 356 615 c 0
+ 173 616 36 466 38 246 c 0
+155 298 m 4
+ 160 466 231 532 287 546 c 0
+ 395.122070312 573.030273438 497 476 502 308 c 0
+ 505.869140625 177.99609375 457 60 360 49 c 0
+ 246 36 150.178710938 135.994140625 155 298 c 4
 EndSplineSet
 EndChar
 
-StartChar: uni0062
+StartChar: b
 Encoding: 66 98 9
 GlifName: b
 Width: 737
@@ -888,7 +888,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0072
+StartChar: r
 Encoding: 82 114 10
 GlifName: r
 Width: 640
@@ -996,7 +996,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni002E
+StartChar: period
 Encoding: 14 46 11
 GlifName: period
 Width: 277
@@ -1029,7 +1029,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0074
+StartChar: t
 Encoding: 84 116 12
 GlifName: t
 Width: 470
@@ -1092,7 +1092,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0070
+StartChar: p
 Encoding: 80 112 13
 GlifName: p
 Width: 773
@@ -1210,7 +1210,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0076
+StartChar: v
 Encoding: 86 118 14
 GlifName: v
 Width: 721
@@ -1282,7 +1282,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni006D
+StartChar: m
 Encoding: 77 109 15
 GlifName: m
 Width: 1243
@@ -1475,7 +1475,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0067
+StartChar: g
 Encoding: 71 103 16
 GlifName: g
 Width: 729
@@ -1516,20 +1516,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--9 -242 m 0
- -47.5136798129 -131.177141074 71.400390625 4.244140625 231 42 c 1
- 305 26 l 1
- 223.401367188 -0.828125 154.325195312 -57.140625 153.491210938 -125 c 0
- 152.634765625 -192.720703125 221.649414062 -260.341796875 354 -238 c 0
- 440.125 -223.4609375 492 -159.7852349 492 -96 c 0
- 492 53 123.14893617 30 52 27 c 1
- 50 55.2419354839 46 91.7903225806 41 130 c 1
- 71 165 136 212 193 251 c 1
+-9 -232 m 0
+ -47.513671875 -121.176757812 71.400390625 -15.755859375 241 42 c 1
+ 315 26 l 1
+ 233.401367188 -0.828125 154.325195312 -57.140625 153.491210938 -125 c 0
+ 152.634765625 -192.720703125 221.649414062 -250.341796875 354 -228 c 0
+ 440.125 -213.4609375 492 -159.7852349 492 -96 c 0
+ 492 -6.20371746249 358.22718065 28.3603468236 236.000003215 28.0043103198 c 0
+ 114.92818277 27.6516392645 63.484375 34.8203125 71 120 c 0
+ 74 154 136 212 193 251 c 1
  253 226 l 1
- 222 205.395507812 142 133.729166667 202 140 c 1
- 476.724137931 164.761904762 686.095462575 110.441133811 667 -68 c 0
- 649.404860972 -226.975524352 432.960907656 -332.645286405 222 -334 c 0
- 96.7302209661 -334.714345895 12.3625402864 -303.470568379 -9 -242 c 0
+ 222 205.395507812 172 133.729492188 232 140 c 1
+ 506.724609375 164.76171875 686.095462575 110.441133811 667 -68 c 0
+ 649.404860972 -226.975524352 432.9609375 -322.645507812 222 -324 c 0
+ 96.73046875 -324.713867188 12.3623046875 -293.470703125 -9 -232 c 0
 27 370 m 0
  26 511 192 611 354 611 c 0
  479 611 591 571 591 453 c 0
@@ -1580,7 +1580,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0048
+StartChar: H
 Encoding: 40 72 17
 GlifName: H_
 Width: 902
@@ -1732,7 +1732,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0041
+StartChar: A
 Encoding: 33 65 18
 GlifName: A_
 Width: 923
@@ -1816,7 +1816,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0042
+StartChar: B
 Encoding: 34 66 19
 GlifName: B_
 Width: 719
@@ -1906,7 +1906,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0057
+StartChar: W
 Encoding: 55 87 20
 GlifName: W_
 Width: 1231
@@ -2014,12 +2014,12 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0063
+StartChar: c
 Encoding: 67 99 21
 GlifName: c
 Width: 587
 VWidth: 79
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -2041,7 +2041,7 @@ EndSplineSet
 Fore
 SplineSet
 29 260 m 0
- 28 434 179 618 402 618 c 4
+ 28 434 179 618 402 618 c 0
  500 618 553 594 553 594 c 1
  555 556 555 451 548 406 c 1
  448 412 l 1
@@ -2074,7 +2074,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0077
+StartChar: w
 Encoding: 87 119 22
 GlifName: w
 Width: 1106
@@ -2184,7 +2184,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0056
+StartChar: V
 Encoding: 54 86 23
 GlifName: V_
 Width: 826
@@ -2253,7 +2253,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0043
+StartChar: C
 Encoding: 35 67 24
 GlifName: C_
 Width: 748
@@ -2313,7 +2313,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0071
+StartChar: q
 Encoding: 81 113 25
 GlifName: q
 Width: 700
@@ -2414,7 +2414,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0066
+StartChar: f
 Encoding: 70 102 26
 GlifName: f
 Width: 478
@@ -2508,8 +2508,8 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni00AA
-Encoding: 104 170 27
+StartChar: ordfeminine
+Encoding: 105 170 27
 GlifName: ordfeminine
 Width: 666
 VWidth: 0
@@ -2521,10 +2521,10 @@ Refer: 1 97 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar
 
-StartChar: uni00BA
-Encoding: 119 186 28
+StartChar: ordmasculine
+Encoding: 121 186 28
 GlifName: ordmasculine
-Width: 662
+Width: 656
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -2534,8 +2534,8 @@ Refer: 8 111 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar
 
-StartChar: uni00C0
-Encoding: 125 192 29
+StartChar: Agrave
+Encoding: 127 192 29
 GlifName: A_grave
 Width: 923
 VWidth: 0
@@ -2552,7 +2552,7 @@ Refer: 102 96 N 1 0 0 1 424 -3 2
 Refer: 18 65 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0079
+StartChar: y
 Encoding: 89 121 30
 GlifName: y
 Width: 730
@@ -2634,7 +2634,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni006C
+StartChar: l
 Encoding: 76 108 31
 Width: 460
 VWidth: 79
@@ -2696,8 +2696,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni00C1
-Encoding: 126 193 32
+StartChar: Aacute
+Encoding: 128 193 32
 Width: 923
 VWidth: 0
 Flags: HMW
@@ -2713,8 +2713,8 @@ Refer: 43 180 N 1 0 0 1 424 -203 2
 Refer: 18 65 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00C4
-Encoding: 129 196 33
+StartChar: Adieresis
+Encoding: 131 196 33
 Width: 923
 VWidth: 0
 Flags: HMW
@@ -2730,9 +2730,9 @@ Refer: 51 168 N 1 0 0 1 255 -203 2
 Refer: 18 65 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0075
+StartChar: u
 Encoding: 85 117 34
-Width: 755
+Width: 764
 VWidth: 79
 Flags: HMW
 LayerCount: 3
@@ -2774,35 +2774,31 @@ Fore
 SplineSet
 -7 596 m 1
  103.9296875 591 201.596679688 599 286 608 c 1
- 269 529.338867188 262 420.83984375 262 325 c 0
- 262 281 263.719726562 240.9609375 268 211 c 0
- 277 148 322 115 381 115 c 0
+ 271.833749828 542.450983162 261.514744919 452.574268628 260.125872009 365.000004563 c 0
+ 257.801551712 218.441858112 280.73046875 115 371 115 c 0
  470.046875 115 530 211 530 211 c 1
  555 144 l 1
  509.684570312 76 407.955078125 -14 309 -14 c 0
- 207.32421875 -14 123.950195312 22.03125 111 117 c 0
- 108 139 106 180 106 225 c 0
- 106 289.931640625 110.063476562 369.493164062 113 439 c 0
+ 158.863528819 -14 107.151564926 52.6805551369 105.149240789 207.999995977 c 0
+ 104.175622871 283.523128229 110.004695536 368.101830666 113 439 c 0
  116 510 29 514 -1 512 c 1
  -7 596 l 1
 383 598 m 1
- 464.794921875 593 598.1328125 600 662 610 c 1
- 652 468 l 1
- 507 435 l 1
- 512 522 429 520 391 518 c 1
+ 464.794921875 593 607.1328125 600 671 610 c 1
+ 661 468 l 1
+ 504 435 l 5
+ 509 522 429 520 391 518 c 1
  383 598 l 1
 503 120 m 1
  505 161 505 203 505 247 c 0
- 505 271 505 294 505 319 c 0
- 505 405 506 488 516 588 c 1
- 661 600 l 1
- 650 463.579101562 644 327.158203125 644 240 c 0
- 644 105 653.692382812 79 728 76 c 1
- 741 0 l 1
+ 505 367.602579701 503.263479032 460.634790324 516 588 c 1
+ 670 600 l 1
+ 659 463.579101562 653 334.158203125 653 247 c 0
+ 653 112 662.692382812 86 737 83 c 1
+ 750 0 l 1
  499 0 l 1
- 499 0 511.384765625 102 522 128 c 1
- 522 137 524 141 521 141 c 0
- 514 141 503 120 503 120 c 1
+ 499 0 513.384765625 102 524 128 c 1
+ 503 120 l 1
 EndSplineSet
 Layer: 2
 SplineSet
@@ -2840,11 +2836,11 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni006B
+StartChar: k
 Encoding: 75 107 35
-Width: 858
+Width: 828
 VWidth: 79
-Flags: HMW
+Flags: HMWO
 LayerCount: 3
 Back
 SplineSet
@@ -2885,40 +2881,40 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-28 91 m 1
- 104 87 140 119 147 167 c 1
+40 91 m 1
+ 116 87 152 119 159 167 c 1
  316 178 l 1
  314 83 394 80 412 81 c 1
  422 0 l 1
- 38 0 l 1
- 28 91 l 1
-29 829 m 1
- 112 827 344 850 344 850 c 1
+ 50 0 l 1
+ 40 91 l 1
+41 829 m 1
+ 124 827 344 850 344 850 c 1
  319 637 312 240 316 177 c 0
  319 133 302 79 384 79 c 1
  368 1 l 1
- 115 0 l 1
- 115 0 138 102 146 166 c 0
- 156 301 154 509 149 699 c 0
- 144 743 114 746 36 746 c 1
- 29 829 l 1
+ 127 0 l 1
+ 127 0 150 102 158 166 c 0
+ 168 301 166 509 161 699 c 0
+ 156 743 126 746 48 746 c 1
+ 41 829 l 1
 269 267 m 1
  314 389 l 1
- 325 386 371 385 398 385 c 5
- 424 401 461 424 504 477 c 4
- 519.901512306 496.599538423 524 524 446 521 c 1
- 437 594 l 1
- 514 588 658 590 755 594 c 1
- 758 516 l 1
- 728 514 699 490 668 460 c 0
- 597 391 510 293 479 266 c 1
- 448 259 321 267 269 267 c 1
-363 351 m 1
- 392 344 469 377 503 387 c 1
- 503 387 646 80 806 91 c 1
- 818 20 l 1
- 754 -1 656 -13 602 -10 c 1
- 510.83984375 -3.140625 399.147460938 276.52734375 363 351 c 1
+ 325 386 331 385 358 385 c 1
+ 384 401 421 424 464 477 c 0
+ 479.901367188 496.599609375 484 524 406 521 c 1
+ 397 594 l 1
+ 474 588 618 590 715 594 c 1
+ 718 516 l 1
+ 688 514 659 490 628 460 c 0
+ 557 391 470 293 439 266 c 1
+ 408 259 321 267 269 267 c 1
+353 351 m 1
+ 382 344 429 377 463 387 c 1
+ 463 387 606 80 766 91 c 1
+ 778 20 l 1
+ 714 -1 626 -13 572 -10 c 1
+ 480.83984375 -3.140625 389.147460938 276.52734375 353 351 c 1
 EndSplineSet
 Layer: 2
 SplineSet
@@ -2959,7 +2955,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni006A
+StartChar: j
 Encoding: 74 106 36
 Width: 396
 VWidth: 79
@@ -3050,7 +3046,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni002C
+StartChar: comma
 Encoding: 12 44 37
 Width: 208
 VWidth: 79
@@ -3100,8 +3096,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni00E0
-Encoding: 157 224 38
+StartChar: agrave
+Encoding: 159 224 38
 Width: 666
 VWidth: 0
 Flags: HMW
@@ -3117,8 +3113,8 @@ Refer: 102 96 N 1 0 0 1 266 -191 2
 Refer: 1 97 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00E8
-Encoding: 165 232 39
+StartChar: egrave
+Encoding: 167 232 39
 Width: 622
 VWidth: 0
 Flags: HMW
@@ -3134,8 +3130,8 @@ Refer: 102 96 N 1 0 0 1 246 -191 2
 Refer: 5 101 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00EC
-Encoding: 169 236 40
+StartChar: igrave
+Encoding: 171 236 40
 Width: 453
 VWidth: 0
 Flags: HMW
@@ -3151,26 +3147,26 @@ Refer: 102 96 N 1 0 0 1 135 46 2
 Refer: 6 105 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00F2
-Encoding: 175 242 41
-Width: 662
+StartChar: ograve
+Encoding: 177 242 41
+Width: 656
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 3
 Back
 Refer: 102 96 N 1 0 0 1 277 -191 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Fore
-Refer: 102 96 N 1 0 0 1 278.091 -190.995 2
+Refer: 102 96 N 1 0 0 1 272.091 -190.995 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 102 96 N 1 0 0 1 277 -191 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00F9
-Encoding: 182 249 42
-Width: 755
+StartChar: ugrave
+Encoding: 184 249 42
+Width: 764
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -3185,8 +3181,8 @@ Refer: 102 96 N 1 0 0 1 542 -191 2
 Refer: 34 117 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00B4
-Encoding: 113 180 43
+StartChar: acute
+Encoding: 115 180 43
 Width: 496
 VWidth: 0
 Flags: HMW
@@ -3217,8 +3213,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni00E1
-Encoding: 158 225 44
+StartChar: aacute
+Encoding: 160 225 44
 Width: 666
 VWidth: 0
 Flags: HMW
@@ -3234,8 +3230,8 @@ Refer: 43 180 N 1 0 0 1 266 -391 2
 Refer: 1 97 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00E9
-Encoding: 166 233 45
+StartChar: eacute
+Encoding: 168 233 45
 Width: 622
 VWidth: 0
 Flags: HMW
@@ -3251,8 +3247,8 @@ Refer: 43 180 N 1 0 0 1 246 -391 2
 Refer: 5 101 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00ED
-Encoding: 170 237 46
+StartChar: iacute
+Encoding: 172 237 46
 Width: 453
 VWidth: 0
 Flags: HMW
@@ -3268,26 +3264,26 @@ Refer: 43 180 N 1 0 0 1 135 -154 2
 Refer: 6 105 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00F3
-Encoding: 176 243 47
-Width: 662
+StartChar: oacute
+Encoding: 178 243 47
+Width: 656
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 3
 Back
 Refer: 43 180 N 1 0 0 1 277 -391 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Fore
-Refer: 43 180 N 1 0 0 1 278.091 -390.995 2
+Refer: 43 180 N 1 0 0 1 272.091 -390.995 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 43 180 N 1 0 0 1 277 -391 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00FA
-Encoding: 183 250 48
-Width: 755
+StartChar: uacute
+Encoding: 185 250 48
+Width: 764
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -3302,8 +3298,8 @@ Refer: 43 180 N 1 0 0 1 542 -391 2
 Refer: 34 117 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00FD
-Encoding: 186 253 49
+StartChar: yacute
+Encoding: 188 253 49
 Width: 730
 VWidth: 0
 Flags: HMW
@@ -3319,7 +3315,7 @@ Refer: 43 180 N 1 0 0 1 248 -391 2
 Refer: 30 121 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0078
+StartChar: x
 Encoding: 88 120 50
 Width: 698
 VWidth: 79
@@ -3438,8 +3434,8 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni00A8
-Encoding: 102 168 51
+StartChar: dieresis
+Encoding: 103 168 51
 Width: 496
 VWidth: 0
 Flags: HMW
@@ -3470,7 +3466,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni007A
+StartChar: z
 Encoding: 90 122 52
 Width: 612
 VWidth: 79
@@ -3536,7 +3532,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni003A
+StartChar: colon
 Encoding: 26 58 53
 Width: 192
 VWidth: 79
@@ -3553,7 +3549,7 @@ Refer: 11 46 S 1 0 0 1 0 402 2
 Refer: 11 46 S 1 0 0 1 0 72 2
 EndChar
 
-StartChar: uni0045
+StartChar: E
 Encoding: 37 69 54
 Width: 679
 VWidth: 79
@@ -3679,7 +3675,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni0046
+StartChar: F
 Encoding: 38 70 55
 Width: 691
 VWidth: 79
@@ -3790,7 +3786,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni0050
+StartChar: P
 Encoding: 48 80 56
 Width: 650
 VWidth: 79
@@ -3867,7 +3863,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0053
+StartChar: S
 Encoding: 51 83 57
 Width: 657
 VWidth: 153
@@ -3943,7 +3939,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0055
+StartChar: U
 Encoding: 53 85 58
 Width: 767
 VWidth: 79
@@ -4027,7 +4023,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni0049
+StartChar: I
 Encoding: 41 73 59
 Width: 460
 VWidth: 79
@@ -4086,7 +4082,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni004F
+StartChar: O
 Encoding: 47 79 60
 Width: 832
 VWidth: 153
@@ -4167,8 +4163,8 @@ Refer: 43 180 N 1 0 0 1 440 -203 2
 Refer: 24 67 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00C9
-Encoding: 134 201 63
+StartChar: Eacute
+Encoding: 136 201 63
 Width: 679
 VWidth: 0
 Flags: HM
@@ -4201,8 +4197,8 @@ Refer: 11 46 N 1 0 0 1 516 884 2
 Refer: 54 69 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00D3
-Encoding: 144 211 65
+StartChar: Oacute
+Encoding: 146 211 65
 Width: 832
 VWidth: 0
 Flags: HMW
@@ -4218,8 +4214,8 @@ Refer: 43 180 N 1 0 0 1 354 -203 2
 Refer: 60 79 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00D6
-Encoding: 147 214 66
+StartChar: Odieresis
+Encoding: 149 214 66
 Width: 832
 VWidth: 0
 Flags: HMW
@@ -4252,8 +4248,8 @@ Refer: 43 180 N 1 0 0 1 299 -203 2
 Refer: 57 83 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00DC
-Encoding: 153 220 68
+StartChar: Udieresis
+Encoding: 155 220 68
 Width: 767
 VWidth: 0
 Flags: HMW
@@ -4286,8 +4282,8 @@ Refer: 43 180 N 1 0 0 1 309 -391 2
 Refer: 21 99 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00E4
-Encoding: 161 228 70
+StartChar: adieresis
+Encoding: 163 228 70
 Width: 666
 VWidth: 0
 Flags: HMW
@@ -4339,7 +4335,7 @@ EndChar
 
 StartChar: kcommaaccent
 Encoding: 263 311 73
-Width: 858
+Width: 828
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -4405,17 +4401,17 @@ Refer: 37 44 N 1 0 0 1 327 -182 2
 Refer: 2 110 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00F6
-Encoding: 179 246 77
-Width: 662
+StartChar: odieresis
+Encoding: 181 246 77
+Width: 656
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 3
 Back
 Refer: 51 168 N 1 0 0 1 108 -391 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Fore
-Refer: 51 168 N 1 0 0 1 109.091 -390.995 2
+Refer: 51 168 N 1 0 0 1 103.091 -390.995 2
 Refer: 8 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 51 168 N 1 0 0 1 108 -391 2
@@ -4439,9 +4435,9 @@ Refer: 43 180 N 1 0 0 1 215 -391 2
 Refer: 7 115 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00FC
-Encoding: 185 252 79
-Width: 755
+StartChar: udieresis
+Encoding: 187 252 79
+Width: 764
 VWidth: 0
 Flags: HMW
 LayerCount: 3
@@ -4473,7 +4469,7 @@ Refer: 11 46 N 1 0 0 1 212 696 2
 Refer: 52 122 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0054
+StartChar: T
 Encoding: 52 84 81
 Width: 660
 VWidth: 79
@@ -4580,7 +4576,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0052
+StartChar: R
 Encoding: 50 82 82
 Width: 788
 VWidth: 79
@@ -4675,7 +4671,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0051
+StartChar: Q
 Encoding: 49 81 83
 Width: 832
 VWidth: 153
@@ -4719,7 +4715,7 @@ EndSplineSet
 Refer: 60 79 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni004C
+StartChar: L
 Encoding: 44 76 84
 Width: 717
 VWidth: 79
@@ -4814,7 +4810,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0047
+StartChar: G
 Encoding: 39 71 85
 Width: 827
 VWidth: 79
@@ -4901,7 +4897,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni0044
+StartChar: D
 Encoding: 36 68 86
 Width: 799
 VWidth: 79
@@ -4967,7 +4963,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni004A
+StartChar: J
 Encoding: 42 74 87
 Width: 422
 VWidth: 79
@@ -5023,7 +5019,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni004B
+StartChar: K
 Encoding: 43 75 88
 Width: 752
 VWidth: 79
@@ -5149,7 +5145,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni005A
+StartChar: Z
 Encoding: 58 90 89
 Width: 679
 VWidth: 79
@@ -5229,7 +5225,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0059
+StartChar: Y
 Encoding: 57 89 90
 Width: 724
 VWidth: 79
@@ -5325,7 +5321,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni0058
+StartChar: X
 Encoding: 56 88 91
 Width: 806
 VWidth: 79
@@ -5442,7 +5438,7 @@ EndSplineSet
 Colour: ff0000
 EndChar
 
-StartChar: uni004E
+StartChar: N
 Encoding: 46 78 92
 Width: 926
 VWidth: 79
@@ -5667,7 +5663,7 @@ Refer: 11 46 N 1 0 0 1 -10 884 2
 Refer: 89 90 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni004D
+StartChar: M
 Encoding: 45 77 101
 Width: 1153
 VWidth: 79
@@ -5780,7 +5776,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0060
+StartChar: grave
 Encoding: 64 96 102
 Width: 496
 VWidth: 0
@@ -5812,7 +5808,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni003B
+StartChar: semicolon
 Encoding: 27 59 103
 Width: 202
 VWidth: 79
@@ -5829,7 +5825,7 @@ Refer: 37 44 S 1 0 0 1 20 80 2
 Refer: 11 46 S 1 0 0 1 10 399 2
 EndChar
 
-StartChar: uni003F
+StartChar: question
 Encoding: 31 63 104
 Width: 552
 VWidth: 153
@@ -5900,7 +5896,7 @@ EndSplineSet
 Refer: 11 46 N 1 0 0 1 117 2 2
 EndChar
 
-StartChar: uni0027
+StartChar: quotesingle
 Encoding: 7 39 105
 Width: 192
 VWidth: 79
@@ -5944,7 +5940,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0022
+StartChar: quotedbl
 Encoding: 2 34 106
 Width: 391
 VWidth: 79
@@ -5961,8 +5957,8 @@ Refer: 105 39 N 1 0 0 1 190 0 2
 Refer: 105 39 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni201D
-Encoding: 214 8221 107
+StartChar: quotedblright
+Encoding: 218 8221 107
 Width: 391
 VWidth: 79
 Flags: HMW
@@ -5975,8 +5971,8 @@ Layer: 2
 Refer: 106 34 S 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni201C
-Encoding: 213 8220 108
+StartChar: quotedblleft
+Encoding: 217 8220 108
 Width: 391
 VWidth: 0
 Flags: HMW
@@ -5989,8 +5985,8 @@ Layer: 2
 Refer: 106 34 N -1 1.22465e-16 -1.22465e-16 -1 367 1388 3
 EndChar
 
-StartChar: uni2019
-Encoding: 211 8217 109
+StartChar: quoteright
+Encoding: 215 8217 109
 Width: 192
 VWidth: 0
 Flags: HM
@@ -6156,8 +6152,8 @@ Refer: 102 96 N 1 0 0 1 266 -3 2
 Refer: 90 89 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0178
-Encoding: 196 376 119
+StartChar: Ydieresis
+Encoding: 198 376 119
 Width: 724
 VWidth: 0
 Flags: HMW
@@ -6428,8 +6424,8 @@ Refer: 11 46 N 1 0 0 1 214 696 2
 Refer: 7 115 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00C8
-Encoding: 133 200 135
+StartChar: Egrave
+Encoding: 135 200 135
 Width: 679
 VWidth: 0
 Flags: HM
@@ -6445,8 +6441,8 @@ Refer: 102 96 N 1 0 0 1 518 -3 2
 Refer: 54 69 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00CB
-Encoding: 136 203 136
+StartChar: Edieresis
+Encoding: 138 203 136
 Width: 679
 VWidth: 0
 Flags: HM
@@ -6462,8 +6458,8 @@ Refer: 51 168 N 1 0 0 1 349 -203 2
 Refer: 54 69 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00CC
-Encoding: 137 204 137
+StartChar: Igrave
+Encoding: 139 204 137
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -6479,8 +6475,8 @@ Refer: 102 96 N 1 0 0 1 314 -3 2
 Refer: 59 73 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00CD
-Encoding: 138 205 138
+StartChar: Iacute
+Encoding: 140 205 138
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -6496,8 +6492,8 @@ Refer: 43 180 N 1 0 0 1 314 -203 2
 Refer: 59 73 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00CF
-Encoding: 140 207 139
+StartChar: Idieresis
+Encoding: 142 207 139
 Width: 460
 VWidth: 0
 Flags: HMW
@@ -6513,8 +6509,8 @@ Refer: 51 168 N 1 0 0 1 145 -203 2
 Refer: 59 73 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00D2
-Encoding: 143 210 140
+StartChar: Ograve
+Encoding: 145 210 140
 Width: 832
 VWidth: 0
 Flags: HMW
@@ -6547,8 +6543,8 @@ Refer: 11 46 N 1 0 0 1 537 884 2
 Refer: 81 84 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00D9
-Encoding: 150 217 142
+StartChar: Ugrave
+Encoding: 152 217 142
 Width: 767
 VWidth: 0
 Flags: HMW
@@ -6564,8 +6560,8 @@ Refer: 102 96 N 1 0 0 1 257 -3 2
 Refer: 58 85 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00DA
-Encoding: 151 218 143
+StartChar: Uacute
+Encoding: 153 218 143
 Width: 767
 VWidth: 0
 Flags: HMW
@@ -6581,8 +6577,8 @@ Refer: 43 180 N 1 0 0 1 257 -203 2
 Refer: 58 85 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00DD
-Encoding: 154 221 144
+StartChar: Yacute
+Encoding: 156 221 144
 Width: 724
 VWidth: 0
 Flags: HMW
@@ -6598,8 +6594,8 @@ Refer: 43 180 N 1 0 0 1 266 -203 2
 Refer: 90 89 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00EB
-Encoding: 168 235 145
+StartChar: edieresis
+Encoding: 170 235 145
 Width: 622
 VWidth: 0
 Flags: HMW
@@ -6615,8 +6611,8 @@ Refer: 51 168 N 1 0 0 1 77 -391 2
 Refer: 5 101 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00EF
-Encoding: 172 239 146
+StartChar: idieresis
+Encoding: 174 239 146
 Width: 453
 VWidth: 0
 Flags: HMW
@@ -6649,8 +6645,8 @@ Refer: 11 46 N 1 0 0 1 106 873 2
 Refer: 12 116 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni00FF
-Encoding: 188 255 148
+StartChar: ydieresis
+Encoding: 190 255 148
 Width: 730
 VWidth: 0
 Flags: HMW
@@ -6666,7 +6662,7 @@ Refer: 51 168 N 1 0 0 1 80 -391 2
 Refer: 30 121 N 1 0 0 1 0 0 3
 EndChar
 
-StartChar: uni0021
+StartChar: exclam
 Encoding: 1 33 149
 Width: 330
 VWidth: 153
@@ -6704,7 +6700,7 @@ EndSplineSet
 Refer: 11 46 N 1 0 0 1 39 -10 2
 EndChar
 
-StartChar: uni0029
+StartChar: parenright
 Encoding: 9 41 150
 Width: 371
 VWidth: 153
@@ -6742,7 +6738,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0028
+StartChar: parenleft
 Encoding: 8 40 151
 Width: 371
 VWidth: 153
@@ -6780,7 +6776,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni002D
+StartChar: hyphen
 Encoding: 13 45 152
 Width: 520
 VWidth: 153
@@ -6812,7 +6808,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni005F
+StartChar: underscore
 Encoding: 63 95 153
 Width: 669
 VWidth: 153
@@ -6844,8 +6840,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2014
-Encoding: 209 8212 154
+StartChar: emdash
+Encoding: 213 8212 154
 Width: 669
 VWidth: 153
 Flags: HW
