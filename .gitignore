@@ -13,3 +13,4 @@ tests/styles/bootstrap-theme.min.css.map
 tests/styles/bootstrap.css.map
 tests/styles/bootstrap.min.css
 tests/styles/bootstrap.min.css.map
+sources/sfd/fswatch.sh
