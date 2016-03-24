@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1458610437
+ModificationTime: 1458849783
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,7 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: Adobe-Latin-2
+Encoding: Custom
 UnicodeInterp: none
 NameList: AMS Names
 DisplaySize: -128
@@ -189,7 +189,6 @@ SplineSet
  78 392 l 1
  72 459 75 539 75 539 c 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: n
@@ -993,7 +992,6 @@ SplineSet
  215 350 l 1
 461 429 m 1049
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: period
@@ -2256,7 +2254,7 @@ EndChar
 StartChar: C
 Encoding: 35 67 24
 GlifName: C_
-Width: 748
+Width: 788
 VWidth: 79
 Flags: HMW
 LayerCount: 3
@@ -2279,20 +2277,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-57 289 m 4
- 45 527 201 809 533 809 c 0
- 694 809 753 773 753 773 c 1
+57 289 m 0
+ 45 527 201 809 533 809 c 4
+ 674 809 753 773 753 773 c 1
  756 722 752 592 742 550 c 1
  683 553 l 1
  651 641 568 755 522 762 c 1
  536 783 718 739 665 644 c 1
  648 648 581 737 458 737 c 0
  300 737 193 589 190 393 c 0
- 187 226 277 69 461 71 c 0
- 550.000360373 71.9673952214 632 118 683 166 c 1
+ 187 226 307 69 471 71 c 0
+ 559.998939716 72.0853529234 632 118 683 166 c 1
  723 123 l 1
  652 35 541 -17 399 -17 c 0
- 195 -17 67.423828125 82.259765625 57 289 c 4
+ 235 -17 67.423828125 82.259765625 57 289 c 0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -2505,7 +2503,6 @@ SplineSet
  244.068006606 841.939117093 231.261625258 726.715595535 229.463867188 561 c 1
  115 573 l 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: ordfeminine
@@ -2840,7 +2837,7 @@ StartChar: k
 Encoding: 75 107 35
 Width: 828
 VWidth: 79
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -2896,15 +2893,15 @@ SplineSet
  127 0 l 1
  127 0 150 102 158 166 c 0
  168 301 166 509 161 699 c 0
- 156 743 126 746 48 746 c 1
+ 156 743 126 746 48 746 c 5
  41 829 l 1
 269 267 m 1
  314 389 l 1
  325 386 331 385 358 385 c 1
  384 401 421 424 464 477 c 0
  479.901367188 496.599609375 484 524 406 521 c 1
- 397 594 l 1
- 474 588 618 590 715 594 c 1
+ 397 594 l 5
+ 474 588 618 590 715 594 c 5
  718 516 l 1
  688 514 659 490 628 460 c 0
  557 391 470 293 439 266 c 1
@@ -3431,7 +3428,6 @@ SplineSet
  108 527 90 541 43 540 c 1
  35 598 l 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: dieresis
@@ -3529,7 +3525,6 @@ SplineSet
  352 454 152 170 46 62 c 1
  40 0 l 5
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: colon
@@ -3672,7 +3667,6 @@ SplineSet
  538 370 l 1
  413 377 319 369 194 367 c 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: F
@@ -3783,7 +3777,6 @@ SplineSet
  568 370 l 1
  443 377 309 379 184 377 c 5
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: P
@@ -4020,7 +4013,6 @@ SplineSet
  95 711 83 740 0 729 c 1
  -3 745 -7 791 -9 800 c 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: I
@@ -4148,9 +4140,9 @@ EndChar
 
 StartChar: Cacute
 Encoding: 257 262 62
-Width: 748
+Width: 788
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 3
 Back
 Refer: 43 180 N 1 0 0 1 440 -203 2
@@ -4894,7 +4886,6 @@ SplineSet
  700.775446194 208.198485326 699.40071391 151.205709564 695 116 c 1
  555 46 l 5
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: D
@@ -4960,7 +4951,6 @@ SplineSet
  660 596 541 734 373 738 c 0
  319 739 279 729 252 719 c 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: J
@@ -5142,7 +5132,6 @@ SplineSet
  494 53 552 61 507 126 c 1
  485 156 306 390 253 469 c 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: Z
@@ -5262,32 +5251,32 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--16 802 m 1
- 98 797 182 799 296 802 c 1
- 310 748 l 1
- 234 742 211 725 236 670 c 1
- 262 622 290 553 326 488 c 1
- 337 453 364 385 364 385 c 1
- 408 457 474 559 535 665 c 5
- 563 724 514 742 446 739 c 1
- 437 802 l 1
- 534 796 630 798 727 802 c 1
- 738 744 l 1
- 678 742 649 710 620 662 c 0
- 524 505 443 402 406 322 c 1
- 377 319 338 310 304 300 c 1
- 250 402 218 483 111 668 c 1
- 82 733 39 745 -8 744 c 1
- -16 802 l 1
-195 69 m 1
- 268 54 289 93 296 145 c 0
- 303 196 304 249 290 373 c 1
- 421 385 l 1
- 399 243 412 169 423 122 c 0
- 434 73 455 62 507 69 c 1
- 528 0 l 1
- 203 -1 l 1
- 195 69 l 1
+-16 813 m 1
+ 98 808 242 807 336 813 c 1
+ 350 739 l 1
+ 274 733 266 716 291 661 c 5
+ 317 613 336 573 365 508 c 5
+ 372 473 381 427 381 427 c 1
+ 425 499 454 550 515 656 c 1
+ 543 715 494 733 426 730 c 1
+ 417 813 l 1
+ 514 807 640 809 737 813 c 1
+ 748 735 l 1
+ 688 733 669 701 640 653 c 0
+ 544 496 463 392 426 312 c 1
+ 397 309 318 310 284 300 c 1
+ 231.325195312 401.1015625 190.271484375 483.993164062 98 659 c 1
+ 69 724 29 736 -8 735 c 1
+ -16 813 l 1
+182 89 m 1
+ 255 74 273.40226408 132.346489192 276 165 c 0
+ 280.000720132 215.289006319 284 239 270 363 c 1
+ 441 375 l 1
+ 420 253 422 205 433 158 c 0
+ 444 109 456 82 508 89 c 1
+ 529 0 l 1
+ 197 -1 l 1
+ 182 89 l 1
 EndSplineSet
 Layer: 2
 SplineSet
@@ -5318,7 +5307,6 @@ SplineSet
  203 -1 l 1
  195 69 l 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: X
@@ -5435,7 +5423,6 @@ SplineSet
  103 715 75 745 12 734 c 5
  2 801 l 1
 EndSplineSet
-Colour: ff0000
 EndChar
 
 StartChar: N
@@ -6035,9 +6022,9 @@ EndChar
 
 StartChar: Cdotaccent
 Encoding: 279 266 112
-Width: 748
+Width: 788
 VWidth: 0
-Flags: HM
+Flags: HMW
 LayerCount: 3
 Back
 Refer: 11 46 N 1 0 0 1 438 884 2
