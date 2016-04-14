@@ -60,7 +60,7 @@ NameList: adobe-latin-3
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 5
+WinInfo: 32 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
