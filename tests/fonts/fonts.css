@@ -7,3 +7,4 @@
     @font-face {font-family: 'Experiment';   font-style: italic; src: url('./fonts/experiment-latin-italic-0.otf');font-weight:  400;}
     @font-face {font-family: 'Experiment-Narrow'; src: url('./fonts/experiment-narrow-latin-0.otf');font-weight:  400;}
 
+    body{font-family: 'Experiment'; font-size: 1vw; line-height: 1.3;}
