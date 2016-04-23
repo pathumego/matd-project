@@ -6,3 +6,11 @@ FontMenuNameDB
 /instances
 /build
 .DS_Store
+tests/styles/bootstrap-theme.css
+tests/styles/bootstrap-theme.css.map
+tests/styles/bootstrap-theme.min.css
+tests/styles/bootstrap-theme.min.css.map
+tests/styles/bootstrap.css.map
+tests/styles/bootstrap.min.css
+tests/styles/bootstrap.min.css.map
+sources/sfd/fswatch.sh

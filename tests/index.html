@@ -12,414 +12,324 @@ layout: project_site
 	     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles/grid.css" />
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles/styles.css" />
 				<link rel="stylesheet" type="text/css" href="./adobe-blank/adobe-blank.css" />
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
+                				<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles//bootstrap.css" />
 
         <!-- Schema.org markup for Google+ -->
 
 	<style>
+    @font-face {font-family: 'Experiment'; src: url('./fonts/experiment-thaana-0.otf');font-weight:  400;}
 	@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-sinhala-0.otf');font-weight:  400;}
-	@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-sinhala-1.otf');font-weight:  900;}
+    @font-face {font-family: 'Experiment'; src: url('./fonts/experiment-latin-0.otf'); font-style: normal; font-weight:  400;}
+    @font-face {font-family: 'Experiment'; src: url('./fonts/experiment-latin-1.otf');font-weight:  600;}
+		@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-latin-italic-0.otf'); font-style: italic; font-weight:  400;}
+    @font-face {font-family: 'Experiment'; font-style: italic; src: url('./fonts/experiment-latin-italic-0.otf');font-weight:  600;}
+    @font-face {font-family: 'Experiment';   font-style: italic; src: url('./fonts/experiment-latin-italic-0.otf');font-weight:  400;}
+    @font-face {font-family: 'Experiment-Narrow'; src: url('./fonts/experiment-narrow-latin-0.otf');font-weight:  400;}
 
 
 
 
+body{font-family: 'Experiment'; font-size: 1vw; line-height: 1.3;}
+p { font-family: 'Experiment', AdobeBlank; font-size: 1em; line-height: 1.3;}
+    .narrow { font-family: 'Experiment-Narrow', AdobeBlank;}
 
-body{font-family: 'Source Code Pro';}
-	p { font-family: 'Experiment', AdobeBlank; font-size: 36px;}
-	.lable{ font-family: 'Source Code Pro';
+	.lable{
   font-weight: 300;
   margin: 30px 0px 5px 0px;
   display: block;
   font-size: 13px;}
+    .devider{
+       border-bottom: 1px solid #000;padding: 10px 0px;font-size: 1.2em ;    margin: 15px 0px
+
+        }
+.commits {
+	list-style: none;
+}
+.commits li {
+	margin-top: 40px;
+}
+.b {font-weight: 600;
+line-height: 1;}
 
 	</style>
 	</head>
 
-	<body spellcheck="false" contentEditable="true">
+<body spellcheck="false" contentEditable="true">
 
-		<div class="grid grid-pad">
-
-			<div class="col-1-1 mobile-col-1-1">
-				<div class="content">
-	<h2>{{ site.title }}</h2>
-<h3 class="lable">
-</br>
-{{ site.desc }}</br> Generated on {{ site.time | time_to_long_string }}</h3>
-
-			</div>
-			</div>
-		</div>
-
-
-
-
-
-
-<!-- 8/12 and 4/12 layout -->
-		<div class="grid grid-pad">
-			<div class="col-1-1">
-					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 70px</span>
-					<p class="alphabet" style="font-weight:300;">
-{{ site.glyphs }}and
-
-</p>
-
-
-<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 70px</span>
-
-<p class="alphabet" style="font-weight:900;">
-	{{ site.glyphs }}
-
-</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-size:7em; font-weight:600; text-align: left;">Yal Devi</h2>
+<h3 style="font-size:1em; text-align: left;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 10px 0px;
+        margin: 15px 0px;
+ " class="lable">
+{{ site.title }} - On {{ site.time | time_to_long_string }}</h3>
 
 			</div>
-
-		</div>
-
-		<div class="grid grid-pad">
-
-			<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 90px</span>
-				<p  style="font-weight:300;font-size:90px;">
-
-
-				</p>
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 90px</span>
-				<p  style="font-weight:900;font-size:90px;">
-
-				</p>
 			</div>
 		</div>
 
 
 
-		<div class="grid grid-pad">
 
-			<div class="col-1-3">
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style=" font-size:4em; font-family: 'Experiment'; color:#000 ">
+On the Yal Devi to Yalpanam
+						</h1>
+            <p style="padding: 10px 0px;font-size: 1.5em ;    margin: 20px 0px 60px 0px;">
+Yal Devi (Tamil: யாழ் தேவி; Sinhalese: යාල් දේවී) is a major intercity express train in Sri Lanka.[2] Operated by Sri Lanka Railways, the Yal Devi connects Colombo, the nation's commercial hub, with the northern cities of Jaffna and Kankesanturai. From 1990 up to 2015, the service had to terminate at intermediate stations, due to the Sri Lankan civil war. The Northern Line was rebuilt and returned to Jaffna Railway Station by October 2014[3][4] and Kankesanturai by January 2015.[            </p>
+        </div>
+        <div class="col-md-12">
+            <p style="font-style: italic;border-bottom: 1px solid #000;border-top: 1px solid #000;padding: 10px 0px;font-size: 1.3em; line-height:1.4; ;    margin: 15px 0px;">
+            ads indonesians hoodoos nondiseased be nonseasoned anni doe anoesis bandanaed on nonsenses dasein debs ebbs see nonas nada ooh hi seen ends
+            </p>
+            <p style="line-height:1.5;">
+							Though all the media hype was on the inaugural Yal Devi, the first train to officially arrive at the Jaffna Railway Station after 24 years on October 13 with President Rajapaksa on board, that special train made its journey only within the peninsula from Pallai to Jaffna.
+
+
+							The train ready to leave Mount Lavinia station and left, at the Jaffna station, photographed from Green Grass hotel
+
+							Determined to make the first trip to Jaffna from Colombo, I called Mobitel 365 on the 11th evening but all I got for the 4-minute call that cost Rs 40 was the response that they could not sell me a ticket or confirm the date of the first train to Jaffna. But on the 12th evening, the Colombo Fort railway station confirmed that the first train to Jaffna would leave from Mount Lavinia on the 14th and tickets would go on sale on the 13th.
+
+							A First Class AC one-way ticket costs Rs 1400. The departure time printed as 14.45 had been struck off, and over it was written 5.10 from Mount Lavinia. It was all rather confusing. Late on the 13th evening I visited the Mount station and was told it was the 14.45 Intercity to Pallai that had been changed to the morning 5.50. The slower Yal Devi left at 6.30. The announcer was practising the new and longer list of stations.
+
+							On the 14th before dawn around 5 a.m., we walked over to the station. It was very quiet. Only a few passengers and a solitary TV crew filming in the engine driver’s compartment, but it never made the evening news that day. The train had only five air-conditioned 1st Class carriages with no 2nd or 3rd Class.
+
+							It left on time, and though we expected many to board at Wellawatte that did not happen, possibly since the printed ticket said Colombo Fort, and most passengers did not know they could get in at Wellawatte. Stopping next only in Bambalapitiya, the train reached Fort by 5.35 where too it became only half-full. To our surprise, it was not expected to stop till it reached Anuradhapura, not even at any major junctions or cities like Kurunegala. Since there is only a single track north of Polgahawela, it was stopped by signalling to let other return trains pass.
+
+							The blue Chinese carriage with 44 reclinable seats in each compartment, has two seats on each side of the aisle that could be rotated so the four seats face each other. With no blinds, try to get seats on the left hand side of the train to avoid being baked in the sun. However seat selection is not offered when buying tickets at the station. The foot rests were too high for comfort and the instructions for use in clearly Chinese English read “While Using Footrest Please Turn Down It”.
+
+							In our compartment, six small TV monitors showed the same film and the sound did not work, possibly a blessing in disguise. The ride was a bit
+
+
+							The train time table at Jaffna railway station
+
+							bumpy till we reached the new track north of Omanthai, after which the train could go much faster, up to 120 km/h, and the ride was much smoother.
+
+							The restaurant car in the middle of the train was not operational and a couple from UK who had travelled in the last train from Jaffna in 1990 had to wait till we reached Anuradhapura to buy some food. There are automated doors at each end and toilets, one bowl and the other squat in each carriage.
+
+							We reached Jaffna about 12.30, about 30 minutes later than the scheduled time.
+
+							I had last been to Jaffna four years ago, and clearly a lot had changed. We booked in at the Green Grass hotel next to the Railway station, now expanding rapidly, and possibly in the running to manage the restaurant car on the train.
+
+							A visit to the Dutch Fort built in 1680 was very interesting. The inner fort has been nicely restored with a grant from the Government of Netherlands and one could appreciate its size and beauty though sadly all of the buildings inside have been destroyed in the war. The Kruys Kerk or Dutch Church was a large pile of rubble, and the Queen’s house had just the walls standing.
+
+							The next morning having purchased tickets on the 13.45 return to Colombo, we hired a trishaw to visit some archaeological sites. Trishaws in Jaffna have no meters and fares are at least double those in Colombo. The minimum is Rs.100 and probably when they know you are not local, even the shortest trip is Rs. 200.
+
+							The small museum run by the Archaeological Department has been restored. The very large portrait of Queen Victoria which had suffered the ravages of a 30 year war still needed conservation. The coin collection had not been put on display, for lack of security. We next saw the Sangili Topu or the 1519 Arch of King Sankili and visited inside the 15th Century Raja Mandri palace, which was now being made into an archaeological reservation.
+
+							Kantharodai or Kadurugoda, a ‘must visit’ site with a recorded history dating back to the 3rd century BCE, about 13 km north, has a collection of around 60 small dagobas, testament to Jaffna’s Buddhist heritage. It is now protected by the army who have built a picket fence around it. The dagobas up to 56 had been numbered.
+
+							On the return journey I was able to chat with two railway engineers who spoke of the difficulties of protecting the fittings on the trains, how fire extinguishers and mirrors in the toilets had been stolen by probably drug addicts.
+
+							The train reached Colombo Fort around 21 hrs, one hour late. We had to inform those we had overheard saying their destination was Wellawatte, that they needn’t get off but could go on. Clearly, announcements need to be made within the carriages.            </p>
+
+            <p style="line-height:1.5;">
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+                <div class="col-md-12">
+        </div>
+        <div class="col-md-6">
 					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-					<p  style="font-weight:300;font-size:10px;">
-						{{ site.string_sinhala }}
+				 <p  style="font-weight:400;font-size:6em;">
+		 </div>
+          <div class="col-md-6">
+					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
+				 <p  style="   -moz-transform: scaleX(-1);    /* Gecko */
+  -o-transform: scaleX(-1);      /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1);         /* Standard */
+  filter: FlipH;  font-weight:400;font-size:6em;">
+
 
 		 </div>
 
-          {% if site.string_tamil %}
 
 
-		 <div class="col-1-3">
-				 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-				 <p  style="font-weight:300;font-size:10px;">
-					 {{ site.string_tamil }}
+
+        <div class="col-md-12">
+				 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }}- Condensed  10px</span>
+				 <p class="narrow" style="font-weight:400;font-size:1em;">
+					 {{ site.string_latin }}
 				 </p>
 		</div>
 
-{% endif %}
+		<div class="container">
+		    <div class="row">
+		        <div class="col-md-4">
+		        </div>
+		
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-				<p  style="font-weight:300;font-size:10px;">
-					{{ site.string_latin }}
-				</p>
-	 </div>
-	</div>
+</div>
+</div>
+<div class="container">
+    <div class="row">
 
-	<div class="grid grid-pad">
+        <div class="col-md-6">
+            <p style="font-size:4em;">
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+1 2 3 4 5 6 7 8 9 0
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-				<p  style="font-weight:300;font-size:12px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
+( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )
+$ € £ % @ & ¶ § ¢ † ‡            </p>
+        </div>
+				<div class="col-md-6">
+						<p style="font-style: italic; font-size:4em;">
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+1 2 3 4 5 6 7 8 9 0
 
-	 {% if site.string_tamil %}
+( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )
+$ € £ % @ & ¶ § ¢ † ‡            </p>
+				</div>
 
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-			 <p  style="font-weight:300;font-size:12px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-			<p  style="font-weight:300;font-size:12px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-			 <p  style="font-weight:300;font-size:16px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-			<p  style="font-weight:300;font-size:16px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-				<p  style="font-weight:300;font-size:24px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-			 <p  style="font-weight:300;font-size:24px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-			<p  style="font-weight:300;font-size:24px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-				<p  style="font-weight:300;font-size:36px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-			 <p  style="font-weight:300;font-size:36px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-			<p  style="font-weight:300;font-size:36px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_sinhala }}{{ site.string_tamil}}{{ site.string_latin }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-				<p  style="font-weight:300;font-size:24px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
+    </div>
+</div>
 
 
-	<!-- {{ site.family_weight_2 }} -->
+    <div class="container">
+		    <div class="row">
+        <div class="col-md-12">
+	<h1 style="font-size:8em; text-align: center;">රටවට පචරස </h2>
+<h3 style="font-size:1.4em; text-align: center;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 10px 0px;
+        margin: 15px 0px;
+ " class="lable">
+{{ site.title }} - On {{ site.time | time_to_long_string }}</h3>
+
+			</div>
+			</div>
+		</div>
 
 
 
-	<div class="grid grid-pad">
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-				<p  style="font-weight:900;font-size:10px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style=" font-size:5em; font-family: 'Experiment'; color:#000 ">රටට වර පසට රටවට සසර රට චර සට වපර පවස   </h1>
+            <p style="
 
-	 {% if site.string_tamil %}
+    padding: 10px 0px;
+    font-size: 1.5em ;    margin: 15px 0px;
+ ">මේ වනවිට ලෝකය පුරා මහත් ආන්දෝලනයක් ඇති කර තිබෙන පැනමාවේ මොසෙක් ෆොන්සෙකා නීති සමාගමේ මුදල් විශුද්ධිකරණ ජාවාරමට සම්බන්ධ ශ‍්‍රී ලාංකිකයන්ගේ නාමාවලිය රාවයට ලැබී තිබේ.
 
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-			 <p  style="font-weight:900;font-size:10px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
+ජාත්‍යන්තර වත්කම් සීමාවලට හසුනොවන ආකාරයෙන් මුදල් විශුද්ධිකරණයට හා තම රටවල නියමිත බදු ගෙවීමෙන් නිදහස් වී සිටීමට පැනමාහි මොසෙක් ෆොන්සෙකා නීති සමාගම සිය ගනුදෙනුකරුවන්ට සහාය වී ඇති බව වාර්තා වෙයි.
 
+මුදල් විශුද්ධිකරණය සඳහා අවශ්‍යතාව ඇති සිය ගනුදෙනුකරුවන් වෙනුවෙන් ව්‍යාජ සමාගම් ආරම්භ කරමින් එම සමාගම් හරහා දේපළ මිලදී ගනිමින් එම කළු සල්ලි සුදු කිරිමට ෆොන්සෙකා සමාගම පසුගිය අවුරුදු 40ක කාලය තුළ ව්‍යාපාරික වශයෙන් සහාය වී තිබේ. මේ සමාගමේ සේවය ලබාගෙන සිය කළු සල්ලි සුදු කරගත් බවට නම් සඳහන්වන්නන් අතර හිටපු සහ තවමත් පාලනයේ සිටින රාජ්‍ය නායකයන්, ඔවුන්ගේ පවුල්වල සාමාජිකයන්, ප‍්‍රකට පාපන්දු ක‍්‍රීඩකයන්, නළු නිළියන් මෙන්ම මාෆියා සංවිධානවල ප‍්‍රධානීහුද වෙති.
 
+ගවේෂණාත්මක මාධ්‍ය වේදීන්ගේ ජාත්‍යන්තර සංගමයේ ක‍්‍රියාකාරීන්, ජර්මනියේ පුවත්පතක් හා ෆොන්සෙකා සමාගමේ නිලධාරියකු ද එක්ව ෆොන්සෙකා සමාගම පසුගිය අවුරුදු 40ක කාලයේ කළ මුදල් විශුද්ධිකරණ ගනුදෙනු පිළිබඳ ලිපිගොනු මිලියන 11.5ක් අනාවරණය කරගත් අතර ඒ ආශ‍්‍රයෙන් ජර්මන් පුවත්පතෙහි ලිපියක් පළවිය. දැන් මේ ලිපිගොනු ‘පැනමා පත‍්‍රිකා’ (Panama Papers) යනුවෙන් ලෝකය පුරා හැඳින්වේ. එය මෙතෙක් ලෝකයේ එළිදරව් වූ රහස් ගනුදෙනු සම්බන්ධ වැඩිම ලිපිගොනු ප‍්‍රමාණය ලෙස සැලකේ.
 
-	{% endif %}
+ලිපිගොනුවල සඳහන් නම් ප‍්‍රසිද්ධවීමෙන් පසු සමහරුන් එය බොරුවකැයි ප‍්‍රතික්ෂේප කළ අතර, පළමුව එසේ ප‍්‍රතික්ෂේප කළ අයිස්ලන්ත අගමැතිවරයා මේ වනවිට වරද පිළිගෙන සිය ධුරයෙන් ඉල්ලා අස්වී තිබේ. ඔහුගේ බිරිඳ ෆොන්සෙකා සමාගම හරහා ව්‍යාජ සමාගමක් පිහිටුවා එහි මුදල් යොදවා දේපළ මිලදී ගෙන ඇති බව පැනමා පත‍්‍රිකාවලින් අනාවරණය කොට තිබිණි.
 
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-			<p  style="font-weight:900;font-size:10px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
+රාවයට වාර්තා වන අන්දමට පැනමා පත‍්‍රිකාවල සඳහන් ශ‍්‍රී ලාංකිකයන්ගේ නම් මෙසේය.
+නම්: නිලාන් අබේවික‍්‍රම, නිරංජන් සුනිල් ඔස්වල්ඞ් මෙන්ඩිස්, ඕම්ප‍්‍රසාදම් කනපතිපිල්ලෙයි, රොහාන් ඇල්බට් ඉග්නේෂස් ගෝමිස්, සනික් (sanikh)නෙට්වර්ක්ස් ලිමිටඞ්, සංජේ විජිත් ඇන්තනි පෙරේරා, සේනක දුනුවිල සේනානායක, ෂෙයාර්කෝප් (Sharecorp) ලිමිටඞ්, ශර්මිලා වහාබ්, ශ්‍යාමලී චම්පිකා එදිරිවීර, සෝමසුන්දරම් මුකුන්දන් සහ ඈන් ක‍්‍රිස්ටීන් මුකුන්දන්, සුරේන්ද්‍ර එදිරිවීර, කුෂාන් සහ ධම්මේශ්වරී, කුෂාන් හර්ෂ මෙන්ඩිස් වික‍්‍රමසිංහ, උඩු වතුවගේ ජගත්ප‍්‍රිය අනුර සුමතිපාල, විද්‍යා දිල්රුක් අමරපාල, අහමඞ් ඉස්මයිල් හුසේන්, අක්තාර් මහමුද්, අලි අක්බර් සයිෆුඞීන් ජීවන්ජී, ඇක්වා (aqua)පැකේජින් ලිමිටඞ්, ආතර් අයි සේනානායක, බාලේන්ද්‍ර ක‍්‍රිෂාන් නිරාජ් ජයසේකර, හිටිහාමිලාගේ චන්ද්‍රජිත් සමන් කල්‍යාණ, චන්දෘ ස්වාමිදාස් ජගාසියා, ජන්කි ජගාසියා, ජයවර්ධන වේලාතන්ත‍්‍රීගේ ශීලාන්ත් බොතේජු, ජෙනිෆර් කැත්ලින් සේනානායක, කළුඅච්චිගමගේ අවන්ති කුමාර ජයතිලක, කන්දකර් මොයිනුල් අශාන්, කිශෝර් හසරාම් සුර්තානි, ලසිත ගාමිණී ආටිගල, මොහොමඞ් ඉෂාන් ගෆූර්, මුර්ටාස් අලි අභිදුසෙන් හසන්අලි, ඵසුෆ් අලි.
+ෆොන්සේකා සමාගම සමග ගනුදෙනු කළැයි පැනමා පත‍්‍රිකාවල සඳහන් වන ශ‍්‍රී ලංකාවේ ලිපින මෙසේය.
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-				<p  style="font-weight:900;font-size:12px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-			 <p  style="font-weight:900;font-size:12px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-			<p  style="font-weight:900;font-size:12px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
+කෙසේ වෙතත් මුදල් විශුද්ධිකරණයට සම්බන්ධ නිසා මේ සඳහන් නම් මුදල් විශුද්ධිකරණය කළ නියම පුද්ගලයන්ගේ නම් නොවීමටද ලිපින නියම ලිපින නොවීමට ඇති ඉඩ බැහැර කළ නොහැකිය. </p>
+        </div>
+        <div class="col-md-6">
+            <p>
+           						මේ වනවිට ලෝකය පුරා මහත් ආන්දෝලනයක් ඇති කර තිබෙන පැනමාවේ මොසෙක් ෆොන්සෙකා නීති සමාගමේ මුදල් විශුද්ධිකරණ ජාවාරමට සම්බන්ධ ශ‍්‍රී ලාංකිකයන්ගේ නාමාවලිය රාවයට ලැබී තිබේ.
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-				<p  style="font-weight:900;font-size:16px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-			 <p  style="font-weight:900;font-size:16px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-			<p  style="font-weight:900;font-size:16px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
+ජාත්‍යන්තර වත්කම් සීමාවලට හසුනොවන ආකාරයෙන් මුදල් විශුද්ධිකරණයට හා තම රටවල නියමිත බදු ගෙවීමෙන් නිදහස් වී සිටීමට පැනමාහි මොසෙක් ෆොන්සෙකා නීති සමාගම සිය ගනුදෙනුකරුවන්ට සහාය වී ඇති බව වාර්තා වෙයි.
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-				<p  style="font-weight:900;font-size:24px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-			 <p  style="font-weight:900;font-size:24px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-			<p  style="font-weight:900;font-size:24px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
+මුදල් විශුද්ධිකරණය සඳහා අවශ්‍යතාව ඇති සිය ගනුදෙනුකරුවන් වෙනුවෙන් ව්‍යාජ සමාගම් ආරම්භ කරමින් එම සමාගම් හරහා දේපළ මිලදී ගනිමින් එම කළු සල්ලි සුදු කිරිමට ෆොන්සෙකා සමාගම පසුගිය අවුරුදු 40ක කාලය තුළ ව්‍යාපාරික වශයෙන් සහාය වී තිබේ. මේ සමාගමේ සේවය ලබාගෙන සිය කළු සල්ලි සුදු කරගත් බවට නම් සඳහන්වන්නන් අතර හිටපු සහ තවමත් පාලනයේ සිටින රාජ්‍ය නායකයන්, ඔවුන්ගේ පවුල්වල සාමාජිකයන්, ප‍්‍රකට පාපන්දු ක‍්‍රීඩකයන්, නළු නිළියන් මෙන්ම මාෆියා සංවිධානවල ප‍්‍රධානීහුද වෙති.
 
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-			 <p  style="font-weight:900;font-size:36px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-			<p  style="font-weight:900;font-size:36px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
+ගවේෂණාත්මක මාධ්‍ය වේදීන්ගේ ජාත්‍යන්තර සංගමයේ ක‍්‍රියාකාරීන්, ජර්මනියේ පුවත්පතක් හා ෆොන්සෙකා සමාගමේ නිලධාරියකු ද එක්ව ෆොන්සෙකා සමාගම පසුගිය අවුරුදු 40ක කාලයේ කළ මුදල් විශුද්ධිකරණ ගනුදෙනු පිළිබඳ ලිපිගොනු මිලියන 11.5ක් අනාවරණය කරගත් අතර ඒ ආශ‍්‍රයෙන් ජර්මන් පුවත්පතෙහි ලිපියක් පළවිය. දැන් මේ ලිපිගොනු ‘පැනමා පත‍්‍රිකා’ (Panama Papers) යනුවෙන් ලෝකය පුරා හැඳින්වේ. එය මෙතෙක් ලෝකයේ එළිදරව් වූ රහස් ගනුදෙනු සම්බන්ධ වැඩිම ලිපිගොනු ප‍්‍රමාණය ලෙස සැලකේ.
+
+ලිපිගොනුවල සඳහන් නම් ප‍්‍රසිද්ධවීමෙන් පසු සමහරුන් එය බොරුවකැයි ප‍්‍රතික්ෂේප කළ අතර, පළමුව එසේ ප‍්‍රතික්ෂේප කළ අයිස්ලන්ත අගමැතිවරයා මේ වනවිට වරද පිළිගෙන සිය ධුරයෙන් ඉල්ලා අස්වී තිබේ. ඔහුගේ බිරිඳ ෆොන්සෙකා සමාගම හරහා ව්‍යාජ සමාගමක් පිහිටුවා එහි මුදල් යොදවා දේපළ මිලදී ගෙන ඇති බව පැනමා පත‍්‍රිකාවලින් අනාවරණය කොට තිබිණි.
+
+රාවයට වාර්තා වන අන්දමට පැනමා පත‍්‍රිකාවල සඳහන් ශ‍්‍රී ලාංකිකයන්ගේ නම් මෙසේය.
+නම්: නිලාන් අබේවික‍්‍රම, නිරංජන් සුනිල් ඔස්වල්ඞ් මෙන්ඩිස්, ඕම්ප‍්‍රසාදම් කනපතිපිල්ලෙයි, රොහාන් ඇල්බට් ඉග්නේෂස් ගෝමිස්, සනික් (sanikh)නෙට්වර්ක්ස් ලිමිටඞ්, සංජේ විජිත් ඇන්තනි පෙරේරා, සේනක දුනුවිල සේනානායක, ෂෙයාර්කෝප් (Sharecorp) ලිමිටඞ්, ශර්මිලා වහාබ්, ශ්‍යාමලී චම්පිකා එදිරිවීර, සෝමසුන්දරම් මුකුන්දන් සහ ඈන් ක‍්‍රිස්ටීන් මුකුන්දන්, සුරේන්ද්‍ර එදිරිවීර, කුෂාන් සහ ධම්මේශ්වරී, කුෂාන් හර්ෂ මෙන්ඩිස් වික‍්‍රමසිංහ, උඩු වතුවගේ ජගත්ප‍්‍රිය අනුර සුමතිපාල, විද්‍යා දිල්රුක් අමරපාල, අහමඞ් ඉස්මයිල් හුසේන්, අක්තාර් මහමුද්, අලි අක්බර් සයිෆුඞීන් ජීවන්ජී, ඇක්වා (aqua)පැකේජින් ලිමිටඞ්, ආතර් අයි සේනානායක, බාලේන්ද්‍ර ක‍්‍රිෂාන් නිරාජ් ජයසේකර, හිටිහාමිලාගේ චන්ද්‍රජිත් සමන් කල්‍යාණ, චන්දෘ ස්වාමිදාස් ජගාසියා, ජන්කි ජගාසියා, ජයවර්ධන වේලාතන්ත‍්‍රීගේ ශීලාන්ත් බොතේජු, ජෙනිෆර් කැත්ලින් සේනානායක, කළුඅච්චිගමගේ අවන්ති කුමාර ජයතිලක, කන්දකර් මොයිනුල් අශාන්, කිශෝර් හසරාම් සුර්තානි, ලසිත ගාමිණී ආටිගල, මොහොමඞ් ඉෂාන් ගෆූර්, මුර්ටාස් අලි අභිදුසෙන් හසන්අලි, ඵසුෆ් අලි.
+ෆොන්සේකා සමාගම සමග ගනුදෙනු කළැයි පැනමා පත‍්‍රිකාවල සඳහන් වන ශ‍්‍රී ලංකාවේ ලිපින මෙසේය.
+
+(1) 15, චිත‍්‍රා ලේන්, කොළඹ 05. (2) 15, රොදර්ෆීල්ඞ් ප්ලේස්. ඇල්බට් ක්‍රෙසන්ට්, කොළඹ 07. (3) 16/2, ස්ටේෂන් පාර, කොළඹ 04. (4) 168/7ඒල ඇතුළත මල් පාර, කොළඹ 3. (5) 19 1/1, ලෙයාර්ඞ්ස් පාර, කොළඹ 05. (6) 19, ලෙයාර්ඞ්ස් පාර, කොළඹ 05. (7) 22, ද ෆොන්සේකා පාර, කොළඹ 05. (8) ජේඑස්සී එස්කේ ජයමහ, 218/8 ඒ, 2 වන පටුමග, පුබුදු මාවත, කොළඹ පාර, කුරුණෑගල. (9) 2, දොන් කරෝලිස් පාර, කොළඹ 05. (10) 4, සමන් මාවත, ගලවිලවත්ත, හෝමාගම. (11) 122, කිව් පාර, කොළඹ 02. (12) 82/3, වෝඞ් පෙදෙස, කොළඹ 07. (13) 84/2, බැද්දගාන පාර, බැද්දගාන, පිටකෝට්ටේ. (14) 96/22, කොටුනුවත්ත පාර, නුගේගොඩ. (15) අයිඩබ්ලිව්එස් හෝල්ඩිංස් (ප‍්‍රයිවෙට්) ලිමිටඞ්, අයිඩබ්ලිව්එස් සෙන්ටර්, 451, නුවර පාර, කැලණිය. (16) 40/07, ලේක් ගාඞ්න්, ඕෆ් ලේක් ඩ‍්‍රයිව්, රාජගිරිය. (17) 6, ස්කෙල්ටන් පාර, කොළඹ 5. (18) 68/6, පරණ නාවල පාර, නාවල රාජගිරිය. (19) 7, ජාවත්ත ඇවනිව්, කොළඹ. (20) 70, රාවතාවත්ත පාර, රාවතාවත්ත, මොරටුව. (21)76/14, අර්නස්ට් ද සිල්වා මාවත, කොළඹ 03. (22) 81/41, මීගමුව පාර, පෑලියගොඩ.
+
+කෙසේ වෙතත් මුදල් විශුද්ධිකරණයට සම්බන්ධ නිසා මේ සඳහන් නම් මුදල් විශුද්ධිකරණය කළ නියම පුද්ගලයන්ගේ නම් නොවීමටද ලිපින නියම ලිපින නොවීමට ඇති ඉඩ බැහැර කළ නොහැකිය.
+<p style="
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 10px 0px;
+    font-size: 1.2em ;    margin: 15px 0px;
+ ">රටට වර පසට රටවට සසර රට චර සට වපර පවස ට පවට ස වරට රටවට රටවට පස රසට රව රටවට පර සවස රට රටවට රටවට රටවට වරට සසර
+            </p>
+            <p>මේ වනවිට ලෝකය පුරා මහත් ආන්දෝලනයක් ඇති කර තිබෙන පැනමාවේ මොසෙක් ෆොන්සෙකා නීති සමාගමේ මුදල් විශුද්ධිකරණ ජාවාරමට සම්බන්ධ ශ‍්‍රී ලාංකිකයන්ගේ නාමාවලිය රාවයට ලැබී තිබේ.
+
+ජාත්‍යන්තර වත්කම් සීමාවලට හසුනොවන ආකාරයෙන් මුදල් විශුද්ධිකරණයට හා තම රටවල නියමිත බදු ගෙවීමෙන් නිදහස් වී සිටීමට පැනමාහි මොසෙක් ෆොන්සෙකා නීති සමාගම සිය ගනුදෙනුකරුවන්ට සහාය වී ඇති බව වාර්තා වෙයි.
+
+මුදල් විශුද්ධිකරණය සඳහා අවශ්‍යතාව ඇති සිය ගනුදෙනුකරුවන් වෙනුවෙන් ව්‍යාජ සමාගම් ආරම්භ කරමින් එම සමාගම් හරහා දේපළ මිලදී ගනිමින් එම කළු සල්ලි සුදු කිරිමට ෆොන්සෙකා සමාගම පසුගිය අවුරුදු 40ක කාලය තුළ ව්‍යාපාරික වශයෙන් සහාය වී තිබේ. මේ සමාගමේ සේවය ලබාගෙන සිය කළු සල්ලි සුදු කරගත් බවට නම් සඳහන්වන්නන් අතර හිටපු සහ තවමත් පාලනයේ සිටින රාජ්‍ය නායකයන්, ඔවුන්ගේ පවුල්වල සාමාජිකයන්, ප‍්‍රකට පාපන්දු ක‍්‍රීඩකයන්, නළු නිළියන් මෙන්ම මාෆියා සංවිධානවල ප‍්‍රධානීහුද වෙති.
+
+ගවේෂණාත්මක මාධ්‍ය වේදීන්ගේ ජාත්‍යන්තර සංගමයේ ක‍්‍රියාකාරීන්, ජර්මනියේ පුවත්පතක් හා ෆොන්සෙකා සමාගමේ නිලධාරියකු ද එක්ව ෆොන්සෙකා සමාගම පසුගිය අවුරුදු 40ක කාලයේ කළ මුදල් විශුද්ධිකරණ ගනුදෙනු පිළිබඳ ලිපිගොනු මිලියන 11.5ක් අනාවරණය කරගත් අතර ඒ ආශ‍්‍රයෙන් ජර්මන් පුවත්පතෙහි ලිපියක් පළවිය. දැන් මේ ලිපිගොනු ‘පැනමා පත‍්‍රිකා’ (Panama Papers) යනුවෙන් ලෝකය පුරා හැඳින්වේ. එය මෙතෙක් ලෝකයේ එළිදරව් වූ රහස් ගනුදෙනු සම්බන්ධ වැඩිම ලිපිගොනු ප‍්‍රමාණය ලෙස සැලකේ.
+
+ලිපිගොනුවල සඳහන් නම් ප‍්‍රසිද්ධවීමෙන් පසු සමහරුන් එය බොරුවකැයි ප‍්‍රතික්ෂේප කළ අතර, පළමුව එසේ ප‍්‍රතික්ෂේප කළ අයිස්ලන්ත අගමැතිවරයා මේ වනවිට වරද පිළිගෙන සිය ධුරයෙන් ඉල්ලා අස්වී තිබේ. ඔහුගේ බිරිඳ ෆොන්සෙකා සමාගම හරහා ව්‍යාජ සමාගමක් පිහිටුවා එහි මුදල් යොදවා දේපළ මිලදී ගෙන ඇති බව පැනමා පත‍්‍රිකාවලින් අනාවරණය කොට තිබිණි.
+
+රාවයට වාර්තා වන අන්දමට පැනමා පත‍්‍රිකාවල සඳහන් ශ‍්‍රී ලාංකිකයන්ගේ නම් මෙසේය.
+නම්: නිලාන් අබේවික‍්‍රම, නිරංජන් සුනිල් ඔස්වල්ඞ් මෙන්ඩිස්, ඕම්ප‍්‍රසාදම් කනපතිපිල්ලෙයි, රොහාන් ඇල්බට් ඉග්නේෂස් ගෝමිස්, සනික් (sanikh)නෙට්වර්ක්ස් ලිමිටඞ්, සංජේ විජිත් ඇන්තනි පෙරේරා, සේනක දුනුවිල සේනානායක, ෂෙයාර්කෝප් (Sharecorp) ලිමිටඞ්, ශර්මිලා වහාබ්, ශ්‍යාමලී චම්පිකා එදිරිවීර, සෝමසුන්දරම් මුකුන්දන් සහ ඈන් ක‍්‍රිස්ටීන් මුකුන්දන්, සුරේන්ද්‍ර එදිරිවීර, කුෂාන් සහ ධම්මේශ්වරී, කුෂාන් හර්ෂ මෙන්ඩිස් වික‍්‍රමසිංහ, උඩු වතුවගේ ජගත්ප‍්‍රිය අනුර සුමතිපාල, විද්‍යා දිල්රුක් අමරපාල, අහමඞ් ඉස්මයිල් හුසේන්, අක්තාර් මහමුද්, අලි අක්බර් සයිෆුඞීන් ජීවන්ජී, ඇක්වා (aqua)පැකේජින් ලිමිටඞ්, ආතර් අයි සේනානායක, බාලේන්ද්‍ර ක‍්‍රිෂාන් නිරාජ් ජයසේකර, හිටිහාමිලාගේ චන්ද්‍රජිත් සමන් කල්‍යාණ, චන්දෘ ස්වාමිදාස් ජගාසියා, ජන්කි ජගාසියා, ජයවර්ධන වේලාතන්ත‍්‍රීගේ ශීලාන්ත් බොතේජු, ජෙනිෆර් කැත්ලින් සේනානායක, කළුඅච්චිගමගේ අවන්ති කුමාර ජයතිලක, කන්දකර් මොයිනුල් අශාන්, කිශෝර් හසරාම් සුර්තානි, ලසිත ගාමිණී ආටිගල, මොහොමඞ් ඉෂාන් ගෆූර්, මුර්ටාස් අලි අභිදුසෙන් හසන්අලි, ඵසුෆ් අලි.
+ෆොන්සේකා සමාගම සමග ගනුදෙනු කළැයි පැනමා පත‍්‍රිකාවල සඳහන් වන ශ‍්‍රී ලංකාවේ ලිපින මෙසේය.
+
+(1) 15, චිත‍්‍රා ලේන්, කොළඹ 05. (2) 15, රොදර්ෆීල්ඞ් ප්ලේස්. ඇල්බට් ක්‍රෙසන්ට්, කොළඹ 07. (3) 16/2, ස්ටේෂන් පාර, කොළඹ 04. (4) 168/7ඒල ඇතුළත මල් පාර, කොළඹ 3. (5) 19 1/1, ලෙයාර්ඞ්ස් පාර, කොළඹ 05. (6) 19, ලෙයාර්ඞ්ස් පාර, කොළඹ 05. (7) 22, ද ෆොන්සේකා පාර, කොළඹ 05. (8) ජේඑස්සී එස්කේ ජයමහ, 218/8 ඒ, 2 වන පටුමග, පුබුදු මාවත, කොළඹ පාර, කුරුණෑගල. (9) 2, දොන් කරෝලිස් පාර, කොළඹ 05. (10) 4, සමන් මාවත, ගලවිලවත්ත, හෝමාගම. (11) 122, කිව් පාර, කොළඹ 02. (12) 82/3, වෝඞ් පෙදෙස, කොළඹ 07. (13) 84/2, බැද්දගාන පාර, බැද්දගාන, පිටකෝට්ටේ. (14) 96/22, කොටුනුවත්ත පාර, නුගේගොඩ. (15) අයිඩබ්ලිව්එස් හෝල්ඩිංස් (ප‍්‍රයිවෙට්) ලිමිටඞ්, අයිඩබ්ලිව්එස් සෙන්ටර්, 451, නුවර පාර, කැලණිය. (16) 40/07, ලේක් ගාඞ්න්, ඕෆ් ලේක් ඩ‍්‍රයිව්, රාජගිරිය. (17) 6, ස්කෙල්ටන් පාර, කොළඹ 5. (18) 68/6, පරණ නාවල පාර, නාවල රාජගිරිය. (19) 7, ජාවත්ත ඇවනිව්, කොළඹ. (20) 70, රාවතාවත්ත පාර, රාවතාවත්ත, මොරටුව. (21)76/14, අර්නස්ට් ද සිල්වා මාවත, කොළඹ 03. (22) 81/41, මීගමුව පාර, පෑලියගොඩ.
+
+කෙසේ වෙතත් මුදල් විශුද්ධිකරණයට සම්බන්ධ නිසා මේ සඳහන් නම් මුදල් විශුද්ධිකරණය කළ නියම පුද්ගලයන්ගේ නම් නොවීමටද ලිපින නියම ලිපින නොවීමට ඇති ඉඩ බැහැර කළ නොහැකිය.
+        </div>
+        <div class=" col-md-6">
+            <p>
+            ඒ ආර්ජන්ටිනානු ජාතික අකුරු නිර්මාණ ශිල්පිනී සොල් මේට්ස් විසින් නිර්මාණය කරන ලද සිංහල ඌරුවේ ලතින් අකුරුද අභය ලිබරේ අකුරු මුහුණතේ අන්තර්ගතය. ව්‍යාපෘතිය ගූග්ල් සමාගමේ අනුග්‍රහය යටතේ එෆ්එම් අභය අකුරු මෝස්තරයේ නිර්මාණ ශිල්පී පුෂ්පානන්ද ඒකනායක මහතාගේ සහයෝගිත්වය ඇතිව මූනියැක් සමගම විසින් සිදුකරන ලදී. මූනියැක්, නිර්මාණවේදීන්ගේ සහයෝගීත්ව සාමූහිකය, වඩාත් දියුණු ශ්‍රී ලාංකීය ජාතියක් උදෙසා නිර්මානවේදයේ උපයෝගීතාවයන් සොයන අගනුවර ආශ්‍රිත තරුණ ක්‍රියාකාරිකයන් සමූහයකි.						{{ site.string_latin }}
+
+            </p>
+        </div>
+    </div>
+</div>
+
+        <div class="col-md-4">
+							<div class="commits">
+							{% include_relative gitlog.html %}
+</div>
+				 		</div>
 
 
-	<div class="grid grid-pad">
 
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-				<p  style="font-weight:900;font-size:24px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
 
-	<div class="grid grid-pad">
 
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
+
+
 
 
 		<!-- footer -->
-		<div class="grid grid-pad">
-			<div class="col-11-12">
+		<div class="container">
+    <div class="row">
+        <div class="col-md-12">
 				<div class="content" id='footer'>
- ©2015 <a href="http://mooniak.com">mooniak</a>
+ ©2015 <a href="http://mooniak.com">Pathum Egodawatta</a>
 				</div>
 			</div>
 			<div class="col-1-12">
 				<div class="content">
 				</div>
 			</div>
-		</div>
+		</div></div>
 
 	</body>
 
