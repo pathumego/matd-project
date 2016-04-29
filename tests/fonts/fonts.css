@@ -1,5 +1,6 @@
 @font-face {font-family: 'Experiment'; src: url('./experiment-thaana-0.otf');font-weight:  400;}
 @font-face {font-family: 'Experiment'; src: url('./experiment-sinhala-0.otf');font-weight:  400;}
+@font-face {font-family: 'Experiment'; src: url('./experiment-sinhala-cursive-0.otf');font-style: italic; font-weight:  400;}
 @font-face {font-family: 'Experiment'; src: url('./experiment-tamil-0.otf');font-weight:  400;}
 @font-face {font-family: 'Experiment'; src: url('./experiment-latin-0.otf'); font-style: normal; font-weight:  400;}
 @font-face {font-family: 'Experiment'; src: url('./experiment-latin-1.otf');font-weight:  600;}
