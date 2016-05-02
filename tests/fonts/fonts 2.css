@@ -1,9 +1,0 @@
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-thaana-0.otf');font-weight:  400;}
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-sinhala-0.otf');font-weight:  400;}
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-sinhala-cursive-0.otf');font-style: italic; font-weight:  400;}
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-tamil-0.otf');font-weight:  400;}
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-latin-0.otf'); font-style: normal; font-weight:  400;}
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-latin-1.otf');font-weight:  600;}
-@font-face {font-family: 'font-tester-family'; src: url('./experiment-latin-italic-0.otf'); font-style: italic; font-weight:  400;}
-@font-face {font-family: 'font-tester-family'; font-style: italic; src: url('./experiment-latin-italic-0.otf');font-weight:  600;}
-@font-face {font-family: 'font-tester-family';   font-style: italic; src: url('./experiment-latin-italic-0.otf');font-weight:  400;}
