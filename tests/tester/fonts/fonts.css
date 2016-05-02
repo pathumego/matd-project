@@ -1,0 +1,8 @@
+/*Regular*/
+@font-face {font-family: 'font-tester-family'; src: url('./Alegreya-Regular.ttf'); font-style: normal; font-weight:  400;}
+/*Bold*/
+@font-face {font-family: 'font-tester-family'; src: url('./Alegreya-Bold.ttf');font-weight:  600;}
+/*Italic*/
+@font-face {font-family: 'font-tester-family'; src: url('./Alegreya-Italic.ttf'); font-style: italic; font-weight:  400;}
+/*Add more fonts following the css @fontface  rules. Refer this: http://www.w3schools.com/cssref/css3_pr_font-face_rule.asp 
+/*For more in detail about using web fonts: http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/
