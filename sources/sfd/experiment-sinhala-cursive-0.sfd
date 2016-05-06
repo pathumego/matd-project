@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1462288674
+ModificationTime: 1462541824
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,8 +43,6 @@ HheadAscent: 779
 HheadAOffset: 0
 HheadDescent: -27
 HheadDOffset: 0
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Sinhala lookup 0" { "'abvs' Above Base Substitutions in Sinhala lookup 0-1"  "'abvs' Above Base Substitutions in Sinhala lookup 0-2"  } ['abvs' ('DFLT' <'dflt' > 'sinh' <'dflt' > ) ]
 Lookup: 4 0 0 "si_akhands" { "si_akhands subtable"  } ['akhn' ('sinh' <'dflt' > ) ]
@@ -79,7 +77,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 150
-WinInfo: 0 18 7
+WinInfo: 55 11 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -101,7 +99,7 @@ Grid
   Named: "overshoot"
 EndSplineSet
 AnchorClass2: "si_MaU" "'blwm' Below Base Mark in Sinhala lookup 1-1" "si_MaI" "'abvm' Above Base Mark in Sinhala lookup 1-1" "si_hal" "'abvm' Above Base Mark in Sinhala lookup 1-1" "thn_ubufibi" "" 
-BeginChars: 687 650
+BeginChars: 690 650
 
 StartChar: si_Tta
 Encoding: 34 3495 0
@@ -166,7 +164,6 @@ SplineSet
  298.567382812 500 381.567382812 469 382.567382812 359 c 4
  382.567382812 323 374.567382812 272 374.567382812 272 c 5
 EndSplineSet
-Layer: 3
 EndChar
 
 StartChar: si_Pa
@@ -174,7 +171,7 @@ Encoding: 46 3508 1
 GlifName: si_P_a
 Width: 746
 VWidth: -11
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
@@ -215,7 +212,7 @@ SplineSet
  317 342 l 1
  205 357.386730108 92.9434506184 299.874477099 90 206 c 0
  86.4552264636 119.132882756 160.710619318 54.7871328617 357 57 c 0
- 505.931486592 58.8718716926 646.772460938 105.850585938 656 214 c 4
+ 505.931486592 58.8718716926 646.772460938 105.850585938 656 214 c 0
  666.9921875 342.819335938 538.834960938 381.086914062 398 336 c 1
  424 381 l 1
  530.396484375 436.912109375 718.623236307 403.425885858 696 190 c 0
@@ -241,8 +238,6 @@ SplineSet
  346 415.818181818 329 364.909090909 316 342 c 1
  282 379 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Va
@@ -275,32 +270,30 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-344 291 m 1
- 349.345703125 298.487304688 373.202148438 333.749023438 354 379 c 0
- 338.249023438 416.118164062 312.283203125 418.171875 273 420 c 0
- 253.734375 420.842773438 229 402 229 402 c 0
- 185 347 l 0
- 155 344 134 355 134 386 c 0
- 134 447 194.546875 471.35546875 236 477 c 0
- 300.909179688 485.837890625 365.419921875 457.168945312 380 401 c 0
- 390 362.474609375 380 305.115234375 370 282 c 1
- 344 291 l 1
-370 283 m 1
- 276.262695312 277.700195312 101.861328125 277.6171875 92 160 c 0
- 86.1083984375 91.28125 190.671875 37.71484375 326 48 c 0
+344 291 m 5
+ 349.345703125 298.487304688 373.202148438 333.749023438 354 379 c 4
+ 338.249023438 416.118164062 312.283203125 418.171875 273 420 c 4
+ 253.734375 420.842773438 229 402 229 402 c 4
+ 185 347 l 4
+ 155 344 134 355 134 386 c 4
+ 134 447 194.546875 471.35546875 236 477 c 4
+ 300.909179688 485.837890625 365.419921875 457.168945312 380 401 c 4
+ 390 362.474609375 380 305.115234375 370 282 c 5
+ 344 291 l 5
+370 283 m 5
+ 276.262695312 277.700195312 101.861328125 277.6171875 92 160 c 4
+ 86.1083984375 91.28125 190.671875 37.71484375 326 48 c 4
  541.133789062 64.0947265625 609.590820312 231.856445312 620 369 c 0
  632.3203125 531.250976562 511.50390625 652 361 653 c 0
  278.584960938 653.544921875 211.916992188 637.66015625 141 584 c 1
  117 607 l 1
  157.627929688 659.873046875 265.889648438 728 381 728 c 0
  577.3203125 728 660 563.438476562 660 394 c 0
- 660 158.120117188 572.494140625 -45.7548828125 296 -51 c 0
- 173.005859375 -53.3798828125 37.5302734375 7.2421875 48 131 c 0
- 58.369140625 249.528320312 181.596679688 343.137695312 366 352 c 1
- 370 283 l 1
+ 660 158.120117188 572.494140625 -45.7548828125 296 -51 c 4
+ 173.005859375 -53.3798828125 37.5302734375 7.2421875 48 131 c 4
+ 58.369140625 249.528320312 181.596679688 343.137695312 366 352 c 5
+ 370 283 l 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: space
@@ -310,10 +303,6 @@ Width: 271
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ra
@@ -359,8 +348,6 @@ SplineSet
  518.393554688 834 l 1
  553.071617488 835.307617188 605.222865852 821.384765625 602.604492188 795 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ca
@@ -418,7 +405,6 @@ SplineSet
  361.2265625 292.192382812 l 5
  434.541992188 225.029296875 l 5
 EndSplineSet
-Layer: 3
 EndChar
 
 StartChar: si_Sa
@@ -475,52 +461,50 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-38 359 m 1
- 113 377.545898438 307 384.36328125 399 380 c 1
- 397 337 l 1
- 302 346 l 0
- 186.688476562 347.678710938 75.1640625 289.022460938 40 263.573242188 c 1
- 27 274 l 1
- 38 359 l 1
-323 356 m 1
- 397 337 l 1
- 288.767578125 334.803710938 156.638671875 271.149414062 157 163 c 0
- 157.26953125 87.0888671875 221.155273438 57 284 57 c 0
- 370.026367188 57 411.892578125 114 438 198 c 1
+18 369 m 5
+ 93 387.545898438 317 394.36328125 409 390 c 5
+ 407 347 l 5
+ 302 356 l 4
+ 236.688476562 397.678710938 55.1640625 299.022460938 20 273.573242188 c 5
+ 7 284 l 5
+ 18 369 l 5
+283 366 m 1
+ 407 347 l 1
+ 298.767578125 344.803710938 136.638671875 281.149414062 137 173 c 0
+ 137.26953125 97.0888671875 211.155273438 66 274 66 c 0
+ 360.026367188 66 411.892578125 114 438 198 c 1
  463 204 l 1
- 453.986328125 121.251953125 514.309570312 69.6318359375 583 62 c 0
- 681.569335938 51.048828125 761.595703125 104.426757812 769 189 c 0
- 779.458007812 308.453125 621.188476562 366.4765625 494 339 c 1
- 531 383 l 1
- 627.0703125 418.581054688 825.047851562 401.94921875 809 186 c 0
- 797.0859375 25.68359375 685.328125 -39.15234375 569 -35 c 0
- 476.82421875 -31.7099609375 415.092773438 32 425 104 c 1
+ 453.986328125 121.251953125 524.890415073 67.7421879455 594 67 c 0
+ 682.569335938 66.048828125 758.674490847 104.103881419 759 189 c 0
+ 759.458007812 308.453125 591.188476562 376.4765625 464 349 c 1
+ 494 393 l 1
+ 580.0703125 438.581054688 801.953276379 422.52497256 799 186 c 0
+ 797.24796951 45.6816178495 705.399400681 -34.1912072839 589 -35 c 0
+ 486.82421875 -35.7099609375 415.092773438 32 425 104 c 1
  444 104 l 1
- 414.75390625 24.77734375 350.54296875 -41.6923828125 241 -34 c 0
- 138.137695312 -26.77734375 95.0263671875 48.5859375 97 127 c 0
- 99.984375 245.556640625 200.033203125 335.462890625 323 356 c 1
-530 374 m 1
- 494 339 l 1
- 483.404296875 477.111328125 573.463867188 565 672 565 c 0
- 738.594726562 565 793.0546875 526.805664062 794 470 c 0
- 795.119140625 401.866210938 731.326171875 372.93359375 691 358 c 1
- 677 375 l 1
- 719.935546875 384 736 416.984375 734 447 c 0
- 732.005859375 476.93359375 688.000976562 498.944335938 653 498 c 0
- 580.090820312 496.032226562 527.823242188 446 530 374 c 1
-377 358 m 1
- 391 367 391.196289062 404.713867188 387 437 c 0
- 382.76171875 469.606445312 346.012695312 497 308 497 c 0
- 291 497 272 483 272 483 c 0
- 218 428 l 0
- 188 425 157 443 157 474 c 0
- 157 535 225 565 279 565 c 0
- 356 565 415 522 425 459 c 0
- 432.0546875 414.556640625 410 364 397 337 c 1
- 377 358 l 1
+ 414.75390625 24.77734375 381.792450828 -28.8655574837 272 -31 c 0
+ 129.137695312 -33.77734375 85.0263671875 88.5859375 87 167 c 0
+ 89.984375 285.556640625 160.033203125 345.462890625 283 366 c 1
+493 384 m 1
+ 464 349 l 1
+ 453.404296875 487.111328125 543.463867188 575 642 575 c 0
+ 708.594726562 575 763.0546875 536.805664062 764 480 c 0
+ 765.119140625 411.866210938 701.326171875 382.93359375 661 368 c 1
+ 647 385 l 1
+ 689.935546875 394 706 426.984375 704 457 c 0
+ 702.005859375 486.93359375 658.000976562 508.944335938 623 508 c 0
+ 550.090820312 506.032226562 490.823242188 456 493 384 c 1
+387 368 m 1
+ 401 377 393.196289062 420.713867188 387 447 c 0
+ 379.456054688 479.00390625 346.012695312 507 308 507 c 0
+ 291 507 272 493 272 493 c 0
+ 218 438 l 0
+ 188 435 157 453 157 484 c 0
+ 157 545 225 575 279 575 c 0
+ 356 575 415 532 425 469 c 0
+ 432.0546875 424.556640625 420 374 407 347 c 1
+ 387 368 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ka
@@ -662,7 +646,6 @@ SplineSet
  337.954101562 341.435546875 354.93359375 359.189453125 317.034179688 327.3046875 c 5
  279.607421875 343.198242188 l 5
 EndSplineSet
-Layer: 3
 EndChar
 
 StartChar: si_Ta
@@ -790,7 +773,6 @@ SplineSet
  161.581054688 -41.00390625 48.37890625 57.7041015625 76.677734375 189.90234375 c 5
  108.977539062 228.354492188 l 5
 EndSplineSet
-Layer: 3
 EndChar
 
 StartChar: si_Na
@@ -917,7 +899,6 @@ SplineSet
  343.184570312 406.189453125 322.303710938 391.620117188 309.231445312 375.044921875 c 1
  276.931640625 381.197265625 l 1
 EndSplineSet
-Layer: 3
 EndChar
 
 StartChar: anusvara
@@ -953,8 +934,6 @@ SplineSet
  529.502929688 93 434.251953125 -25 283.251953125 -25 c 0
  132.251953125 -25 60.1044921875 73 68.5654296875 194 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: visarga
@@ -964,10 +943,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_A
@@ -1044,8 +1019,6 @@ SplineSet
  465.267578125 371.296875 466.100585938 371.146484375 466.942382812 371 c 1
  466.997070312 371.776367188 466.061523438 371.853515625 464.440429688 371.448242188 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Aa
@@ -1061,8 +1034,6 @@ Refer: 12 3461 N 1 0 0 1 0 0 2
 Fore
 Refer: 61 3535 N 1 0 0.0699268 1 770 0 2
 Refer: 12 3461 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ae
@@ -1078,8 +1049,6 @@ Refer: 12 3461 N 1 0 0 1 0 0 2
 Fore
 Refer: 62 3536 N 1 0 0.0699268 1 760 0 2
 Refer: 12 3461 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Aae
@@ -1095,8 +1064,6 @@ Refer: 12 3461 N 1 0 0 1 0 0 2
 Fore
 Refer: 63 3537 N 1 0 0.0699268 1 740 0 2
 Refer: 12 3461 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_I
@@ -1106,10 +1073,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ii
@@ -1147,8 +1110,6 @@ SplineSet
  295.962890625 643 271.78125 669 274.018554688 701 c 4
 EndSplineSet
 Refer: 4 3515 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_U
@@ -1199,8 +1160,6 @@ SplineSet
  549.06640625 346.85546875 487.66015625 345.057617188 424.333007812 333.68359375 c 0
  255.985351562 303.446289062 170.672851562 180.392578125 166.796875 40 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Uu
@@ -1214,8 +1173,6 @@ Back
 Refer: 18 3467 N 1 0 0 1 0 0 2
 Fore
 Refer: 18 3467 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_vocalicR
@@ -1225,10 +1182,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_vocalicRr
@@ -1238,10 +1191,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_E
@@ -1294,8 +1243,6 @@ SplineSet
  -34.1826171875 312 l 5
 EndSplineSet
 Refer: 48 3509 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ee
@@ -1311,8 +1258,6 @@ Refer: 22 3473 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 742.588 -106 2
 Refer: 22 3473 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ai
@@ -1328,8 +1273,6 @@ Refer: 22 3473 N 1 0 0 1 570 0 2
 Fore
 Refer: 69 3545 N 1 0 0.0699268 1 0 0 2
 Refer: 22 3473 N 1 0 0.0699268 1 570 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Os
@@ -1411,8 +1354,6 @@ SplineSet
  697.22265625 731.950195312 814.291992188 519.118164062 796.817382812 312 c 0
  785.624023438 178.163085938 729.814453125 -40 536.203125 -40 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Oo
@@ -1426,8 +1367,6 @@ Back
 Refer: 25 3476 N 1 0 0 1 0 0 2
 Fore
 Refer: 25 3476 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Au
@@ -1441,8 +1380,6 @@ Back
 Refer: 25 3476 N 1 0 0 1 0 0 2
 Fore
 Refer: 25 3476 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Kha
@@ -1517,8 +1454,6 @@ SplineSet
  381.153320312 5.1328125 434.991210938 91.1259765625 446.458984375 196 c 0
  455.430664062 278.047851562 395.80078125 343.946289062 315.057617188 343.590820312 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ga
@@ -1577,8 +1512,6 @@ SplineSet
  350.879882812 481.879882812 l 0
  242.752929688 461.879882812 128.556640625 407.848632812 92.974609375 281.841796875 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Gha
@@ -1641,8 +1574,6 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 6 3523 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Colour: ff0000
 EndChar
 
@@ -1667,8 +1598,6 @@ EndSplineSet
 Refer: 29 3484 N 1 0 0 1 104 0 2
 Fore
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Colour: ff0000
 EndChar
 
@@ -1693,8 +1622,6 @@ EndSplineSet
 Refer: 29 3484 N 1 0 0 1 104 0 2
 Fore
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Colour: ff0000
 EndChar
 
@@ -1781,8 +1708,6 @@ SplineSet
  375.110351562 402 366.873046875 370 355.28515625 333 c 1
  232.543945312 351 140.069335938 287 133.614257812 209 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ja
@@ -1880,8 +1805,6 @@ SplineSet
  375.110351562 402 366.873046875 370 355.28515625 333 c 1
  232.543945312 351 140.069335938 287 133.614257812 209 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Jha
@@ -1891,10 +1814,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nya
@@ -1904,10 +1823,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Jnya
@@ -1917,10 +1832,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ndja
@@ -1930,10 +1841,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ttha
@@ -2005,8 +1912,6 @@ SplineSet
  475.797851562 334 491.749023438 319 491.749023438 319 c 1
  499.930664062 293 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Dda
@@ -2014,7 +1919,7 @@ Encoding: 36 3497 40
 GlifName: si_D_da
 Width: 854
 VWidth: -14
-Flags: MW
+Flags: HMW
 LayerCount: 4
 Back
 SplineSet
@@ -2055,43 +1960,42 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-225.939453125 617.07421875 m 1
- 198.461914062 677.413085938 l 1
- 263.26953125 708.2734375 352.298828125 736.526367188 458.908203125 736 c 0
- 717.44921875 734.806640625 863.862304688 569.88671875 847.259765625 312 c 0
- 836.706054688 149.983398438 768.6484375 -37.6123046875 603.1328125 -41 c 0
- 531.704101562 -42.470703125 476.7734375 -12.5888671875 461.008789062 51 c 1
- 432.157226562 -17 358.150390625 -41.259765625 297.1328125 -41 c 0
- 200.072265625 -40.5693359375 114.125 9.8720703125 120.392578125 128 c 0
- 127.614257812 264.088867188 265.302734375 341.288085938 372.357421875 342 c 0
- 436.299804688 342.461914062 451.147460938 339 451.147460938 339 c 1
- 459.329101562 313 l 1
- 436.848632812 325 401.563476562 307.885742188 372.120117188 310 c 0
- 281.623046875 316.317382812 200.166992188 245.279296875 194.120117188 167 c 0
- 189.48046875 106.673828125 228.91796875 61.2451171875 307.265625 61 c 0
- 378.504882812 60.7548828125 443.513671875 101.124023438 450.078125 195 c 1
- 457.083984375 195.030273438 481.952148438 195.259765625 488.68359375 195.6796875 c 1
- 481.87890625 98.375 544.298828125 59.21875 620.265625 61 c 0
- 705.416992188 63.0751953125 774.879882812 162.635742188 783.078125 338 c 0
- 791.578125 539.37890625 695.07421875 686.295898438 431.922851562 679 c 0
- 341.44140625 676.2734375 269.112304688 642.522460938 225.939453125 617.07421875 c 1
-56.3349609375 348 m 1
- 467.684570312 353 l 1
- 459.1875 303 l 1
- 155.978515625 300 l 1
- 50.9287109375 285 l 1
- 56.3349609375 348 l 1
-427.7265625 325 m 1
- 451.500976562 412.088867188 399.12890625 468.735351562 301.166015625 460 c 1
- 245.432617188 378 l 1
- 215.642578125 381 192.831054688 398 195.41796875 435 c 0
- 200.103515625 502 273.8515625 527 326.8515625 527 c 0
- 406.8515625 527 479.080078125 477.983398438 477.481445312 393 c 0
- 476.537109375 342.791015625 468.662109375 324.083007812 460.118164062 302 c 1
- 427.7265625 325 l 1
+49 361 m 1
+ 124 379.545898438 348 386.36328125 440 382 c 1
+ 438 339 l 1
+ 333 348 l 0
+ 237.688476562 369.678710938 86.1640625 291.022460938 51 265.573242188 c 1
+ 38 276 l 1
+ 49 361 l 1
+418 334 m 1
+ 423.345703125 341.487304688 443.87125048 375.476062154 428 422 c 0
+ 412.249023438 468.171374809 386.308673394 471.280444792 347 473 c 0
+ 327.734375 473.842773438 303 455 303 455 c 0
+ 259 400 l 0
+ 229 397 208 408 208 439 c 0
+ 208 500 268.652231863 523.629413262 310 530 c 0
+ 374.909179688 540.00077097 437.61632016 507.11876657 454 444 c 0
+ 464 405.474609375 454 348.115234375 444 325 c 1
+ 418 334 l 1
+256 62 m 0
+ 321.450168095 60 374.424907099 101.124023438 380.078125 195 c 1
+ 385.450725243 194.629411362 404.52143408 191.820110453 409.68359375 186.6796875 c 1
+ 403.958881451 106.714752886 459.136796972 75.0007615821 521 76 c 0
+ 638.980106369 77.9056603774 707.624736867 248.575989728 708 379 c 0
+ 708.468179432 541.71739398 599.503938593 662.004879578 449 663 c 0
+ 366.584960938 663.544921875 299.916992188 647.66015625 229 594 c 1
+ 205 617 l 1
+ 245.627929688 669.873046875 353.889648438 738 469 738 c 0
+ 665.3203125 738 748 573.438476562 748 404 c 0
+ 748 168.120117188 693.934122706 -36.5427473066 523 -41 c 0
+ 460.468496501 -42.6305621603 414.45820697 -9.50070057745 401.008789062 61 c 1
+ 378.395105886 -14.7272727273 314.668654718 -37.3086779301 256 -37 c 0
+ 165.238011121 -36.522466929 84.4314823256 27.9623806726 98 165 c 0
+ 109.151717276 277.628720659 241.679447966 366.578805501 440 375 c 1
+ 444 326 l 1
+ 345.879296172 318.588891006 159.434884283 318.878847528 153 154 c 0
+ 150.406688201 87.5524553571 211.216778877 63.3684677191 256 62 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ddha
@@ -2101,10 +2005,6 @@ Width: 0
 VWidth: 0
 Flags: MW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nna
@@ -2204,8 +2104,6 @@ SplineSet
  244.54296875 170.500976562 390.85546875 155.250976562 453.768554688 154 c 256
  485.779296875 153.36328125 526.350585938 178.913085938 529.415039062 222.740234375 c 256
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nndda
@@ -2215,10 +2113,6 @@ Width: 0
 VWidth: 0
 Flags: MW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Tha
@@ -2274,8 +2168,6 @@ SplineSet
  550.4296875 55.474609375 659.302734375 161.634765625 672.194335938 346 c 0
  687.689453125 567.584960938 519.8203125 669.452148438 374.329101562 698.212890625 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Da
@@ -2332,7 +2224,6 @@ SplineSet
  464.826171875 571 528.954101562 476.4609375 523.813476562 343 c 1
  316.91015625 384.4921875 115.858398438 326.422851562 92.1328125 219 c 0
 EndSplineSet
-Layer: 2
 Layer: 3
 SplineSet
 452.090820312 -399.28125 m 5
@@ -2411,8 +2302,6 @@ SplineSet
  370.8203125 430 395.241210938 409 395.241210938 409 c 1
  375.716796875 324 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nda
@@ -2422,10 +2311,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Pha
@@ -2489,8 +2374,6 @@ SplineSet
  550.4296875 55.474609375 659.302734375 161.634765625 672.194335938 346 c 0
  687.689453125 567.584960938 519.8203125 669.452148438 374.329101562 698.212890625 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ba
@@ -2553,8 +2436,6 @@ SplineSet
  422.30078125 254.1328125 419.762695312 223.118164062 420.032226562 226 c 1
  386.415039062 336.953125 332.203125 374.068359375 241.736328125 368.590820312 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Bha
@@ -2584,8 +2465,6 @@ SplineSet
  50.62109375 395 l 1
 EndSplineSet
 Refer: 57 3524 N 1 0 0.0699268 1 58 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ma
@@ -2686,7 +2565,6 @@ SplineSet
  237.788085938 184 153.149414062 277.543945312 161 419 c 5
  182 418 l 5
 EndSplineSet
-Layer: 3
 EndChar
 
 StartChar: si_Mba
@@ -2780,8 +2658,6 @@ SplineSet
  487.328125 162 452.787109375 148.142578125 453.418945312 149 c 1
  439.100585938 15.7412109375 507.154296875 -44.052734375 593.993164062 -43 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ya
@@ -2854,8 +2730,6 @@ SplineSet
  726.247624704 293.998396331 635.0859375 358.774414062 495 336 c 1
  522 377 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_La
@@ -2916,8 +2790,6 @@ SplineSet
  365.783481918 288.817550165 421.983615971 313.701754386 479.346679688 317 c 1
  487.41796875 305 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Sha
@@ -2992,8 +2864,6 @@ SplineSet
  377.248046875 462.879882812 l 0
  282.284179688 462.879882812 142.109375 415.424804688 129.166015625 245.841796875 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ssa
@@ -3095,8 +2965,6 @@ SplineSet
  562.704101562 288.431640625 592.763671875 327.166015625 640.1640625 345.561523438 c 1
  665.5859375 323 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ha
@@ -3173,8 +3041,6 @@ SplineSet
  364.157226562 332.879882812 l 0
  231.291015625 362.879882812 134.6015625 288.419921875 126.040039062 186.841796875 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Lla
@@ -3245,8 +3111,6 @@ SplineSet
  725.551757812 560.443359375 778.733398438 509.587890625 776.3203125 405 c 0
  775.336914062 362.379882812 769.865234375 333.486328125 764.91015625 303.857421875 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Fa
@@ -3304,8 +3168,6 @@ SplineSet
  216.796875 74.849609375 243.400390625 77.8125 278.473632812 100 c 1
  285.440429688 2 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Halant
@@ -3351,8 +3213,6 @@ SplineSet
  228.161132812 652.720703125 178.564453125 617 125.14453125 617 c 4
  84.14453125 617 58.03515625 615.428710938 49.0048828125 615 c 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraAa
@@ -3390,8 +3250,6 @@ SplineSet
  375.778320312 436.495117188 307.442382812 518.91015625 187.893554688 519 c 0
  139.224609375 519.036132812 85.5244140625 493.166992188 56.3974609375 469 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraAe
@@ -3431,8 +3289,6 @@ SplineSet
  288.5859375 323 l 1
  236.806640625 285.021484375 187.188476562 187.639648438 167.412109375 106 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraAae
@@ -3494,8 +3350,6 @@ SplineSet
  336.69140625 253 l 1
  289.72265625 225.39453125 232.846679688 157.787109375 212.153320312 88 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraI
@@ -3509,8 +3363,6 @@ Back
 Refer: 61 3535 N 1 0 0 1 0 0 2
 Fore
 Refer: 61 3535 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraIi
@@ -3549,8 +3401,6 @@ SplineSet
  -189.323242188 587.510742188 -150.721679688 576 -128.421875 566 c 13
  -147.869140625 531 l 21
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraU
@@ -3589,8 +3439,6 @@ SplineSet
  -591.942382812 -371 -629.732421875 -321.6015625 -626.950195312 -271 c 0
  -620.953125 -161.938476562 -458.041992188 -115 -458.041992188 -115 c 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraUu
@@ -3628,8 +3476,6 @@ SplineSet
  -536.140625 -380.850585938 -568.46484375 -331.600585938 -565.649414062 -281 c 0
  -560.671875 -187.90625 -443.741210938 -125 -443.741210938 -125 c 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraR
@@ -3671,8 +3517,6 @@ SplineSet
  77.154296875 234.209960938 2.2138671875 194.013671875 -6.0068359375 100 c 0
  -13.48828125 7.826171875 62.814453125 -19.61328125 132.6015625 -20 c 4
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraE
@@ -3730,8 +3574,6 @@ SplineSet
  427.56640625 322.713867188 450.447265625 306.713867188 446.69140625 253 c 0
  443.544921875 208 399.69921875 153 323.978515625 157 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraEe
@@ -3747,8 +3589,6 @@ Refer: 69 3545 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0 1 587 0 2
 Refer: 69 3545 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Substitution2: "si_split_matra subtable" si_Halant
 EndChar
 
@@ -3765,8 +3605,6 @@ Refer: 69 3545 N 1 0 0 1 0 0 2
 Fore
 Refer: 69 3545 N 1 0 0.0699268 1 590 0 2
 Refer: 69 3545 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraO
@@ -3782,8 +3620,6 @@ Refer: 69 3545 N 1 0 0 1 0 0 2
 Fore
 Refer: 61 3535 N 1 0 0 1 587 0 2
 Refer: 69 3545 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Substitution2: "si_split_matra subtable" si_MatraAa
 EndChar
 
@@ -3794,12 +3630,9 @@ Width: 1019
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 60 3530 N 1 0 0 1 1018 0 2
 Refer: 72 3548 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Substitution2: "si_split_matra subtable" si_MatraAa.halant
 EndChar
 
@@ -3810,12 +3643,9 @@ Width: 1167
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 75 3551 N 1 0 0 1 587 0 2
 Refer: 69 3545 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Substitution2: "si_split_matra subtable" si_MatraLs
 EndChar
 
@@ -3854,8 +3684,6 @@ SplineSet
  287.538085938 547.799804688 221.794921875 440.283203125 224.831054688 339 c 1
  276.775390625 340 l 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraRr
@@ -3865,11 +3693,8 @@ Width: 377
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 68 3544 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_kundaliya
@@ -3879,10 +3704,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_VI
@@ -3913,8 +3734,6 @@ Refer: 560 -1 S 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 639 0 2
 Refer: 2 3520 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Va si_MatraI
 LCarets2: 1 0
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 0-1" si_Va si_MatraI
@@ -3933,8 +3752,6 @@ Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 855 0 2
 Refer: 6 3523 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Sa si_MatraI
 LCarets2: 1 0
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 0-1" si_Sa si_MatraI
@@ -3953,8 +3770,6 @@ Refer: 61 3535 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 147.203 -40 2
 Refer: 61 3535 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_MatraAa si_Halant
 EndChar
@@ -3995,8 +3810,6 @@ SplineSet
  -563.23046875 -389.413085938 -590.501953125 -332.6015625 -587.719726562 -282 c 4
  -581.721679688 -172.938476562 -480.670898438 -124 -480.670898438 -124 c 21
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraUu.alt
@@ -4007,7 +3820,6 @@ VWidth: 0
 Flags: HMW
 AnchorPoint: "si_MaU" 38.6348 209.28 mark 0
 LayerCount: 4
-Back
 Fore
 SplineSet
 -458.412109375 -106 m 1
@@ -4024,8 +3836,6 @@ SplineSet
  -566.454101562 -364 -593.9921875 -308.541015625 -593.041015625 -258 c 0
  -591.53125 -177.80078125 -518.907226562 -113.530273438 -458.412109375 -106 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Reph
@@ -4035,10 +3845,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_reph subtable" si_Ra si_Halantfzwj
 EndChar
 
@@ -4071,8 +3877,6 @@ SplineSet
  109.96484375 -175.43359375 210.584960938 -246.844726562 396.3359375 -224 c 0
  638.857421875 -194.375976562 698.80859375 34.9443359375 719.173828125 217 c 13
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_K.halant
@@ -4088,8 +3892,6 @@ Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 929 0 2
 Refer: 7 3482 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ka si_Halant
 EndChar
@@ -4107,8 +3909,6 @@ Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 1030 0 2
 Refer: 7 3482 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ka si_MatraI
 EndChar
@@ -4125,8 +3925,6 @@ Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 1030 0 2
 Refer: 7 3482 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ka si_MatraIi
 EndChar
@@ -4187,8 +3985,6 @@ Refer: 575 -1 S 1 0 0 1 795 1 2
 Fore
 Refer: 66 3540 N 1 0 0 1 1030 0 2
 Refer: 7 3482 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ka si_MatraU
 EndChar
@@ -4205,8 +4001,6 @@ Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 1030 0 2
 Refer: 7 3482 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ka si_MatraUu
 EndChar
@@ -4222,8 +4016,6 @@ Back
 Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 7 3482 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ka si_Reph
 EndChar
 
@@ -4238,8 +4030,6 @@ Back
 Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 7 3482 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_KRa
@@ -4256,8 +4046,6 @@ Refer: 4 3515 N 1 0 0 1 1031 0 2
 Refer: 643 8205 N 1 0 0 1 1031 0 2
 Refer: 60 3530 N 1 0 0 1 1030 0 2
 Refer: 7 3482 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ka si_Halant zwj si_Ra
 EndChar
@@ -4274,8 +4062,6 @@ Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 573 -1 S 1 0 0.0699268 1 657 0 2
 Refer: 92 -1 N 1 0 0.0699268 1 17 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_KRa si_MatraI
 EndChar
@@ -4292,8 +4078,6 @@ Refer: 7 3482 N 1 0 0 1 0 0 2
 Fore
 Refer: 574 -1 N 1 0 0.0699268 1 653.559 8 2
 Refer: 92 -1 N 1 0 0.0699268 1 17 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_KRa si_MatraIi
 EndChar
@@ -4309,8 +4093,6 @@ Back
 Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 28 3483 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Kha si_Halant
 EndChar
 
@@ -4326,8 +4108,6 @@ Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 835 0 2
 Refer: 28 3483 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Kha si_MatraI
 EndChar
 
@@ -4343,8 +4123,6 @@ Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 835 0 2
 Refer: 28 3483 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Kha si_MatraIi
 EndChar
 
@@ -4361,8 +4139,6 @@ Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 835 0 2
 Refer: 28 3483 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Kha si_MatraU
 EndChar
@@ -4379,8 +4155,6 @@ Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 835 0 2
 Refer: 28 3483 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Kha si_MatraUu
 EndChar
@@ -4399,8 +4173,6 @@ Refer: 4 3515 N 1 0 0 1 836 0 2
 Refer: 643 8205 N 1 0 0 1 836 0 2
 Refer: 60 3530 N 1 0 0 1 835 0 2
 Refer: 28 3483 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Kha si_Halant zwj si_Ra
 EndChar
 
@@ -4415,8 +4187,6 @@ Back
 Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 28 3483 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_KhRa si_Halant
 EndChar
 
@@ -4431,8 +4201,6 @@ Back
 Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 28 3483 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_KhRa si_MatraI
 EndChar
 
@@ -4447,8 +4215,6 @@ Back
 Refer: 28 3483 N 1 0 0 1 0 0 2
 Fore
 Refer: 28 3483 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_KhRa si_MatraIi
 EndChar
 
@@ -4465,8 +4231,6 @@ Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 826 0 2
 Refer: 29 3484 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ga si_Halant
 EndChar
@@ -4483,8 +4247,6 @@ Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 843 0 2
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ga si_MatraI
 EndChar
 
@@ -4500,8 +4262,6 @@ Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 843 0 2
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ga si_MatraIi
 EndChar
 
@@ -4539,8 +4299,6 @@ Refer: 575 -1 N 1 0 0 1 665 1 2
 Fore
 Refer: 66 3540 N 1 0 0 1 843 0 2
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ga si_MatraU
 EndChar
@@ -4557,8 +4315,6 @@ Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 843 0 2
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ga si_MatraUu
 EndChar
@@ -4574,8 +4330,6 @@ Back
 Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 29 3484 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ga si_Reph
 EndChar
 
@@ -4593,8 +4347,6 @@ Refer: 4 3515 N 1 0 0 1 844 0 2
 Refer: 643 8205 N 1 0 0 1 844 0 2
 Refer: 60 3530 N 1 0 0 1 843 0 2
 Refer: 29 3484 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ga si_Halant zwj si_Ra
 EndChar
@@ -4610,8 +4362,6 @@ Back
 Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 110 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_GRa si_Halant
 EndChar
 
@@ -4626,8 +4376,6 @@ Back
 Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 110 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_GRa si_MatraI
 EndChar
 
@@ -4642,8 +4390,6 @@ Back
 Refer: 29 3484 N 1 0 0 1 0 0 2
 Fore
 Refer: 110 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_GRa si_MatraIi
 EndChar
 
@@ -4659,8 +4405,6 @@ Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 797 0 2
 Refer: 30 3485 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Gha si_Halant
 EndChar
@@ -4677,8 +4421,6 @@ Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 855 0 2
 Refer: 30 3485 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Gha si_MatraI
 EndChar
 
@@ -4694,8 +4436,6 @@ Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 885 0 2
 Refer: 30 3485 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Gha si_MatraIi
 EndChar
 
@@ -4711,8 +4451,6 @@ Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 885 0 2
 Refer: 30 3485 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Gha si_MatraU
 EndChar
 
@@ -4728,8 +4466,6 @@ Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 885 0 2
 Refer: 30 3485 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Gha si_MatraUu
 EndChar
 
@@ -4744,8 +4480,6 @@ Back
 Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 30 3485 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Gha si_Reph
 EndChar
 
@@ -4756,10 +4490,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_GhRI
@@ -4773,8 +4503,6 @@ Back
 Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 30 3485 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_GhRa si_MatraI
 EndChar
 
@@ -4789,8 +4517,6 @@ Back
 Refer: 30 3485 N 1 0 0 1 0 0 2
 Fore
 Refer: 30 3485 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_GhRa si_MatraIi
 EndChar
 
@@ -4808,8 +4534,6 @@ Refer: 4 3515 N 1 0 0 1 856 0 2
 Refer: 643 8205 N 1 0 0 1 856 0 2
 Refer: 60 3530 N 1 0 0 1 855 0 2
 Refer: 30 3485 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Gha si_Halant zwj si_Ra
 EndChar
 
@@ -4820,12 +4544,9 @@ Width: 1063
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 928 0 2
 Refer: 32 3487 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Nga si_Halant
 EndChar
@@ -4837,12 +4558,9 @@ Width: 1220
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 843 0 2
 Refer: 31 3486 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nga si_MatraI
 EndChar
@@ -4854,12 +4572,9 @@ Width: 843
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 843 0 2
 Refer: 31 3486 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Nga si_MatraIi
 EndChar
 
@@ -4870,11 +4585,8 @@ Width: 1063
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 32 3487 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Nnga si_Halant
 EndChar
 
@@ -4885,12 +4597,9 @@ Width: 1220
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 843 0 2
 Refer: 32 3487 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Nnga si_MatraI
 EndChar
 
@@ -4901,12 +4610,9 @@ Width: 843
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 843 0 2
 Refer: 32 3487 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Nnga si_MatraIi
 EndChar
 
@@ -4917,12 +4623,9 @@ Width: 843
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 843 0 2
 Refer: 32 3487 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Nnga si_MatraU
 EndChar
 
@@ -4933,12 +4636,9 @@ Width: 843
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 843 0 2
 Refer: 32 3487 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Nnga si_MatraUu
 EndChar
@@ -4954,8 +4654,6 @@ Back
 Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 5 3488 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Ca si_Halant
 EndChar
 
@@ -4971,8 +4669,6 @@ Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 634 0 2
 Refer: 5 3488 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ca si_MatraI
 EndChar
 
@@ -4988,8 +4684,6 @@ Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 634 0 2
 Refer: 5 3488 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ca si_MatraIi
 EndChar
 
@@ -5006,8 +4700,6 @@ Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 634 0 2
 Refer: 5 3488 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ca si_MatraU
 EndChar
@@ -5024,8 +4716,6 @@ Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 634 0 2
 Refer: 5 3488 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ca si_MatraUu
 EndChar
@@ -5041,8 +4731,6 @@ Back
 Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 5 3488 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ca si_Reph
 EndChar
 
@@ -5057,8 +4745,6 @@ Back
 Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 5 3488 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_CRa si_Halant
 EndChar
 
@@ -5076,8 +4762,6 @@ Refer: 4 3515 N 1 0 0 1 635 0 2
 Refer: 643 8205 N 1 0 0 1 635 0 2
 Refer: 60 3530 N 1 0 0 1 634 0 2
 Refer: 5 3488 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ca si_Halant zwj si_Ra
 EndChar
@@ -5093,8 +4777,6 @@ Back
 Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 5 3488 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_CRa si_MatraI
 EndChar
 
@@ -5109,8 +4791,6 @@ Back
 Refer: 5 3488 N 1 0 0 1 0 0 2
 Fore
 Refer: 5 3488 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_CRa si_MatraIi
 EndChar
 
@@ -5126,8 +4806,6 @@ Refer: 33 3489 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 515 0 2
 Refer: 33 3489 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Cha si_Halant
 EndChar
@@ -5144,8 +4822,6 @@ Refer: 33 3489 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 776 0 2
 Refer: 33 3489 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Cha si_MatraI
 EndChar
 
@@ -5161,8 +4837,6 @@ Refer: 33 3489 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 776 0 2
 Refer: 33 3489 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Cha si_MatraIi
 EndChar
 
@@ -5178,8 +4852,6 @@ Refer: 33 3489 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 776 0 2
 Refer: 33 3489 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Cha si_MatraU
 EndChar
 
@@ -5195,8 +4867,6 @@ Refer: 33 3489 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 776 0 2
 Refer: 33 3489 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Cha si_MatraUu
 EndChar
 
@@ -5211,8 +4881,6 @@ Back
 Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 34 3490 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Ja si_Halant
 EndChar
 
@@ -5228,8 +4896,6 @@ Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 776 0 2
 Refer: 34 3490 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ja si_MatraI
 EndChar
 
@@ -5245,8 +4911,6 @@ Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 776 0 2
 Refer: 34 3490 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ja si_MatraIi
 EndChar
 
@@ -5263,8 +4927,6 @@ Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 776 0 2
 Refer: 34 3490 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Ja si_MatraU
 EndChar
 
@@ -5280,8 +4942,6 @@ Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 776 0 2
 Refer: 34 3490 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Ja si_MatraUu
 EndChar
 
@@ -5296,8 +4956,6 @@ Back
 Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 34 3490 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ja si_Reph
 EndChar
 
@@ -5312,8 +4970,6 @@ Back
 Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 154 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_JRa si_Halant
 EndChar
 
@@ -5331,8 +4987,6 @@ Refer: 4 3515 N 1 0 0 1 777 0 2
 Refer: 643 8205 N 1 0 0 1 777 0 2
 Refer: 60 3530 N 1 0 0 1 776 0 2
 Refer: 34 3490 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ja si_Halant zwj si_Ra
 EndChar
@@ -5348,8 +5002,6 @@ Back
 Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 154 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_JRa si_MatraI
 EndChar
 
@@ -5364,8 +5016,6 @@ Back
 Refer: 34 3490 N 1 0 0 1 0 0 2
 Fore
 Refer: 154 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_JRa si_MatraIi
 EndChar
 
@@ -5376,10 +5026,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Jha si_Halant
 EndChar
 
@@ -5390,12 +5036,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 35 3491 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Jha si_MatraI
 EndChar
 
@@ -5406,12 +5049,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 35 3491 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Jha si_MatraIi
 EndChar
 
@@ -5422,12 +5062,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 35 3491 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Jha si_MatraU
 EndChar
 
@@ -5438,12 +5075,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 35 3491 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Jha si_MatraUu
 EndChar
 
@@ -5454,10 +5088,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JhU.reph
@@ -5467,10 +5097,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JhUu.reph
@@ -5480,10 +5106,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JhR.halant
@@ -5493,10 +5115,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_JhRa si_Halant
 EndChar
 
@@ -5507,14 +5125,11 @@ Width: 714
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 4 3515 N 1 0 0 1 1 0 2
 Refer: 643 8205 N 1 0 0 1 1 0 2
 Refer: 60 3530 N 1 0 0 1 0 0 2
 Refer: 35 3491 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Jha si_Halant zwj si_Ra
 EndChar
 
@@ -5525,10 +5140,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_JhRa si_MatraI
 EndChar
 
@@ -5539,10 +5150,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_JhRa si_MatraIi
 EndChar
 
@@ -5553,10 +5160,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Nya si_Halant
 EndChar
 
@@ -5567,10 +5170,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NyAe
@@ -5580,10 +5179,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NyAee
@@ -5593,10 +5188,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NyAa.halant
@@ -5606,10 +5197,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NyI
@@ -5619,12 +5206,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 36 3492 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Nya si_MatraI
 EndChar
 
@@ -5635,12 +5219,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 36 3492 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Nya si_MatraIi
 EndChar
 
@@ -5651,12 +5232,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 36 3492 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Nya si_MatraU
 EndChar
 
@@ -5667,12 +5245,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 36 3492 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Nya si_MatraUu
 EndChar
 
@@ -5683,10 +5258,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_NyRa si_Halant
 EndChar
 
@@ -5697,14 +5268,11 @@ Width: 714
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 4 3515 N 1 0 0 1 1 0 2
 Refer: 643 8205 N 1 0 0 1 1 0 2
 Refer: 60 3530 N 1 0 0 1 0 0 2
 Refer: 36 3492 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Nya si_Halant zwj si_Ra
 EndChar
 
@@ -5715,10 +5283,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_NyRa si_MatraI
 EndChar
 
@@ -5729,10 +5293,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_NyRa si_MatraIi
 EndChar
 
@@ -5743,10 +5303,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Jnya si_Halant
 EndChar
 
@@ -5757,10 +5313,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JnyAe
@@ -5770,10 +5322,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JnyAee
@@ -5783,10 +5331,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JnyAa.halant
@@ -5796,10 +5340,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_JnyI
@@ -5809,12 +5349,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 37 3493 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Jnya si_MatraI
 EndChar
 
@@ -5825,12 +5362,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 37 3493 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Jnya si_MatraIi
 EndChar
 
@@ -5841,12 +5375,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 37 3493 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Jnya si_MatraU
 EndChar
 
@@ -5857,12 +5388,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 37 3493 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Jnya si_MatraUu
 EndChar
 
@@ -5873,10 +5401,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_JnyRa si_Halant
 EndChar
 
@@ -5887,14 +5411,11 @@ Width: 714
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 4 3515 N 1 0 0 1 1 0 2
 Refer: 643 8205 N 1 0 0 1 1 0 2
 Refer: 60 3530 N 1 0 0 1 0 0 2
 Refer: 37 3493 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Jnya si_Halant zwj si_Ra
 EndChar
 
@@ -5905,10 +5426,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_JnyRa si_MatraI
 EndChar
 
@@ -5919,10 +5436,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_JnyRa si_MatraIi
 EndChar
 
@@ -5933,10 +5446,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Ndja si_Halant
 EndChar
 
@@ -5947,12 +5456,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 38 3494 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ndja si_MatraI
 EndChar
 
@@ -5963,12 +5469,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 38 3494 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ndja si_MatraIi
 EndChar
 
@@ -5979,12 +5482,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 38 3494 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Ndja si_MatraU
 EndChar
 
@@ -5995,12 +5495,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 38 3494 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Ndja si_MatraUu
 EndChar
 
@@ -6011,10 +5508,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_NdjRa si_Halant
 EndChar
 
@@ -6025,14 +5518,11 @@ Width: 714
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 4 3515 N 1 0 0 1 1 0 2
 Refer: 643 8205 N 1 0 0 1 1 0 2
 Refer: 60 3530 N 1 0 0 1 0 0 2
 Refer: 38 3494 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Ndja si_Halant zwj si_Ra
 EndChar
 
@@ -6073,8 +5563,6 @@ SplineSet
  376.797851562 334 l 1
 EndSplineSet
 Refer: 576 -1 N 1 0 0.0699268 1 -20 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Tta si_Halant
 EndChar
@@ -6104,8 +5592,6 @@ Refer: 560 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 693 0 2
 Refer: 0 3495 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Tta si_MatraI
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 0-1" si_Tta si_MatraI
@@ -6136,8 +5622,6 @@ Refer: 561 -1 S 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 693 0 2
 Refer: 0 3495 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Tta si_MatraIi
 EndChar
@@ -6167,8 +5651,6 @@ Refer: 0 3495 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 693 0 2
 Refer: 0 3495 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Tta si_MatraU
 EndChar
@@ -6185,8 +5667,6 @@ Refer: 0 3495 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 693 0 2
 Refer: 0 3495 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Tta si_MatraUu
 EndChar
@@ -6202,8 +5682,6 @@ Back
 Refer: 0 3495 N 1 0 0 1 0 0 2
 Fore
 Refer: 0 3495 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Tta si_Reph
 EndChar
 
@@ -6218,8 +5696,6 @@ Back
 Refer: 0 3495 N 1 0 0 1 0 0 2
 Fore
 Refer: 0 3495 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_TtRa si_Halant
 EndChar
 
@@ -6237,8 +5713,6 @@ Refer: 4 3515 N 1 0 0 1 694 0 2
 Refer: 643 8205 N 1 0 0 1 694 0 2
 Refer: 60 3530 N 1 0 0 1 693 0 2
 Refer: 0 3495 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Tta si_Halant zwj si_Ra
 EndChar
@@ -6254,8 +5728,6 @@ Back
 Refer: 0 3495 N 1 0 0 1 0 0 2
 Fore
 Refer: 209 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_TtRa si_MatraI
 EndChar
 
@@ -6270,8 +5742,6 @@ Back
 Refer: 0 3495 N 1 0 0 1 0 0 2
 Fore
 Refer: 209 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_TtRa si_MatraIi
 EndChar
 
@@ -6282,10 +5752,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Ttha si_Halant
 EndChar
 
@@ -6296,12 +5762,9 @@ Width: 1245
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 868 0 2
 Refer: 39 3496 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ttha si_MatraI
 EndChar
 
@@ -6312,12 +5775,9 @@ Width: 868
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 868 0 2
 Refer: 39 3496 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ttha si_MatraIi
 EndChar
 
@@ -6328,12 +5788,9 @@ Width: 868
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 868 0 2
 Refer: 39 3496 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Ttha si_MatraU
 EndChar
 
@@ -6344,12 +5801,9 @@ Width: 868
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 868 0 2
 Refer: 39 3496 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Ttha si_MatraUu
 EndChar
 
@@ -6364,8 +5818,6 @@ Back
 Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 40 3497 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Dda si_Halant
 EndChar
 
@@ -6381,8 +5833,6 @@ Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 854 0 2
 Refer: 40 3497 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Dda si_MatraI
 EndChar
 
@@ -6398,8 +5848,6 @@ Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 854 0 2
 Refer: 40 3497 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Dda si_MatraIi
 EndChar
 
@@ -6428,8 +5876,6 @@ Refer: 40 3497 N 1 0 0 1 -40 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 854 0 2
 Refer: 40 3497 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Dda si_MatraU
 EndChar
@@ -6446,8 +5892,6 @@ Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 854 0 2
 Refer: 40 3497 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Dda si_MatraUu
 EndChar
@@ -6463,8 +5907,6 @@ Back
 Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 40 3497 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Dda si_Reph
 EndChar
 
@@ -6479,8 +5921,6 @@ Back
 Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 224 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_DdRa si_Halant
 EndChar
 
@@ -6498,8 +5938,6 @@ Refer: 4 3515 N 1 0 0 1 855 0 2
 Refer: 643 8205 N 1 0 0 1 855 0 2
 Refer: 60 3530 N 1 0 0 1 854 0 2
 Refer: 40 3497 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Dda si_Halant zwj si_Ra
 EndChar
@@ -6515,8 +5953,6 @@ Back
 Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 224 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_DdRa si_MatraI
 EndChar
 
@@ -6531,8 +5967,6 @@ Back
 Refer: 40 3497 N 1 0 0 1 0 0 2
 Fore
 Refer: 224 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_DdRa si_MatraIi
 EndChar
 
@@ -6543,10 +5977,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Ddha si_Halant
 EndChar
 
@@ -6557,12 +5987,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 41 3498 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ddha si_MatraI
 EndChar
 
@@ -6573,12 +6000,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 41 3498 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ddha si_MatraIi
 EndChar
 
@@ -6589,12 +6013,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 41 3498 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Ddha si_MatraU
 EndChar
 
@@ -6605,12 +6026,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 41 3498 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Ddha si_MatraUu
 EndChar
 
@@ -6627,8 +6045,6 @@ Refer: 42 3499 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 1116.38 -66 2
 Refer: 42 3499 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Nna si_Halant
 EndChar
@@ -6645,8 +6061,6 @@ Refer: 42 3499 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 1433 0 2
 Refer: 42 3499 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Nna si_MatraI
 EndChar
 
@@ -6662,8 +6076,6 @@ Refer: 42 3499 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 1433 0 2
 Refer: 42 3499 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Nna si_MatraIi
 EndChar
 
@@ -6679,8 +6091,6 @@ Refer: 42 3499 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 1433 0 2
 Refer: 42 3499 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Nna si_MatraU
 EndChar
@@ -6697,8 +6107,6 @@ Refer: 42 3499 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 1433 0 2
 Refer: 42 3499 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Nna si_MatraUu
 EndChar
 
@@ -6713,8 +6121,6 @@ Back
 Refer: 42 3499 N 1 0 0 1 0 0 2
 Fore
 Refer: 42 3499 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Nna si_Reph
 EndChar
@@ -6726,10 +6132,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Nndda si_Halant
 EndChar
 
@@ -6740,12 +6142,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 43 3500 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Nndda si_MatraI
 EndChar
 
@@ -6756,12 +6155,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 43 3500 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Nndda si_MatraIi
 EndChar
 
@@ -6772,12 +6168,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 43 3500 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Nndda si_MatraU
 EndChar
 
@@ -6788,12 +6181,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 43 3500 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Nndda si_MatraUu
 EndChar
 
@@ -6810,8 +6200,6 @@ Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 892.07 1 2
 Refer: 8 3501 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ta si_Halant
 EndChar
@@ -6829,8 +6217,6 @@ Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 1056 0 2
 Refer: 8 3501 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ta si_MatraI
 EndChar
@@ -6863,8 +6249,6 @@ Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 1056 0 2
 Refer: 8 3501 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ta si_MatraIi
 EndChar
@@ -6930,8 +6314,6 @@ EndSplineSet
 Fore
 Refer: 66 3540 N 1 0 0 1 1056 0 2
 Refer: 8 3501 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ta si_MatraU
 EndChar
@@ -6948,8 +6330,6 @@ Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 1056 0 2
 Refer: 8 3501 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ta si_MatraUu
 EndChar
@@ -6965,8 +6345,6 @@ Back
 Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 8 3501 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ta si_Reph
 EndChar
 
@@ -6981,8 +6359,6 @@ Back
 Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 250 -1 N 1 0 0.0699268 1 -44 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_TRa si_Halant
 EndChar
 
@@ -7000,8 +6376,6 @@ Refer: 4 3515 N 1 0 0 1 1057 0 2
 Refer: 643 8205 N 1 0 0 1 1057 0 2
 Refer: 60 3530 N 1 0 0 1 1056 0 2
 Refer: 8 3501 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ta si_Halant zwj si_Ra
 EndChar
@@ -7018,8 +6392,6 @@ Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 573 -1 S 1 0 0.0699268 1 586 0 2
 Refer: 250 -1 N 1 0 0.0699268 1 -44 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_TRa si_MatraI
 EndChar
@@ -7036,8 +6408,6 @@ Refer: 8 3501 N 1 0 0 1 0 0 2
 Fore
 Refer: 574 -1 S 1 0 0.0699268 1 623.42 6 2
 Refer: 250 -1 N 1 0 0.0699268 1 -44 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_TRa si_MatraIi
 EndChar
@@ -7049,10 +6419,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Tha si_Halant
 EndChar
 
@@ -7063,12 +6429,9 @@ Width: 1137
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 760 0 2
 Refer: 44 3502 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Tha si_MatraI
 EndChar
 
@@ -7079,12 +6442,9 @@ Width: 760
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 760 0 2
 Refer: 44 3502 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Tha si_MatraIi
 EndChar
 
@@ -7095,12 +6455,9 @@ Width: 760
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 760 0 2
 Refer: 44 3502 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Tha si_MatraU
 EndChar
 
@@ -7111,12 +6468,9 @@ Width: 760
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 760 0 2
 Refer: 44 3502 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Tha si_MatraUu
 EndChar
 
@@ -7127,10 +6481,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Tha si_Reph
 EndChar
 
@@ -7147,8 +6497,6 @@ Refer: 45 3503 S 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 467.203 -40 2
 Refer: 45 3503 S 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Da si_Halant
 EndChar
@@ -7160,10 +6508,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DAe
@@ -7173,10 +6517,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DAae
@@ -7186,10 +6526,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DI
@@ -7217,8 +6553,6 @@ Refer: 45 3503 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Da si_MatraI
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 0-1" si_Da si_MatraI
@@ -7236,8 +6570,6 @@ Refer: 45 3503 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Da si_MatraIi
 EndChar
@@ -7283,8 +6615,6 @@ EndSplineSet
 Fore
 Refer: 66 3540 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Da si_MatraU
 EndChar
@@ -7301,8 +6631,6 @@ Refer: 45 3503 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Da si_MatraUu
 EndChar
 
@@ -7318,8 +6646,6 @@ Refer: 45 3503 N 1 0 0 1 0 0 2
 Fore
 Refer: 68 3544 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_5 subtable" si_Da si_MatraR
 EndChar
 
@@ -7335,8 +6661,6 @@ Refer: 45 3503 N 1 0 0 1 0 0 2
 Fore
 Refer: 76 3570 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_5 subtable" si_Da si_MatraRr
 EndChar
 
@@ -7347,10 +6671,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Da.reph
@@ -7364,8 +6684,6 @@ Back
 Refer: 45 3503 N 1 0 0 1 0 0 2
 Fore
 Refer: 45 3503 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Da si_Reph
 EndChar
 
@@ -7376,11 +6694,8 @@ Width: 595
 VWidth: -17
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 45 3503 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_DRa si_Halant
 EndChar
 
@@ -7391,14 +6706,11 @@ Width: 1283
 VWidth: -17
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 4 3515 N 1 0 0 1 570 0 2
 Refer: 643 8205 N 1 0 0 1 570 0 2
 Refer: 60 3530 N 1 0 0 1 569 0 2
 Refer: 45 3503 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Da si_Halant zwj si_Ra
 EndChar
 
@@ -7409,11 +6721,8 @@ Width: 595
 VWidth: -17
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 45 3503 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_DRa si_MatraI
 EndChar
 
@@ -7424,11 +6733,8 @@ Width: 595
 VWidth: -17
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 45 3503 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_DRa si_MatraIi
 EndChar
 
@@ -7439,10 +6745,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DYAa.post
@@ -7452,10 +6754,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DYu.post
@@ -7465,10 +6763,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DYUu.post
@@ -7478,10 +6772,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_DYOo.post
@@ -7491,10 +6781,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Dh.halant
@@ -7504,7 +6790,6 @@ Width: 824
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 434.895507812 364 m 1
@@ -7526,8 +6811,6 @@ SplineSet
  434.895507812 364 l 1
 EndSplineSet
 Refer: 576 -1 N 1 0 0.0699268 1 70 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Dha si_Halant
 EndChar
 
@@ -7538,12 +6821,9 @@ Width: 1133
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 756 0 2
 Refer: 46 3504 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Dha si_MatraI
 EndChar
@@ -7555,12 +6835,9 @@ Width: 756
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 756 0 2
 Refer: 46 3504 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Dha si_MatraIi
 EndChar
 
@@ -7571,12 +6848,9 @@ Width: 756
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 756 0 2
 Refer: 46 3504 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Dha si_MatraU
 EndChar
 
@@ -7587,12 +6861,9 @@ Width: 756
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 756 0 2
 Refer: 46 3504 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Dha si_MatraUu
 EndChar
@@ -7604,11 +6875,8 @@ Width: 824
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 46 3504 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Dha si_Reph
 EndChar
 
@@ -7619,11 +6887,8 @@ Width: 824
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 46 3504 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_DhRa si_Halant
 EndChar
 
@@ -7634,14 +6899,11 @@ Width: 1470
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 4 3515 N 1 0 0 1 757 0 2
 Refer: 643 8205 N 1 0 0 1 757 0 2
 Refer: 60 3530 N 1 0 0 1 756 0 2
 Refer: 46 3504 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Dha si_Halant zwj si_Ra
 EndChar
@@ -7653,11 +6915,8 @@ Width: 824
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 287 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_DhRa si_MatraI
 EndChar
 
@@ -7668,11 +6927,8 @@ Width: 824
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 287 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_DhRa si_MatraIi
 EndChar
 
@@ -7689,8 +6945,6 @@ Refer: 9 3505 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 899.86 -2 2
 Refer: 9 3505 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Na si_Halant
 EndChar
@@ -7708,8 +6962,6 @@ Refer: 9 3505 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 896 0 2
 Refer: 9 3505 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Na si_MatraI
 EndChar
@@ -7726,8 +6978,6 @@ Refer: 9 3505 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 916 0 2
 Refer: 9 3505 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Na si_MatraIi
 EndChar
 
@@ -7756,8 +7006,6 @@ Refer: 9 3505 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 916 0 2
 Refer: 9 3505 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Na si_MatraU
 EndChar
@@ -7774,8 +7022,6 @@ Refer: 9 3505 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 916 0 2
 Refer: 9 3505 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Na si_MatraUu
 EndChar
@@ -7791,8 +7037,6 @@ Back
 Refer: 9 3505 N 1 0 0 1 0 0 2
 Fore
 Refer: 9 3505 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nd.halant
@@ -7802,10 +7046,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Nda si_Halant
 EndChar
 
@@ -7816,10 +7056,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NdAe
@@ -7829,10 +7065,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NdAae
@@ -7842,10 +7074,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NdAa.halant
@@ -7855,10 +7083,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NdI
@@ -7868,12 +7092,9 @@ Width: 377
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 64 3538 N 1 0 0 1 0 0 2
 Refer: 47 3507 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Nda si_MatraI
 EndChar
 
@@ -7884,12 +7105,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 65 3539 N 1 0 0 1 0 0 2
 Refer: 47 3507 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Nda si_MatraIi
 EndChar
 
@@ -7900,12 +7118,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 66 3540 N 1 0 0 1 0 0 2
 Refer: 47 3507 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Nda si_MatraU
 EndChar
 
@@ -7916,12 +7131,9 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 67 3542 N 1 0 0 1 0 0 2
 Refer: 47 3507 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Nda si_MatraUu
 EndChar
 
@@ -7932,10 +7144,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_P.halant
@@ -7951,8 +7159,6 @@ Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 678 0 2
 Refer: 1 3508 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Pa si_Halant
 EndChar
@@ -7970,8 +7176,6 @@ Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 746 0 2
 Refer: 1 3508 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Pa si_MatraI
 EndChar
 
@@ -7988,8 +7192,6 @@ Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 746 0 2
 Refer: 1 3508 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Pa si_MatraIi
 LCarets2: 1 0
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 0-2" si_Pa si_MatraIi
@@ -8008,8 +7210,6 @@ Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 746 0 2
 Refer: 1 3508 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Pa si_MatraU
 EndChar
@@ -8026,8 +7226,6 @@ Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 746 0 2
 Refer: 1 3508 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Pa si_MatraUu
 EndChar
 
@@ -8042,8 +7240,6 @@ Back
 Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 1 3508 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Pa si_Reph
 EndChar
 
@@ -8058,8 +7254,6 @@ Back
 Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 313 -1 S 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_3 subtable" si_PRa si_Halant
 EndChar
@@ -8078,8 +7272,6 @@ Refer: 4 3515 N 1 0 0 1 747 0 2
 Refer: 643 8205 N 1 0 0 1 747 0 2
 Refer: 60 3530 N 1 0 0 1 746 0 2
 Refer: 1 3508 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Pa si_Halant zwj si_Ra
 EndChar
@@ -8095,8 +7287,6 @@ Back
 Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 313 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_PRa si_MatraI
 EndChar
 
@@ -8111,8 +7301,6 @@ Back
 Refer: 1 3508 N 1 0 0 1 0 0 2
 Fore
 Refer: 313 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_PRa si_MatraIi
 EndChar
 
@@ -8127,8 +7315,6 @@ Back
 Refer: 48 3509 N 1 0 0 1 0 0 2
 Fore
 Refer: 48 3509 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Pha si_Halant
 EndChar
 
@@ -8144,8 +7330,6 @@ Refer: 48 3509 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 760 0 2
 Refer: 48 3509 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Pha si_MatraI
 EndChar
 
@@ -8161,8 +7345,6 @@ Refer: 48 3509 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 760 0 2
 Refer: 48 3509 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Pha si_MatraIi
 EndChar
 
@@ -8178,8 +7360,6 @@ Refer: 48 3509 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 760 0 2
 Refer: 48 3509 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Pha si_MatraU
 EndChar
 
@@ -8195,8 +7375,6 @@ Refer: 48 3509 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 760 0 2
 Refer: 48 3509 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Pha si_MatraUu
 EndChar
 
@@ -8211,8 +7389,6 @@ Back
 Refer: 48 3509 N 1 0 0 1 0 0 2
 Fore
 Refer: 48 3509 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_B.halant
@@ -8226,8 +7402,6 @@ Back
 Refer: 323 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 323 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ba si_Halant
 EndChar
@@ -8244,8 +7418,6 @@ Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 736 0 2
 Refer: 49 3510 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ba si_MatraI
 EndChar
 
@@ -8261,8 +7433,6 @@ Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 736 0 2
 Refer: 49 3510 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ba si_MatraIi
 EndChar
 
@@ -8278,8 +7448,6 @@ Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 736 0 2
 Refer: 49 3510 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Ba si_MatraU
 EndChar
 
@@ -8295,8 +7463,6 @@ Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 736 0 2
 Refer: 49 3510 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ba si_MatraUu
 EndChar
@@ -8312,8 +7478,6 @@ Back
 Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 49 3510 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ba si_Reph
 EndChar
 
@@ -8328,8 +7492,6 @@ Back
 Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 329 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_BRa si_Halant
 EndChar
 
@@ -8347,8 +7509,6 @@ Refer: 4 3515 N 1 0 0 1 737 0 2
 Refer: 643 8205 N 1 0 0 1 737 0 2
 Refer: 60 3530 N 1 0 0 1 736 0 2
 Refer: 49 3510 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ba si_Halant zwj si_Ra
 EndChar
@@ -8364,8 +7524,6 @@ Back
 Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 329 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_BRa si_MatraI
 EndChar
 
@@ -8380,8 +7538,6 @@ Back
 Refer: 49 3510 N 1 0 0 1 0 0 2
 Fore
 Refer: 329 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_BRa si_MatraIi
 EndChar
 
@@ -8397,8 +7553,6 @@ Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 887.93 -1 2
 Refer: 50 3511 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Bha si_Halant
 EndChar
@@ -8415,8 +7569,6 @@ Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 1017 0 2
 Refer: 50 3511 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Bha si_MatraI
 EndChar
@@ -8433,8 +7585,6 @@ Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 1017 0 2
 Refer: 50 3511 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Bha si_MatraIi
 EndChar
 
@@ -8450,8 +7600,6 @@ Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 1017 0 2
 Refer: 50 3511 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Bha si_MatraU
 EndChar
@@ -8468,8 +7616,6 @@ Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 1017 0 2
 Refer: 50 3511 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Bha si_MatraUu
 EndChar
@@ -8485,8 +7631,6 @@ Back
 Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 50 3511 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Bha si_Reph
 EndChar
 
@@ -8501,8 +7645,6 @@ Back
 Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 339 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_3 subtable" si_BhRa si_Halant
 EndChar
@@ -8521,8 +7663,6 @@ Refer: 4 3515 N 1 0 0 1 1018 0 2
 Refer: 643 8205 N 1 0 0 1 1018 0 2
 Refer: 60 3530 N 1 0 0 1 1017 0 2
 Refer: 50 3511 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Bha si_Halant zwj si_Ra
 EndChar
@@ -8538,8 +7678,6 @@ Back
 Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 339 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_BhRa si_MatraI
 EndChar
 
@@ -8554,8 +7692,6 @@ Back
 Refer: 50 3511 N 1 0 0 1 0 0 2
 Fore
 Refer: 339 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_BhRa si_MatraIi
 EndChar
 
@@ -8595,8 +7731,6 @@ SplineSet
  309.522460938 159.036132812 237.609375 208.918945312 245.236328125 318 c 0
 EndSplineSet
 Refer: 576 -1 N 1 0 0.0699268 1 48 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ma si_Halant
 EndChar
@@ -8613,8 +7747,6 @@ Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 705 0 2
 Refer: 51 3512 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ma si_MatraI
 EndChar
@@ -8631,8 +7763,6 @@ Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 705 0 2
 Refer: 51 3512 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ma si_MatraIi
 EndChar
@@ -8649,8 +7779,6 @@ Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 705 0 2
 Refer: 51 3512 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Ma si_MatraU
 EndChar
 
@@ -8666,8 +7794,6 @@ Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 705 0 2
 Refer: 51 3512 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ma si_MatraUu
 EndChar
@@ -8683,8 +7809,6 @@ Back
 Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 51 3512 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ma si_Reph
 EndChar
 
@@ -8699,8 +7823,6 @@ Back
 Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 349 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_MRa si_Halant
 EndChar
 
@@ -8718,8 +7840,6 @@ Refer: 4 3515 N 1 0 0 1 706 0 2
 Refer: 643 8205 N 1 0 0 1 706 0 2
 Refer: 60 3530 N 1 0 0 1 705 0 2
 Refer: 51 3512 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ma si_Halant zwj si_Ra
 EndChar
@@ -8735,8 +7855,6 @@ Back
 Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 349 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_MRa si_MatraI
 EndChar
 
@@ -8751,8 +7869,6 @@ Back
 Refer: 51 3512 N 1 0 0 1 0 0 2
 Fore
 Refer: 349 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_MRa si_MatraIi
 EndChar
 
@@ -8767,8 +7883,6 @@ Back
 Refer: 52 3513 N 1 0 0 1 0 0 2
 Fore
 Refer: 52 3513 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Mba si_Halant
 EndChar
 
@@ -8784,8 +7898,6 @@ Refer: 52 3513 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 858 0 2
 Refer: 52 3513 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Mba si_MatraI
 EndChar
 
@@ -8801,8 +7913,6 @@ Refer: 52 3513 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 858 0 2
 Refer: 52 3513 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Mba si_MatraIi
 EndChar
 
@@ -8818,8 +7928,6 @@ Refer: 52 3513 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 858 0 2
 Refer: 52 3513 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Mba si_MatraU
 EndChar
 
@@ -8835,8 +7943,6 @@ Refer: 52 3513 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 858 0 2
 Refer: 52 3513 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Mba si_MatraUu
 EndChar
 
@@ -8852,8 +7958,6 @@ Refer: 53 3514 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 738 0 2
 Refer: 53 3514 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ya si_Halant
 EndChar
@@ -8870,8 +7974,6 @@ Refer: 53 3514 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 832 0 2
 Refer: 53 3514 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ya si_MatraI
 EndChar
 
@@ -8887,8 +7989,6 @@ Refer: 53 3514 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 832 0 2
 Refer: 53 3514 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ya si_MatraIi
 EndChar
 
@@ -8917,8 +8017,6 @@ Refer: 53 3514 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 832 0 2
 Refer: 53 3514 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ya si_MatraU
 EndChar
@@ -8935,8 +8033,6 @@ Refer: 53 3514 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 832 0 2
 Refer: 53 3514 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ya si_MatraUu
 EndChar
@@ -8952,8 +8048,6 @@ Back
 Refer: 53 3514 N 1 0 0 1 0 0 2
 Fore
 Refer: 53 3514 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ya si_Reph
 EndChar
 
@@ -8964,7 +8058,6 @@ Width: 713
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 338.383789062 373 m 0
@@ -8992,8 +8085,6 @@ SplineSet
  175.499422186 -38.65625 200.168367731 110.997070312 100.748046875 25 c 1
  111.223632812 69 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 LCarets2: 2 0 0
 Ligature2: "si_yansaya subtable" si_Halant zwj si_Ya
 EndChar
@@ -9005,12 +8096,9 @@ Width: 785
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 569.035 -71 2
 Refer: 363 -1 S 1 0 0.0699268 1 11 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_2 subtable" si_Ya.post si_Halant
 EndChar
@@ -9022,12 +8110,9 @@ Width: 716
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 81 -1 N 1 0 0.0699268 1 630 0 2
 Refer: 363 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_Ya.post si_MatraU
 EndChar
@@ -9039,11 +8124,8 @@ Width: 496
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 363 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_Ya.post si_MatraUu
 EndChar
 
@@ -9054,11 +8136,8 @@ Width: 496
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 363 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ya.post si_Reph
 EndChar
 
@@ -9069,11 +8148,8 @@ Width: 496
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 363 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_YUu.post.reph
@@ -9083,11 +8159,8 @@ Width: 496
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 363 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_R.halant
@@ -9103,8 +8176,6 @@ Refer: 4 3515 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 187.951 -15 2
 Refer: 4 3515 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ra si_Halant
 EndChar
@@ -9135,8 +8206,6 @@ Refer: 4 3515 N 1 0 0 1 0 0 2
 Fore
 Refer: 62 3536 N 1 0 0 1 713 0 2
 Refer: 4 3515 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_raer subtable" si_Ra si_MatraAe
 EndChar
@@ -9153,8 +8222,6 @@ Refer: 4 3515 N 1 0 0 1 0 0 2
 Fore
 Refer: 63 3537 N 1 0 0 1 713 0 2
 Refer: 4 3515 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_raer subtable" si_Ra si_MatraAae
 EndChar
@@ -9196,8 +8263,6 @@ EndSplineSet
 Fore
 Refer: 64 3538 N 1 0 0 1 713 0 2
 Refer: 4 3515 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ra si_MatraI
 EndChar
@@ -9214,8 +8279,6 @@ Refer: 4 3515 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 713 0 2
 Refer: 4 3515 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ra si_MatraIi
 EndChar
 
@@ -9232,8 +8295,6 @@ Refer: 4 3515 N 1 0 0 1 -10 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 713 0 2
 Refer: 4 3515 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ra si_MatraU
 EndChar
@@ -9251,8 +8312,6 @@ Refer: 4 3515 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 713 0 2
 Refer: 4 3515 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ra si_MatraUu
 EndChar
@@ -9270,8 +8329,6 @@ Refer: 54 3517 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 746.035 -71 2
 Refer: 54 3517 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_La si_Halant
 EndChar
@@ -9302,8 +8359,6 @@ Refer: 54 3517 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 716 0 2
 Refer: 54 3517 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_La si_MatraI
 EndChar
@@ -9320,8 +8375,6 @@ Refer: 54 3517 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 716 0 2
 Refer: 54 3517 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_La si_MatraIi
 EndChar
 
@@ -9337,8 +8390,6 @@ Refer: 54 3517 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 716 0 2
 Refer: 54 3517 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_La si_MatraU
 EndChar
 
@@ -9354,8 +8405,6 @@ Refer: 54 3517 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 716 0 2
 Refer: 54 3517 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_La si_MatraUu
 EndChar
 
@@ -9402,8 +8451,6 @@ SplineSet
  417.971679688 323.026367188 405.859375 284 405.859375 284 c 1
 EndSplineSet
 Refer: 576 -1 N 1 0 0.0699268 1 23 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Va si_Halant
 EndChar
@@ -9436,8 +8483,6 @@ Refer: 561 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 675 0 2
 Refer: 2 3520 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Va si_MatraIi
 LCarets2: 1 0
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 0-2" si_Va si_MatraIi
@@ -9456,8 +8501,6 @@ Refer: 2 3520 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 675 0 2
 Refer: 2 3520 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Va si_MatraU
 EndChar
@@ -9474,8 +8517,6 @@ Refer: 2 3520 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 675 0 2
 Refer: 2 3520 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Va si_MatraUu
 EndChar
@@ -9491,8 +8532,6 @@ Back
 Refer: 2 3520 N 1 0 0 1 0 0 2
 Fore
 Refer: 2 3520 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Va si_Reph
 EndChar
 
@@ -9507,8 +8546,6 @@ Back
 Refer: 2 3520 N 1 0 0 1 0 0 2
 Fore
 Refer: 382 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_VRa si_Halant
 EndChar
 
@@ -9526,8 +8563,6 @@ Refer: 4 3515 N 1 0 0 1 640 0 2
 Refer: 643 8205 N 1 0 0 1 640 0 2
 Refer: 60 3530 N 1 0 0 1 639 0 2
 Refer: 2 3520 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Va si_Halant zwj si_Ra
 EndChar
@@ -9544,8 +8579,6 @@ Refer: 2 3520 N 1 0 0 1 0 0 2
 Fore
 Refer: 644 -1 N 1 0 0.0699268 1 6 0 2
 Refer: 78 -1 S 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_VRa si_MatraI
 EndChar
@@ -9562,8 +8595,6 @@ Refer: 2 3520 N 1 0 0 1 0 0 2
 Fore
 Refer: 644 -1 N 1 0 0.0699268 1 -48 0 2
 Refer: 383 -1 N 1 0 0.0699268 1 -48 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_VRa si_MatraIi
 EndChar
@@ -9580,8 +8611,6 @@ Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 N 1 0 0.0699268 1 815.895 -73 2
 Refer: 55 3521 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Sha si_Halant
 EndChar
@@ -9598,8 +8627,6 @@ Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 959 0 2
 Refer: 55 3521 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Sha si_MatraI
 EndChar
@@ -9616,8 +8643,6 @@ Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 959 0 2
 Refer: 55 3521 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Sha si_MatraIi
 EndChar
 
@@ -9633,8 +8658,6 @@ Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 959 0 2
 Refer: 55 3521 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Sha si_MatraU
 EndChar
@@ -9651,8 +8674,6 @@ Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 959 0 2
 Refer: 55 3521 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Sha si_MatraUu
 EndChar
@@ -9668,8 +8689,6 @@ Back
 Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 55 3521 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Sha si_Reph
 EndChar
 
@@ -9684,8 +8703,6 @@ Back
 Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 398 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_ShRa si_Halant
 EndChar
 
@@ -9703,8 +8720,6 @@ Refer: 4 3515 N 1 0 0 1 960 0 2
 Refer: 643 8205 N 1 0 0 1 960 0 2
 Refer: 60 3530 N 1 0 0 1 959 0 2
 Refer: 55 3521 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Sha si_Halant zwj si_Ra
 EndChar
@@ -9720,8 +8735,6 @@ Back
 Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 398 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_ShRa si_MatraI
 EndChar
 
@@ -9737,8 +8750,6 @@ Refer: 55 3521 N 1 0 0 1 0 0 2
 Fore
 Refer: 642 -1 N 1 0 0.0699268 1 340 0 2
 Refer: 398 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_ShRa si_MatraIi
 EndChar
@@ -9756,8 +8767,6 @@ Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 620 0 2
 Refer: 56 3522 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ssa si_Halant
 EndChar
@@ -9774,8 +8783,6 @@ Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 776 0 2
 Refer: 56 3522 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ssa si_MatraI
 EndChar
 
@@ -9791,8 +8798,6 @@ Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 776 0 2
 Refer: 56 3522 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ssa si_MatraIi
 EndChar
 
@@ -9809,8 +8814,6 @@ Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 776 0 2
 Refer: 56 3522 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ssa si_MatraU
 EndChar
@@ -9827,8 +8830,6 @@ Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 776 0 2
 Refer: 56 3522 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ssa si_MatraUu
 EndChar
@@ -9844,8 +8845,6 @@ Back
 Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 56 3522 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ssa si_Reph
 EndChar
 
@@ -9860,8 +8859,6 @@ Back
 Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 408 -1 S 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_3 subtable" si_SsRa si_Halant
 EndChar
@@ -9880,8 +8877,6 @@ Refer: 4 3515 N 1 0 0 1 777 0 2
 Refer: 643 8205 N 1 0 0 1 777 0 2
 Refer: 60 3530 N 1 0 0 1 776 0 2
 Refer: 56 3522 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ssa si_Halant zwj si_Ra
 EndChar
@@ -9897,8 +8892,6 @@ Back
 Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 408 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_SsRIi
@@ -9912,8 +8905,6 @@ Back
 Refer: 56 3522 N 1 0 0 1 0 0 2
 Fore
 Refer: 408 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_S.halant
@@ -9929,8 +8920,6 @@ Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 60 3530 S 1 0 0.0699268 1 791.825 -74 2
 Refer: 6 3523 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Sa si_Halant
 EndChar
@@ -9948,8 +8937,6 @@ Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 885 0 2
 Refer: 6 3523 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Sa si_MatraIi
 EndChar
@@ -9979,8 +8966,6 @@ Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 885 0 2
 Refer: 6 3523 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Sa si_MatraU
 EndChar
@@ -9997,8 +8982,6 @@ Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 885 0 2
 Refer: 6 3523 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Sa si_MatraUu
 EndChar
@@ -10014,8 +8997,6 @@ Back
 Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 6 3523 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Sa si_Reph
 EndChar
 
@@ -10030,8 +9011,6 @@ Back
 Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 417 -1 N 1 0 0.0699268 1 30 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_SRa si_Halant
 EndChar
 
@@ -10049,8 +9028,6 @@ Refer: 4 3515 N 1 0 0 1 856 0 2
 Refer: 643 8205 N 1 0 0 1 856 0 2
 Refer: 60 3530 N 1 0 0 1 855 0 2
 Refer: 6 3523 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Sa si_Halant zwj si_Ra
 EndChar
@@ -10066,8 +9043,6 @@ Back
 Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 417 -1 N 1 0 0.0699268 1 30 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_3 subtable" si_SRa si_MatraI
 EndChar
 
@@ -10082,8 +9057,6 @@ Back
 Refer: 6 3523 N 1 0 0 1 0 0 2
 Fore
 Refer: 417 -1 N 1 0 0.0699268 1 30 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_4 subtable" si_SRa si_MatraIi
 EndChar
 
@@ -10098,8 +9071,6 @@ Back
 Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 57 3524 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Ha si_Halant
 EndChar
 
@@ -10115,8 +9086,6 @@ Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 959 0 2
 Refer: 57 3524 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ha si_MatraI
 EndChar
@@ -10133,8 +9102,6 @@ Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 959 0 2
 Refer: 57 3524 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ha si_MatraIi
 EndChar
 
@@ -10150,8 +9117,6 @@ Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 959 0 2
 Refer: 57 3524 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ha si_MatraU
 EndChar
@@ -10168,8 +9133,6 @@ Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 959 0 2
 Refer: 57 3524 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ha si_MatraUu
 EndChar
@@ -10185,8 +9148,6 @@ Back
 Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 57 3524 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_7 subtable" si_Ha si_Reph
 EndChar
 
@@ -10201,8 +9162,6 @@ Back
 Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 427 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_HRa si_Halant
 EndChar
 
@@ -10220,8 +9179,6 @@ Refer: 4 3515 N 1 0 0 1 960 0 2
 Refer: 643 8205 N 1 0 0 1 960 0 2
 Refer: 60 3530 N 1 0 0 1 959 0 2
 Refer: 57 3524 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 3 0 0 0
 Ligature2: "si_rakaar subtable" si_Ha si_Halant zwj si_Ra
 EndChar
@@ -10237,8 +9194,6 @@ Back
 Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 421 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_HRa si_MatraI
 EndChar
@@ -10254,8 +9209,6 @@ Back
 Refer: 57 3524 N 1 0 0 1 0 0 2
 Fore
 Refer: 422 -1 S 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_HRa si_MatraIi
 EndChar
@@ -10271,8 +9224,6 @@ Back
 Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 58 3525 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Lla si_Halant
 EndChar
 
@@ -10288,8 +9239,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 835 0 2
 Refer: 58 3525 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Lla si_MatraI
 EndChar
 
@@ -10305,8 +9254,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 835 0 2
 Refer: 58 3525 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Lla si_MatraIi
 EndChar
 
@@ -10322,8 +9269,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 835 0 2
 Refer: 58 3525 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Lla si_MatraU
 EndChar
 
@@ -10339,8 +9284,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 835 0 2
 Refer: 58 3525 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Lla si_MatraUu
 EndChar
 
@@ -10355,8 +9298,6 @@ Back
 Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 58 3525 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_1 subtable" si_Fa si_Halant
 EndChar
 
@@ -10372,8 +9313,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 64 3538 N 1 0 0 1 775 0 2
 Refer: 59 3526 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Fa si_MatraI
 EndChar
 
@@ -10389,8 +9328,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 65 3539 N 1 0 0 1 775 0 2
 Refer: 59 3526 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Fa si_MatraIi
 EndChar
 
@@ -10406,8 +9343,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 66 3540 N 1 0 0 1 775 0 2
 Refer: 59 3526 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_1 subtable" si_Fa si_MatraU
 EndChar
 
@@ -10423,8 +9358,6 @@ Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 67 3542 N 1 0 0 1 775 0 2
 Refer: 59 3526 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_3 subtable" si_Fa si_MatraUu
 EndChar
 
@@ -10439,8 +9372,6 @@ Back
 Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 58 3525 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_FR.halant
@@ -10454,8 +9385,6 @@ Back
 Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 58 3525 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_FRa si_Halant
 EndChar
 
@@ -10473,8 +9402,6 @@ Refer: 4 3515 N 1 0 0 1 776 0 2
 Refer: 643 8205 N 1 0 0 1 776 0 2
 Refer: 60 3530 N 1 0 0 1 775 0 2
 Refer: 59 3526 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_Fa si_Halant zwj si_Ra
 EndChar
 
@@ -10489,8 +9416,6 @@ Back
 Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 58 3525 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_FRIi
@@ -10504,8 +9429,6 @@ Back
 Refer: 58 3525 N 1 0 0 1 0 0 2
 Fore
 Refer: 58 3525 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_KSsa
@@ -10604,8 +9527,6 @@ SplineSet
  118.538085938 165 l 1
 EndSplineSet
 Refer: 56 3522 N 1 0 0.0699268 1 598.559 8 2
-Layer: 2
-Layer: 3
 LCarets2: 1 0
 Ligature2: "si_akhands subtable" si_Ka si_Halantfzwjnsi_SsaC2
 EndChar
@@ -10617,10 +9538,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Ka si_Halantfzwjnsi_VaC0
 EndChar
 
@@ -10631,10 +9548,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Na si_Halantfzwjnsi_DhaB0
 EndChar
 
@@ -10645,10 +9558,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Na si_Halantfzwjnsi_DaAF
 EndChar
 
@@ -10659,10 +9568,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Na si_Halantfzwjnsi_ThaAE
 EndChar
 
@@ -10673,10 +9578,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Na si_Halantfzwjnsi_VaC0
 EndChar
 
@@ -10687,10 +9588,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Ta si_Halantfzwjnsi_ThaAE
 EndChar
 
@@ -10701,14 +9598,11 @@ Width: 1562
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 39 3496 N 1 0 0 1 694 0 2
 Refer: 643 8205 N 1 0 0 1 694 0 2
 Refer: 60 3530 N 1 0 0 1 693 0 2
 Refer: 0 3495 N 1 0 0 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Tta si_Halant zwj si_Ttha
 EndChar
 
@@ -10719,10 +9613,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Ga si_Halantfzwjnsi_DhaB0
 EndChar
 
@@ -10733,10 +9623,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Da si_Halantfzwjnsi_DhaB0
 EndChar
 
@@ -10747,10 +9633,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Da si_Halantfzwjnsi_VaC0
 EndChar
 
@@ -10761,11 +9643,8 @@ Width: 1368
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 445 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_KSsa si_Halant
 EndChar
 
@@ -10780,8 +9659,6 @@ Back
 Refer: 445 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 445 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_KSsa si_MatraI
 EndChar
 
@@ -10796,8 +9673,6 @@ Back
 Refer: 445 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 445 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_KSsa si_MatraIi
 EndChar
 
@@ -10812,8 +9687,6 @@ Back
 Refer: 445 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 445 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_KSsa si_MatraU
 EndChar
 
@@ -10828,8 +9701,6 @@ Back
 Refer: 445 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 445 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_KSsa si_MatraUu
 EndChar
 
@@ -10840,10 +9711,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_KVa si_Halant
 EndChar
 
@@ -10854,10 +9721,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_KVa si_MatraI
 EndChar
 
@@ -10868,10 +9731,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_KVa si_MatraIi
 EndChar
 
@@ -10882,10 +9741,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_KVa si_MatraU
 EndChar
 
@@ -10896,10 +9751,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_KVa si_MatraUu
 EndChar
 
@@ -10910,10 +9761,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_NDha si_Halant
 EndChar
 
@@ -10924,10 +9771,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_NDha si_MatraI
 EndChar
 
@@ -10938,10 +9781,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_NDha si_MatraIi
 EndChar
 
@@ -10952,10 +9791,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_NDha si_MatraU
 EndChar
 
@@ -10966,10 +9801,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_NDha si_MatraUu
 EndChar
 
@@ -10980,10 +9811,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_NDa si_Halant
 EndChar
 
@@ -10994,10 +9821,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NDAa.halant
@@ -11007,10 +9830,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NDAe
@@ -11020,10 +9839,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NDAee
@@ -11033,10 +9848,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NDI
@@ -11046,10 +9857,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_NDa si_MatraI
 EndChar
 
@@ -11060,10 +9867,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_NDa si_MatraIi
 EndChar
 
@@ -11074,10 +9877,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_NDa si_MatraU
 EndChar
 
@@ -11088,10 +9887,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_NDa si_MatraUu
 EndChar
 
@@ -11102,10 +9897,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_rakaar subtable" si_NDa si_Halant zwj si_Ra
 EndChar
 
@@ -11116,10 +9907,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NDRIi
@@ -11129,10 +9916,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_NTh.halant
@@ -11142,10 +9925,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_NTha si_Halant
 EndChar
 
@@ -11156,10 +9935,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_NTha si_MatraI
 EndChar
 
@@ -11170,10 +9945,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_NTha si_MatraIi
 EndChar
 
@@ -11184,10 +9955,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_NTha si_MatraU
 EndChar
 
@@ -11198,10 +9965,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_NTha si_MatraUu
 EndChar
 
@@ -11212,10 +9975,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_NVa si_Halant
 EndChar
 
@@ -11226,10 +9985,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_NVa si_MatraI
 EndChar
 
@@ -11240,10 +9995,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_NVa si_MatraIi
 EndChar
 
@@ -11254,10 +10005,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_NVa si_MatraU
 EndChar
 
@@ -11268,10 +10015,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_NVa si_MatraUu
 EndChar
 
@@ -11282,10 +10025,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_TTha si_Halant
 EndChar
 
@@ -11296,10 +10035,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_TTha si_MatraI
 EndChar
 
@@ -11310,10 +10045,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_TTha si_MatraIi
 EndChar
 
@@ -11324,10 +10055,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_TTha si_MatraU
 EndChar
 
@@ -11338,10 +10065,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_TTha si_MatraUu
 EndChar
 
@@ -11352,10 +10075,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_akhands subtable" si_Ta si_Halantfzwjnsi_VaC0
 EndChar
 
@@ -11366,10 +10085,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_TVa si_Halant
 EndChar
 
@@ -11380,10 +10095,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_TVa si_MatraI
 EndChar
 
@@ -11394,10 +10105,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_TVa si_MatraIi
 EndChar
 
@@ -11408,10 +10115,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_TVa si_MatraU
 EndChar
 
@@ -11422,10 +10125,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_TVa si_MatraUu
 EndChar
 
@@ -11436,10 +10135,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_DDha si_Halant
 EndChar
 
@@ -11450,10 +10145,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_DDha si_MatraI
 EndChar
 
@@ -11464,10 +10155,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_DDha si_MatraIi
 EndChar
 
@@ -11478,10 +10165,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_DDha si_MatraU
 EndChar
 
@@ -11492,10 +10175,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_DDha si_MatraUu
 EndChar
 
@@ -11506,10 +10185,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_DVa si_Halant
 EndChar
 
@@ -11520,10 +10195,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_DVa si_MatraI
 EndChar
 
@@ -11534,10 +10205,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_DVa si_MatraIi
 EndChar
 
@@ -11548,10 +10215,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_DVa si_MatraU
 EndChar
 
@@ -11562,10 +10225,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_DVa si_MatraUu
 EndChar
 
@@ -11576,10 +10235,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_2 subtable" si_TtTtha si_Halant
 EndChar
 
@@ -11590,10 +10245,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_5 subtable" si_TtTtha si_MatraI
 EndChar
 
@@ -11604,10 +10255,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_6 subtable" si_TtTtha si_MatraIi
 EndChar
 
@@ -11618,10 +10265,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_2 subtable" si_TtTtha si_MatraU
 EndChar
 
@@ -11632,10 +10275,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_blws_4 subtable" si_TtTtha si_MatraUu
 EndChar
 
@@ -11646,10 +10285,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Kha.touch
@@ -11659,10 +10294,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ga.touch
@@ -11672,10 +10303,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Gha.touch
@@ -11685,10 +10312,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nga.touch
@@ -11698,10 +10321,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nnga.touch
@@ -11711,10 +10330,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ca.touch
@@ -11724,10 +10339,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Cha.touch
@@ -11737,10 +10348,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ja.touch
@@ -11750,10 +10357,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Jha.touch
@@ -11763,10 +10366,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nya.touch
@@ -11776,10 +10375,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Jnya.touch
@@ -11789,10 +10384,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ndja.touch
@@ -11802,10 +10393,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Tta.touch
@@ -11815,10 +10402,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ttha.touch
@@ -11828,10 +10411,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Dda.touch
@@ -11841,10 +10420,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ddha.touch
@@ -11854,10 +10429,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nna.touch
@@ -11867,10 +10438,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ndda.touch
@@ -11880,10 +10447,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ta.touch
@@ -11893,10 +10456,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Tha.touch
@@ -11906,10 +10465,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Da.touch
@@ -11919,10 +10474,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Dha.touch
@@ -11932,10 +10483,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Na.touch
@@ -11945,10 +10492,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Nda.touch
@@ -11958,10 +10501,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Pa.touch
@@ -11971,10 +10510,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Pha.touch
@@ -11984,10 +10519,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ba.touch
@@ -11997,10 +10528,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Bha.touch
@@ -12010,10 +10537,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ma.touch
@@ -12023,10 +10546,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Mba.touch
@@ -12036,10 +10555,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ya.touch
@@ -12049,10 +10564,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ra.touch
@@ -12062,10 +10573,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_La.touch
@@ -12075,10 +10582,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Va.touch
@@ -12088,10 +10591,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Sha.touch
@@ -12101,10 +10600,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ssa.touch
@@ -12114,10 +10609,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Sa.touch
@@ -12127,10 +10618,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Ha.touch
@@ -12140,10 +10627,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Lla.touch
@@ -12153,10 +10636,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Fa.touch
@@ -12166,10 +10645,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: I_comp
@@ -12215,8 +10690,6 @@ SplineSet
  324.553710938 608.254882812 245.642578125 596.140625 197.342773438 605.53515625 c 0
  127.244140625 618.756835938 99.712890625 665.888671875 103.768554688 723.880859375 c 4
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: Ii_comp
@@ -12270,8 +10743,6 @@ SplineSet
  447.993164062 766.439453125 511.754882812 817.881835938 579.662109375 796 c 9
  596.284179688 762 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraI.alt
@@ -12309,8 +10780,6 @@ SplineSet
  258.74609375 578.708984375 298.298828125 562 320.599609375 552 c 13
  309.362304688 520 l 21
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraIi.alt
@@ -12356,8 +10825,6 @@ SplineSet
  229.840820312 594.26171875 274.763671875 567.599609375 299.739257812 554 c 9
  280.291992188 519 l 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_vocalicL
@@ -12367,10 +10834,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_vocalicLL
@@ -12380,10 +10843,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraLl
@@ -12393,11 +10852,8 @@ Width: 580
 VWidth: -11
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 75 3551 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: zwnj
@@ -12407,10 +10863,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Rakar
@@ -12420,7 +10872,6 @@ Width: 959
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 912.180664062 260 m 13
@@ -12432,8 +10883,6 @@ SplineSet
  144.650390625 -148 244.59765625 -250.095703125 461.217773438 -240 c 4
  737.1015625 -227.94921875 898.017578125 45.8642578125 912.180664062 260 c 13
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: dottedcircle
@@ -12443,10 +10892,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0000
@@ -12456,10 +10901,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_1 subtable" si_Ya.post si_MatraI
 EndChar
 
@@ -12470,10 +10911,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_halant_3 subtable" si_GhRa si_Halant
 EndChar
 
@@ -12484,10 +10921,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 Ligature2: "si_abvs_2 subtable" si_Ya.post si_MatraIi
 EndChar
 
@@ -12523,8 +10956,6 @@ SplineSet
  -73.8798828125 731.2734375 -211.736328125 636.188476562 -228.491210938 422 c 9
  -275.491210938 422 l 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraIi.alt1
@@ -12563,8 +10994,6 @@ SplineSet
  -54.0576171875 730.258789062 -212.435546875 626.188476562 -228.491210938 422 c 9
  -275.491210938 422 l 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: U_comp
@@ -12597,8 +11026,6 @@ SplineSet
  -12.3583984375 -291.526367188 -91.6953125 -256.041015625 -83.7900390625 -140 c 4
  -79.1552734375 -71.982421875 -24.46484375 -13.462890625 1.5595703125 8 c 13
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: al_comp
@@ -12657,8 +11084,6 @@ SplineSet
  585.123046875 682.025390625 760.588867188 580.453125 743.145507812 331 c 4
  670.005859375 329 l 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni002F
@@ -12685,8 +11110,6 @@ SplineSet
  99.40625 -80 l 13
  -1.59375 -80 l 21
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni005F
@@ -12695,10 +11118,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0053
@@ -12707,10 +11126,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0021
@@ -12737,8 +11152,6 @@ SplineSet
  132.900390625 399 139.655273438 610 142.983398438 772 c 1
 EndSplineSet
 Refer: 593 46 N 1 0 0.0699268 1 28.3007 -10 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0022
@@ -12753,8 +11166,6 @@ Refer: 586 39 N 1 0 0 1 0 10 2
 Fore
 Refer: 586 39 N 0.986162 -0.110432 0.179931 0.993884 88.7375 25.3374 2
 Refer: 586 39 N 1 0 0.0699268 1 0.699268 10 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0023
@@ -12763,10 +11174,6 @@ Width: 20
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0024
@@ -12775,10 +11182,6 @@ Width: 20
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0025
@@ -12791,8 +11194,6 @@ Back
 Refer: 577 47 N 1 0 0 1 0 0 2
 Fore
 Refer: 577 47 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0026
@@ -12801,10 +11202,6 @@ Width: 20
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0027
@@ -12829,8 +11226,6 @@ SplineSet
  146.012695312 593.125976562 208.057617188 709.481445312 225.833007812 780.151367188 c 1
  189.342773438 811.336914062 125.518554688 792.428710938 106.965820312 777.809570312 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0028
@@ -12859,8 +11254,6 @@ SplineSet
  245.532226562 -164 l 1
  190.749023438 -118 98.8671875 41 97.4326171875 235 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0029
@@ -12889,8 +11282,6 @@ SplineSet
  343.321289062 262 240.776367188 54 107.700195312 -133 c 5
  45.357421875 -95 l 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni002A
@@ -12899,10 +11290,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni002B
@@ -12937,8 +11324,6 @@ SplineSet
  594.3203125 405 586.362304688 377 581.985351562 343 c 5
  70.9853515625 343 l 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni002C
@@ -12963,8 +11348,6 @@ SplineSet
  114.916992188 -134.368164062 192.985351562 -3.9580078125 184.34765625 79.734375 c 1
  149.864257812 113.088867188 76.4091796875 98.654296875 57.119140625 85.06640625 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni002D
@@ -12989,8 +11372,6 @@ SplineSet
  554.3203125 405 546.362304688 377 541.985351562 343 c 1
  70.9853515625 343 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni002E
@@ -13015,8 +11396,6 @@ SplineSet
  203.094726562 4.19140625 165.760742188 -28.3994140625 118.607421875 -28.3994140625 c 0
  72.095703125 -28.3994140625 43.80859375 -0.265625 47.2265625 48.6171875 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0030
@@ -13051,8 +11430,6 @@ SplineSet
  540.045898438 515.715820312 488.021484375 626.806640625 388.219726562 625.96484375 c 4
  317.91796875 625.372070312 220.55859375 547.4765625 208.936523438 362.72265625 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0031
@@ -13095,8 +11472,6 @@ SplineSet
  72 0 l 1
  69.265625 61 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0032
@@ -13145,8 +11520,6 @@ SplineSet
  131.243164062 504 l 1
  129.927734375 571 137.124023438 631 137.124023438 631 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0033
@@ -13197,8 +11570,6 @@ SplineSet
  102.333984375 491 l 1
  100.720703125 553.732421875 108.494140625 622 108.494140625 622 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0034
@@ -13241,8 +11612,6 @@ SplineSet
  385.060546875 674.815429688 419.467773438 700.961914062 478.431640625 664 c 1
  437.6015625 546.94140625 251.2421875 244.427734375 111.418945312 149 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0035
@@ -13283,8 +11652,6 @@ SplineSet
  349.409179688 -46.802734375 401.025390625 13.1591796875 408.83203125 112 c 4
  420.225585938 256.270507812 316.45703125 342.71875 107.076171875 330 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0036
@@ -13327,8 +11694,6 @@ SplineSet
  515.129882812 795.217773438 553.9375 800.2578125 587.34765625 795.671875 c 1
  591.815429688 741 l 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0037
@@ -13365,8 +11730,6 @@ SplineSet
  104.515625 465 l 1
  126.500976562 665 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0038
@@ -13415,8 +11778,6 @@ SplineSet
  440.34375 -23.9580078125 564.19921875 53.3896484375 577.866210938 184 c 0
  605.576171875 446.525390625 227.108398438 411.416992188 226.74609375 597 c 0
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0039
@@ -13461,8 +11822,6 @@ SplineSet
  193.861328125 -123.217773438 155.053710938 -128.2578125 121.642578125 -123.671875 c 1
  117.524414062 -64 l 21
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni003A
@@ -13477,8 +11836,6 @@ Refer: 593 46 N 1 0 0 1 26 72 2
 Fore
 Refer: 593 46 N 1 0 0.0699268 1 54.1106 402 2
 Refer: 593 46 N 1 0 0.0699268 1 31.0347 72 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni003B
@@ -13493,8 +11850,6 @@ Refer: 593 46 S 1 0 0 1 -1 399 2
 Fore
 Refer: 591 44 N 1 0 0.0699268 1 15.5941 80 2
 Refer: 593 46 S 1 0 0.0699268 1 26.9008 399 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni003C
@@ -13503,10 +11858,6 @@ Width: 20
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni003D
@@ -13541,8 +11892,6 @@ SplineSet
  580.65625 467 572.557617188 437 568.180664062 403 c 1
  67.1806640625 403 l 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni003E
@@ -13551,10 +11900,6 @@ Width: 20
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni003F
@@ -13605,8 +11950,6 @@ SplineSet
  131.186523438 732 l 1
 EndSplineSet
 Refer: 593 46 N 1 0 0.0699268 1 98.6993 10 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0040
@@ -13615,10 +11958,6 @@ Width: 20
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0041
@@ -13627,10 +11966,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0042
@@ -13639,10 +11974,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0043
@@ -13651,10 +11982,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0044
@@ -13663,10 +11990,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0045
@@ -13675,10 +11998,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0046
@@ -13687,10 +12006,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0047
@@ -13699,10 +12014,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0048
@@ -13711,10 +12022,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0049
@@ -13723,10 +12030,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni004A
@@ -13735,10 +12038,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni004B
@@ -13747,10 +12046,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni004C
@@ -13759,10 +12054,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni004D
@@ -13771,10 +12062,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni004E
@@ -13783,10 +12070,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni004F
@@ -13795,10 +12078,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0050
@@ -13807,10 +12086,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0051
@@ -13819,10 +12094,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0052
@@ -13831,10 +12102,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0054
@@ -13843,10 +12110,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0055
@@ -13855,10 +12118,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0056
@@ -13867,10 +12126,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0057
@@ -13879,10 +12134,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0058
@@ -13891,10 +12142,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0059
@@ -13903,10 +12150,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni005A
@@ -13915,10 +12158,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni005B
@@ -13927,10 +12166,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni005C
@@ -13939,10 +12174,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni005D
@@ -13951,10 +12182,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni005E
@@ -13963,10 +12190,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: uni0060
@@ -13975,10 +12198,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraI.alt2
@@ -13987,7 +12206,6 @@ Width: 610
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 268.424804688 478 m 17
@@ -14002,8 +12220,6 @@ SplineSet
  64.2626953125 597.294921875 147.095703125 547 275.8515625 527 c 9
  268.424804688 478 l 17
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraIi.alt2
@@ -14012,7 +12228,6 @@ Width: 587
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 218.935546875 471 m 5
@@ -14032,8 +12247,6 @@ SplineSet
  95.484375 576.358398438 164.362304688 520 226.362304688 520 c 5
  218.935546875 471 l 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: zwj
@@ -14042,10 +12255,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
-Fore
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_Rakar.alt1
@@ -14054,7 +12263,6 @@ Width: 780
 VWidth: -14
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 715.467773438 307 m 5
@@ -14066,8 +12274,6 @@ SplineSet
  50.951171875 -158 152.659179688 -236.379882812 325.056640625 -228 c 4
  606.427734375 -214.24609375 685.328125 51.0556640625 715.467773438 307 c 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraU.alt1
@@ -14117,8 +12323,6 @@ SplineSet
  -135.298828125 -460.241210938 -254.220703125 -405.694335938 -230.083007812 -230 c 0
  -211.883789062 -119.96484375 -120.657226562 -60.7138671875 -71.2373046875 -32 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: i_MatraU.alt2
@@ -14127,7 +12331,6 @@ Width: 1040
 VWidth: -24
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 403.818359375 -117 m 5
@@ -14142,8 +12345,6 @@ SplineSet
  269.916992188 -373 232.126953125 -323.6015625 234.91015625 -273 c 4
  240.907226562 -163.938476562 403.818359375 -117 403.818359375 -117 c 5
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: i_MatraUu.alt2
@@ -14152,11 +12353,8 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 Refer: 82 -1 N 1 0 0.0699268 1 0 0 2
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: si_MatraU.alt3
@@ -14193,8 +12391,6 @@ SplineSet
  202.4609375 -372.256835938 164.850585938 -324.58984375 167.770507812 -275 c 0
  174.137695312 -166.985351562 293.329101562 -124 293.329101562 -124 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 
 StartChar: i_MatraU.alt3
@@ -14203,7 +12399,6 @@ Width: 0
 VWidth: 0
 Flags: HMW
 LayerCount: 4
-Back
 Fore
 SplineSet
 -609.111328125 -116 m 1
@@ -14220,8 +12415,6 @@ SplineSet
  -718.67578125 -374 -744.69140625 -318.53515625 -743.740234375 -268 c 0
  -742.23046875 -187.80078125 -670.305664062 -133.530273438 -609.111328125 -116 c 1
 EndSplineSet
-Layer: 2
-Layer: 3
 EndChar
 EndChars
 EndSplineFont
