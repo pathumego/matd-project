@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-ModificationTime: 1458729564
+ModificationTime: 1462828980
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -42,8 +42,6 @@ HheadAscent: 29
 HheadAOffset: 1
 HheadDescent: 183
 HheadDOffset: 1
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 Lookup: 260 0 0 "'abvm' Above Base Mark in Tamil lookup 0" { "'abvm' Above Base Mark in Tamil lookup 0-1"  } ['abvm' ('DFLT' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -85,7 +83,7 @@ Grid
  2000 612 l 1024
 EndSplineSet
 AnchorClass2: "tm_Virama" "'abvm' Above Base Mark in Tamil lookup 0-1" "thn_ubufibi" "" 
-BeginChars: 433 247
+BeginChars: 434 247
 
 StartChar: space
 Encoding: 0 32 0
@@ -94,9 +92,6 @@ Width: 225
 VWidth: 0
 Flags: HMW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: uni0061
@@ -2535,10 +2530,8 @@ Width: 626
 VWidth: 0
 Flags: HMW
 LayerCount: 3
-Back
 Fore
 Refer: 1 97 N 1 0 0 1 0 0 3
-Layer: 2
 EndChar
 
 StartChar: uni00BA
@@ -2548,10 +2541,8 @@ Width: 662
 VWidth: 0
 Flags: HMW
 LayerCount: 3
-Back
 Fore
 Refer: 8 111 N 1 0 0 1 0 0 3
-Layer: 2
 EndChar
 
 StartChar: uni00C0
@@ -6906,9 +6897,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: uni03B1
@@ -6957,7 +6945,6 @@ SplineSet
  444.990234375 -20.7236328125 589.077855533 213.200280695 647 396 c 0
  690.337890625 532.772460938 683 630 683 630 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni03F5
@@ -7012,7 +6999,6 @@ SplineSet
  312.556640625 548.073242188 371.009765625 546.750976562 441 526 c 1
  458 586 l 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni03B7
@@ -7055,7 +7041,6 @@ SplineSet
  619.721679688 590.577148438 547.89453125 623.983398438 461 608 c 4
  351.20703125 584.817103795 279.168945312 428.414999714 253.55859375 319 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni03B9
@@ -7086,7 +7071,6 @@ SplineSet
  190.947265625 606.07421875 126.368164062 578.796875 95 577 c 1
  120.44140625 343 l 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni03C1
@@ -7114,7 +7098,6 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 13 112 N 1 0 0 1 0 0 3
-Layer: 2
 EndChar
 
 StartChar: tml_Anusvara
@@ -7123,9 +7106,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Visarga
@@ -7134,18 +7114,14 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_A
 Encoding: 3 2949 163
 Width: 1194
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 1057 642 m 1
@@ -7179,7 +7155,6 @@ SplineSet
  718.945383824 635.167470864 820.776367188 477.80078125 765 286 c 0
  716.877929688 120.521484375 601.901367188 -51.5703125 380 -70 c 0
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_Aa
@@ -7188,9 +7163,6 @@ Width: 1158
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_I
@@ -7199,9 +7171,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ii
@@ -7210,9 +7179,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_U
@@ -7221,9 +7187,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Uu
@@ -7232,9 +7195,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_E
@@ -7243,9 +7203,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ee
@@ -7254,9 +7211,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ai
@@ -7265,9 +7219,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_O
@@ -7276,9 +7227,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Oo
@@ -7287,9 +7235,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Au
@@ -7298,9 +7243,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ka
@@ -7310,7 +7252,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 514 695 basechar 0
 LayerCount: 3
-Back
 Fore
 SplineSet
 642.518554688 27.2958984375 m 1
@@ -7341,7 +7282,6 @@ SplineSet
  879.294921875 56.21875 764.58984375 -8.8564453125 662.473632812 -28.26953125 c 1
  642.518554688 27.2958984375 l 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_Nga
@@ -7351,9 +7291,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ca
@@ -7363,9 +7300,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ja
@@ -7375,9 +7309,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Nya
@@ -7387,9 +7318,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Tta
@@ -7399,9 +7327,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Nna
@@ -7411,9 +7336,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ta
@@ -7423,9 +7345,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Na
@@ -7435,9 +7354,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Nnna
@@ -7447,9 +7363,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Pa
@@ -7459,7 +7372,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 400 709 basechar 0
 LayerCount: 3
-Back
 Fore
 SplineSet
 663 640 m 1
@@ -7478,7 +7390,6 @@ SplineSet
  56 0 l 1
  91.8154296875 161.279296875 109.811523438 405.404296875 116 640 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_Ma
@@ -7488,9 +7399,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ya
@@ -7500,7 +7408,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 530 695 basechar 0
 LayerCount: 3
-Back
 Fore
 SplineSet
 906 626 m 5
@@ -7529,7 +7436,6 @@ SplineSet
  115.36328125 -27.3935546875 75.3999619672 66.8300520892 86 160 c 0
  96.3406529437 250.890060313 126.314453125 399.706054688 116 626 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_Ra
@@ -7539,9 +7445,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Rra
@@ -7551,9 +7454,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_La
@@ -7644,9 +7544,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Llla
@@ -7656,16 +7553,13 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Va
 Encoding: 33 2997 193
 Width: 1074
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
 Back
@@ -7704,30 +7598,29 @@ SplineSet
  663.60591938 67.9300045986 764.160274944 69.3516643004 952 82 c 1
  952 0 l 1
  516 0 l 1
- 496 61 l 1
- 533.91015625 116.224609375 576.995117188 253.79296875 577 341 c 0
- 577.004882812 433.7109375 536.765625 573.668945312 355 547 c 4
- 218.82421875 527.01953125 118.19921875 364.180664062 114 253 c 0
- 108.711914062 112.987304688 154.703125 72.974609375 228 73 c 0
- 290.62890625 73.021484375 338.551848126 131.496216756 339 181 c 0
- 339.424804688 227.924804688 310.315429688 264.833984375 259 265 c 0
- 206.002990871 265.171455869 144.279296875 208.454101562 123 117 c 1
- 103 151 l 1
- 103.200061218 251.673445642 196.632164443 330.662550339 284.999998089 334.040027129 c 0
- 368.157787778 337.218372609 437.775558655 288.081693379 435 183 c 0
- 432.455947594 86.683053382 358.36615819 -19.7554517631 233 -20 c 0
- 93.8251953125 -20.271484375 40.9015505998 102.382900153 55 239 c 0
- 76.1025390625 443.48828125 211.561523438 638.651367188 420 652 c 4
- 608.982421875 664.102539062 701.279296875 561.797851562 699 393 c 0
- 697.182617188 258.455078125 621.409179688 67.3662109375 551.517578125 25 c 1
- 546.938476562 38.6630859375 532.397460938 51.072265625 528 62 c 1
+ 486 51 l 1
+ 523.91015625 106.224609375 606.99609375 223.79296875 607 381 c 0
+ 607.003049098 503.710937559 536.764669328 583.89489297 425 587 c 0
+ 277.419121193 591.100172505 138.19921875 394.180664062 134 253 c 0
+ 129.833984375 112.94921875 184.703125 59.974609375 258 60 c 0
+ 320.62890625 60.021484375 358.551757812 131.49609375 359 181 c 0
+ 359.424804688 227.924804688 330.315429688 264.833984375 279 265 c 0
+ 226.002929688 265.171875 164.279296875 198.454101562 143 107 c 1
+ 123 141 l 1
+ 123.200195312 241.673828125 202.631835938 313.662109375 281 314.040039062 c 0
+ 364.217575163 314.441354987 437.775390625 258.08203125 435 153 c 0
+ 432.456054688 56.6826171875 348.366210938 -9.755859375 253 -10 c 4
+ 113.825195312 -10.3564453125 44.259765625 101.659179688 45 239 c 0
+ 46.1025390625 443.48828125 201.147460938 649.676757812 410 652 c 0
+ 598.982421875 654.102539062 711.279296875 521.797851562 709 353 c 0
+ 707.182617188 218.455078125 601.409179688 67.3662109375 531.517578125 25 c 1
+ 526.938476562 38.6630859375 532.397460938 51.072265625 528 62 c 1
 912 632 m 1
  1046 652 l 1
  1007.13183594 482.860351562 986.272460938 206.15625 995 0 c 1
  866 0 l 1
  887.993245889 176.702631021 911.328508085 346.561284841 912 632 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_Sha
@@ -7737,9 +7630,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ssa
@@ -7749,9 +7639,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Sa
@@ -7761,9 +7648,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ha
@@ -7773,9 +7657,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraAa
@@ -7784,7 +7665,6 @@ Width: 1054
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 508 62 m 1
@@ -7815,7 +7695,6 @@ SplineSet
  858 0 l 1
  871.889648438 249.307617188 870.393554688 455.765625 859 592 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_MatraI
@@ -7824,9 +7703,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraIi
@@ -7835,9 +7711,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraU
@@ -7846,9 +7719,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraUu
@@ -7857,9 +7727,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraE
@@ -7868,9 +7735,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraEe
@@ -7879,9 +7743,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraAi
@@ -7890,9 +7751,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraO
@@ -7901,9 +7759,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraOo
@@ -7912,9 +7767,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_MatraAu
@@ -7923,9 +7775,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Virama
@@ -7935,7 +7784,6 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "tm_Virama" 2 829.175 mark 0
 LayerCount: 3
-Back
 Fore
 SplineSet
 -86 963 m 4
@@ -7944,7 +7792,6 @@ SplineSet
  82 917 44 879 -2 879 c 4
  -48 879 -86 917 -86 963 c 4
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: tml_Om
@@ -7953,9 +7800,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_AuLengthmark
@@ -7964,9 +7808,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Zero
@@ -7975,9 +7816,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_One
@@ -7986,9 +7824,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Two
@@ -7997,9 +7832,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Three
@@ -8008,9 +7840,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Four
@@ -8019,9 +7848,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Five
@@ -8030,9 +7856,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Six
@@ -8041,9 +7864,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Seven
@@ -8052,9 +7872,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Eight
@@ -8063,9 +7880,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Nine
@@ -8074,9 +7888,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Ten
@@ -8085,9 +7896,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Hundred
@@ -8096,9 +7904,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Thousand
@@ -8107,9 +7912,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Day
@@ -8118,9 +7920,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Month
@@ -8129,9 +7928,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Year
@@ -8140,9 +7936,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Debit
@@ -8151,9 +7944,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Credit
@@ -8162,9 +7952,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Above
@@ -8173,9 +7960,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Rupee
@@ -8184,9 +7968,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: tml_Number
@@ -8195,9 +7976,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: zerowidthnonjoiner
@@ -8206,9 +7984,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: dottedcircle
@@ -8217,9 +7992,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: zerowidthjoiner
@@ -8228,9 +8000,6 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: uni02D9
@@ -8239,10 +8008,8 @@ Width: 225
 VWidth: 0
 Flags: H
 LayerCount: 3
-Back
 Fore
 Refer: 11 46 N 1 0 0 1 -157.269 104.01 2
-Layer: 2
 EndChar
 
 StartChar: uni0030
@@ -8251,7 +8018,6 @@ Width: 696
 VWidth: 153
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 58.0029296875 312.139648438 m 0
@@ -8265,7 +8031,6 @@ SplineSet
  503.865642144 517.708007813 418.185083426 653.71775371 309.448242188 641.96484375 c 0
  254.548817264 634.331030206 182.557120782 567.651102083 183.572265625 392.72265625 c 0
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0031
@@ -8274,7 +8039,6 @@ Width: 445
 VWidth: 79
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 51 654 m 5
@@ -8292,7 +8056,6 @@ SplineSet
  69 0 l 1
  62 61 l 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0032
@@ -8301,7 +8064,6 @@ Width: 632
 VWidth: 153
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 93 639 m 5
@@ -8322,7 +8084,6 @@ SplineSet
  96 492 l 5
  90 559 93 639 93 639 c 5
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0033
@@ -8331,7 +8092,6 @@ Width: 595
 VWidth: 153
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 53 642 m 1
@@ -8354,7 +8114,6 @@ SplineSet
  56 495 l 1
  50 562 53 642 53 642 c 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0034
@@ -8363,7 +8122,6 @@ Width: 712
 VWidth: 79
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 387 693 m 1
@@ -8385,7 +8143,6 @@ SplineSet
  307 -119 l 1
  300 -58 l 1
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0035
@@ -8394,7 +8151,6 @@ Width: 595
 VWidth: 153
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 520 125 m 0
@@ -8413,7 +8169,6 @@ SplineSet
  164 377.900390625 l 1
  384.856445312 404.807257556 531.533203125 308.584584293 520 125 c 0
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0036
@@ -8422,7 +8177,6 @@ Width: 645
 VWidth: 153
 Flags: HW
 LayerCount: 3
-Back
 Fore
 SplineSet
 184.689453125 257.728515625 m 0
@@ -8442,7 +8196,6 @@ SplineSet
  252.159179688 781.555664062 42.431640625 629.411132812 50.05078125 273 c 0
  52.4169921875 162.325195312 99.99609375 -21.3232421875 298.201171875 -23.9892578125 c 0
 EndSplineSet
-Layer: 2
 EndChar
 
 StartChar: uni0037
@@ -8451,9 +8204,6 @@ Width: 20
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: uni0038
@@ -8462,9 +8212,6 @@ Width: 20
 VWidth: 0
 Flags: HW
 LayerCount: 3
-Back
-Fore
-Layer: 2
 EndChar
 
 StartChar: uni0039
@@ -8473,10 +8220,8 @@ Width: 595
 VWidth: 153
 Flags: HW
 LayerCount: 3
-Back
 Fore
 Refer: 243 54 N -1 1.22465e-16 -1.22465e-16 -1 576 702 2
-Layer: 2
 EndChar
 EndChars
 EndSplineFont
