@@ -485,7 +485,7 @@ Encoding: 21 3482 7
 GlifName: si_K_a
 Width: 1099
 VWidth: -24
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -676,7 +676,7 @@ Encoding: 44 3505 9
 GlifName: si_N_a
 Width: 1094
 VWidth: -24
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 SplineSet
