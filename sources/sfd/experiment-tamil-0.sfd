@@ -23,11 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1443542790
-<<<<<<< HEAD
 ModificationTime: 1462828560
-=======
-ModificationTime: 1461611651
->>>>>>> 9091ca3d42bc76a5da6ebc1602c27821778b9009
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,11 +54,7 @@ NameList: tamil
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-<<<<<<< HEAD
 WinInfo: 0 8 2
-=======
-WinInfo: 0 9 7
->>>>>>> 9091ca3d42bc76a5da6ebc1602c27821778b9009
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -927,7 +919,7 @@ StartChar: tml_La
 Encoding: 30 2994 37
 Width: 1081
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "tm_Virama" 510 695 basechar 0
 LayerCount: 3
 Back
