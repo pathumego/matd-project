@@ -5,12 +5,12 @@ ls *sfd > sfd.txt;
 echo 'hello' | awk '{print "fontforge ../../scripts/fontconvert "$0" --remove-overlap --unlink-reference --otf"}' sfd.txt > sfdlist.sh;
 rm sfd.txt;
 sh sfdlist.sh
-rm sfdlist.sh
+#rm sfdlist.sh
 rm ../../tests/fonts/*otf
 mv *otf ../../tests/fonts
 cd ../../tests/fonts
 git add .
 git commit -m 'Minor Updates to test'
 cp *otf /Library/Application\ Support/Adobe/Fonts
-cp *otf ../font-tester/tester/fonts
+cp *otf ../test-suite/tester/fonts
 echo 'DONE!';
