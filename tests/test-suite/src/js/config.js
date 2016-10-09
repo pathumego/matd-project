@@ -1,12 +1,11 @@
 var fonts = [
- // {
- //        name: 'regular'
- //      , url: 'fonts/experiment-sinhala-0.otf'
- //      , weight: 400
- //
- //      }
- //
-    {
+ {
+        name: 'regular'
+      , url: 'fonts/experiment-sinhala-0.otf'
+      , weight: 400
+
+      }
+    ,{
              name: 'regular'
            , url: 'fonts/experiment-tamil-0.otf'
            , weight: 400
@@ -53,12 +52,6 @@ var fonts = [
        , style: 'italic'
        , weight: 400
        }
-    , {
-        name: 'italic-bold'
-      , url: 'fonts/experiment-sinhala-cursive-1.otf'
-      , style: 'italic'
-      , weight: 600
-      }
     , {
         name: 'italic'
       , url: 'fonts/experiment-sinhala-cursive-0.otf'
