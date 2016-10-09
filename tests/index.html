@@ -1,426 +1,247 @@
----
-layout: project_site
----
-<!doctype html>
-<html>
-
-	<head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ site.title }}</title>
-        <meta name="description" content="{{ site.desc }}">
-	     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles/grid.css" />
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles/styles.css" />
-				<link rel="stylesheet" type="text/css" href="./adobe-blank/adobe-blank.css" />
-
-        <!-- Schema.org markup for Google+ -->
-
-	<style>
-	@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-sinhala-0.otf');font-weight:  400;}
-	@font-face {font-family: 'Experiment'; src: url('./fonts/experiment-sinhala-1.otf');font-weight:  900;}
-
-
-
-
-
-body{font-family: 'Source Code Pro';}
-	p { font-family: 'Experiment', AdobeBlank; font-size: 36px;}
-	.lable{ font-family: 'Source Code Pro';
-  font-weight: 300;
-  margin: 30px 0px 5px 0px;
-  display: block;
-  font-size: 13px;}
-
-	</style>
-	</head>
-
-	<body spellcheck="false" contentEditable="true">
-
-		<div class="grid grid-pad">
-
-			<div class="col-1-1 mobile-col-1-1">
-				<div class="content">
-	<h2>{{ site.title }}</h2>
-<h3 class="lable">
-</br>
-{{ site.desc }}</br> Generated on {{ site.time | time_to_long_string }}</h3>
-
-			</div>
-			</div>
-		</div>
-
-
-
-
-
-
-<!-- 8/12 and 4/12 layout -->
-		<div class="grid grid-pad">
-			<div class="col-1-1">
-					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 70px</span>
-					<p class="alphabet" style="font-weight:300;">
-{{ site.glyphs }}and
-
-</p>
-
-
-<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 70px</span>
-
-<p class="alphabet" style="font-weight:900;">
-	{{ site.glyphs }}
-
-</p>
-
-			</div>
-
-		</div>
-
-		<div class="grid grid-pad">
-
-			<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 90px</span>
-				<p  style="font-weight:300;font-size:90px;">
-
-
-				</p>
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 90px</span>
-				<p  style="font-weight:900;font-size:90px;">
-
-				</p>
-			</div>
-		</div>
-
-
-
-		<div class="grid grid-pad">
-
-			<div class="col-1-3">
-					<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-					<p  style="font-weight:300;font-size:10px;">
-						{{ site.string_sinhala }}
-
-		 </div>
-
-          {% if site.string_tamil %}
-
-
-		 <div class="col-1-3">
-				 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-				 <p  style="font-weight:300;font-size:10px;">
-					 {{ site.string_tamil }}
-				 </p>
-		</div>
-
-{% endif %}
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 10px</span>
-				<p  style="font-weight:300;font-size:10px;">
-					{{ site.string_latin }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-				<p  style="font-weight:300;font-size:12px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-			 <p  style="font-weight:300;font-size:12px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 12px</span>
-			<p  style="font-weight:300;font-size:12px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-			 <p  style="font-weight:300;font-size:16px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-			<p  style="font-weight:300;font-size:16px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-				<p  style="font-weight:300;font-size:24px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-			 <p  style="font-weight:300;font-size:24px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-			<p  style="font-weight:300;font-size:24px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-				<p  style="font-weight:300;font-size:36px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-			 <p  style="font-weight:300;font-size:36px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 36px</span>
-			<p  style="font-weight:300;font-size:36px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_sinhala }}{{ site.string_tamil}}{{ site.string_latin }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 16px</span>
-				<p  style="font-weight:300;font-size:16px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_1 }} 24px</span>
-				<p  style="font-weight:300;font-size:24px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-
-	<!-- {{ site.family_weight_2 }} -->
-
-
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-				<p  style="font-weight:900;font-size:10px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-
-	 {% if site.string_tamil %}
-
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-			 <p  style="font-weight:900;font-size:10px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-
-
-
-	{% endif %}
-
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 10px</span>
-			<p  style="font-weight:900;font-size:10px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-				<p  style="font-weight:900;font-size:12px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-			 <p  style="font-weight:900;font-size:12px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 12px</span>
-			<p  style="font-weight:900;font-size:12px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-				<p  style="font-weight:900;font-size:16px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-			 <p  style="font-weight:900;font-size:16px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 16px</span>
-			<p  style="font-weight:900;font-size:16px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-				<p  style="font-weight:900;font-size:24px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-			 <p  style="font-weight:900;font-size:24px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-			<p  style="font-weight:900;font-size:24px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-	<div class="grid grid-pad">
-
-		<div class="col-1-3">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_sinhala }}
-				</p>
-	 </div>
-	 <div class="col-1-3">
-			 <span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-			 <p  style="font-weight:900;font-size:36px;">
-				 {{ site.string_tamil }}
-			 </p>
-	</div>
-	<div class="col-1-3">
-			<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-			<p  style="font-weight:900;font-size:36px;">
-				{{ site.string_latin }}
-			</p>
-	</div>
-	</div>
-
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 24px</span>
-				<p  style="font-weight:900;font-size:24px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-	<div class="grid grid-pad">
-
-		<div class="col-1-1">
-				<span class="lable">{{ site.family_name }}-{{ site.family_weight_2 }} 36px</span>
-				<p  style="font-weight:900;font-size:36px;">
-					{{ site.string_mix }}
-				</p>
-	 </div>
-	</div>
-
-
-		<!-- footer -->
-		<div class="grid grid-pad">
-			<div class="col-11-12">
-				<div class="content" id='footer'>
- ©2015 <a href="http://mooniak.com">mooniak</a>
-				</div>
-			</div>
-			<div class="col-1-12">
-				<div class="content">
-				</div>
-			</div>
-		</div>
-
-	</body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Test my shit!</title>
+<link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+<link rel="stylesheet" type="text/css" href="./styles/utility-opentype.min.css" />
+<link rel="stylesheet" type="text/css" href="./fonts/fonts.css" />
+<link rel="stylesheet" type="text/css" href="./adobe-blank/adobe-blank.css" />
+    
+<style>
+    #editable {font-family: 'Experiment'; font-size: 1em; line-height: 1.3;}
+    b{font-weight: 600;}
+    i{font-style: italic;}
+    .adobe_blank {font-family: 'Experiment', AdobeBlank!important;}
+</style> 
+<script>  
+    var reloading;
+
+function checkReloading() {
+    if (window.location.hash=="#autoreload") {
+        reloading=setTimeout("window.location.reload();", 10000);
+        document.getElementById("reloadCB").checked=true;
+    }
+}
+
+function toggleAutoRefresh(cb) {
+    if (cb.checked) {
+        window.location.replace("#autoreload");
+        reloading=setTimeout("window.location.reload();", 10000);
+    } else {
+        window.location.replace("#");
+        clearTimeout(reloading);
+    }
+}
+window.onload=checkReloading;
+    </script>
+
+<script src="js/h5utils.js"></script></head>
+<body spellcheck="false">
+  
+  <div>
+    <input type="button" id="clear" value="Clear changes" />
+    <input type="checkbox" onclick="toggleAutoRefresh(this);" id="reloadCB"> Auto Refresh
+	<button id="button">On/Off</button>
+  </div>
+     <div class="container"> 
+<section> 
+ <section id="editable" class="adobe_blank" contenteditable="true" >
+              <h1>උචුටුඨුඩුඪුඬුඛුඞුඵුබුමුඹුථුධුවුපුෂුඡුජුඦුසුඝුෆුයුණුභුහුඣුකුතුනුගුඟුශුදුඳුඤුඥුලුරුළු</h1>
+              <h1>ඌචූටූඨූඩූඪූඬූඛූඞූඵූබූමූඹූථූධූවූපූෂූඡූජූඦූසූඝූෆූයූණූභූහූඣූකූතූනූගූඟූශූදූඳූඤූඥූලූරූළූ</h1>
+     <H1>චිටිඨිඩිඪිඬිඛිඞිඵිබිමිඹිථිධිවිපිෂිඡිජිඦිසිඝිෆියිණිභිහිඣිකිතිනිගිඟිශිදිඳිඤිඥිලිරිළි</H1>
+
+<!--    <p class='2_col'>ශ්‍රී විද්‍යාශේඛර විද්‍යාලයේ ශිෂ්‍ය ශිෂ්‍යාවෝ පනහක් පමණ ආචාර්‍ය්‍ය මණ්ඩලයේ සිවුදෙනෙකු සමඟ අධ්‍යාපන චාරිකාවක නිරත වූහ. ඔවුහු උදෑසන පාසල් කාර්යාලය අසලදී පඤ්ච ශීලය සමාදන් වී කොළඹ බලා පිටත් වූහ. ඔවුහු කෞතුකාගාරය, කාලගුණ විද්‍යා දෙපාර්තමේන්තුව, වෛද්‍ය පීඨය, ගාලු මුවදොර හෙවත් ගොල්ෆේස් පිටිය වෙත පැමිණ සමුද්‍රය නැරඹීමට ද අදහස් කර ගෙන සිටියහ.
+
+ප්‍රථමයෙන් කාලගුණ විද්‍යා දෙපාර්තමේන්තුවට ගොස් සෞරග්‍රහ මණ්ඩලය, ක්ෂීරපථය, පෘථිවිය, උත්තර -දක්ෂිණ ධ්‍රැව, වෙනත් රටවල ඍතුභේදය ආදිය පිළිබඳ විවිධ විස්තර අසා පුදුමයට පත් වූහ. ඉන් පසුව සිංඤෝ ගුරුතුමා සමඟ ආපනශාලාවට ගිය ඥානපාල කිලෝග්‍රෑමයේ ක්‍රීම්කැකර් බිස්කට් පෙට්ටියක් ද ක්‍රීම් සොඩා ද මිලදී ගෙන සියල්ලන්ටම බෙදා දුන්නේය.
+
+අනතුරුව ඉංග්‍රීසි ජාතික ග්‍රෙගරි ආණ්ඩුකාරවරයාගේ කාලයේ නිර්මාණය කළ කෞතුකාගාරයට ගියවිට එම ගොඩනැගිල්ලේ පෞරාණික බව තුලින් ඉස්මතු වූ ප්‍රෞඩත්වය නිසා ගෞරවනීය හැඟීම් සියලුදෙනාගේම චින්තාභ්‍යන්තරයේ  හට ගත්තේය. එහි ප්‍රදර්ශනය කර තිබූ වෘත්තරත්නාකාර කර්තෲන් විසින් රචිත සංස්කෘත ශ්ලෝකයක් ද අපහසුවෙන් සජ්ඣායනා කළහ.
+
+  “වා පාදාන්තේත් වසෙහු ග් වත්‍රෝ
+  ඥේයෝන්‍යෝ මාත්‍රිකෝලාජුඃ”
+ “ ප්‍රසුනතෟප්තිඃ දධතඃ ෂඩර්තවඃ
+  පුරේස්‍ය වාස්තව්‍ය තුටුම්බිතාං ගියුඃ”
+
+මිශ්‍ර සිංහල හොඩියේ එන ඍ, ඎ, ඏ, ඐ වැනි අක්ෂර නිවැරදිව උච්චාරණය කරන අන්දම ද ගුරුවරුන්ගෙන් අසා දැනගත්හ.
+එහිදී හමුවු  ස්පාඤ්ඤ ජාතිකයන් කිහිපදෙනෙකු සමඟ ඡායාරූපයකටද පෙනී සිටි අතර ක්‍ෂණිකවම තමන් අතට දුන් ඡායාරූප දෙස බලා විදේශිකයන්ගේ ප්‍රඥාව පිළිබඳ මවිත වූහ. එහිදී ආචාර්‍යවරයෙකුගේ උපදෙස් පරිදි තමන්ට ලබා දුන් ත්‍යාගයට ඛේමා නම් ශිෂ්‍යාව  “තැන්ක්‍යු” යැයි කීවාය.
+
+අවසානයේ ගෝතමී විහාරයට ගොස් එහි සිතුවම් කර තිබූ ත්‍රෛලෝක  නායක බුද්ධ ශාස්තෲන් දැක්වෙන බෞද්‍ධ චිත්‍රාවලියේ අද්‍විතීය  බව අගය කළහ. එසේම දෙව්දත් තෙරනුවන් තුළ වන ක්‍රෑර සහ රෞද්‍ර බවද බුදුන්ගේ මුහුණේ වන මෛත්‍රිය හා කුළුණුබර බව මූර්තිමත් කර තිබූ අකාරයද ප්‍රශංසාවට ලක් කළහ. පසුව රාත්‍රී දහයට පමණ නැවත ස්වකීය විද්‍යාලයට ළඟා වූයේ තම තමන් ලැබූ අත්දැකීම් සම්භාරය පිළිබඳ අමන්දාන්දයට පත්වෙමිනි.
+     </p-->>
+     
+ <!--    <p class='txt_2_col' style="text-align:right;">
+         
+         ރާއްޖޭގެ ބައެއް އަތޮޅުތަކުގައި ދައުލަތުގެ ވަކީލުން މަދުވުމުންނާއި ޕީޖީ އޮފީހުގެ ގޮފިތަށް ނެތުމުން ދަތިތަކާއި ކުރިމަތިވާތީ އަތޮޅުތަކުގެ އިސް މެޖިސްޓްރޭޓުންގެ ޝަކުވާ ޕްރޮސެކުއުޓަރު ޖެނެރަލް އާއިޝަތު ބިޝާމްއަށް ހުށަހަޅައިފި އެވެ.
+މިއަދު ހެނދުނު ފެށިގެން ކުރިއަށްދާ ފަނޑިޔާރުންގެ މަހާސިންތާގައި ޕީޖީ ބިޝާމް އާއެކު ކުރިއަށް ގެންދިޔަ ޝެޝަންގައި މެޖިސްޓްރޭޓުން ވަނީ ގިނަ ޝަކުވާތަކެއް ހުށަހަޚުއްވާފަ އެވެ. އޭގެތެރެއިންވެސް އެންމެ ގިނަ ބޭފުޅުން ޝަކުވާ ހުށަހަޅުއްވާފައިވަނީ ދައުލަތުގެ ވަކީލުންގެ ދަތިކަމާއި ގުޅިގެން މައްސަލަތައް ކުރިއަށް ގެންދިއުމަށް ދަތިވެ ލަސްތަކެއް ކުރިމަތިވަމުންދާ ކަމަށް މެޖިސްޓްރޭޓުން ވަނީ ވިދާޅުވެފަ އެވެ.
+މަހާސިންތާގައި ވާހަކަފުޅުދައްކަވަމުން ލ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް އަލީ ޝަރީފު ވިދާޅުވީ މައްސަލަތައް ކުރިއަށްދާއިރު ޕީޖީ ވަކީލުންގެ ދަތިތައް ކުރިމަތިވާ ކަމަށާއި އެހެންވެ މައްސަލަތައް ކުރިއަށް ގެންދިއުމުގައި ވަރަށް ބޮޑެތި ދަތިތަކާއި ކުރިމަތިލާން ޖެހޭ ކަމަށެވެ. އަދި ރަށްރަށުގައި ކުރިއަށްދާ މައްސަލަތަކަށް ޕީޖީގެ ވަކީލުން ކޯޓުތަކަށް ވަޑައިގަންނަވާއިރު ކުރިން އެކަން އަންގާދިނުމަށް ވެސް ޝަރީފު އެދިވަޑައިގެންނެވި 
+         
+         ވަކީލުން އެކަށީގެންވާ ވަރަށް އަތޮޅުތަކުގައި ނެތީމަ އަޅުގަނޑުމެންގެ މަސައްކަތުގެ ސުޕީޑް ދައްވާތީ އަޅުގަނޑު ހުށަހަޅަން އެންމެ މަދުވެގެން ޕީޖީގެ ދެ ވަކީލުން ތިއްބަވާގޮތަށް ހަމަޖައްސައި ދިނުމަށް. އަދި އެއަތޮޅެއްގައި ހިނގާ މައްސަލަތައް ވީހާވެސް އަވަހަށް ކޯޓުތަކަށް ހުށަހެޅޭނެގޮތެއް ހަމަޖައްސަައިދިނުމަށް އެދެން " ލ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް ވިދާޅުވި އެވެ.
+ރ. އަތޮޅުގައި ޕީޖީ އޮފީހުގެ ގޮތްޕެއް ހުޅުވާނެ ކަމުގެ ވާހަކަތަކެއް މީގެ ތިންމަސް ކުރިން ޕީޖީ ރ. އަތޮޅަށް ކުރެއްވި ދަތުރުފުޅުގައި ދެއްކެވިކަން ފާހަގަކުރައްވާ ރ. އަތޮޅު ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓޭޓް ވަނީ " އަތޮޅު ތެރޭގައި ޕީޖީ އޮފީހުގެ ގޮފިތަށް ގާއިމް ކުރުމަށް ކިހާވަރެއްގެ އިސްކަމެއް ދެއްވަންތޯ؟" އައްސަވާފަ އެވެ.
+         
+ރ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް ވިދާޅުވީ ދައުވާ އުފުލާފައިވާ ބައެއް ފަރާތްތަކީ އާމްދަނީ ހޯދުމުގެ ގޮތުން ރަށުން ބޭރުގައި ވަޒީފާއަދާކުރައްވާ ފަރާތްތައްކަމަށާއި ސިޓީ ފޮނުވައިގެން ވަކި ދުވަހަކަށް އެބޭފުޅުން ކޯޓަށް ހާޒިރުކުރާފަހުން ޝެޑިއުލް ބަދަލުކުރަން ވަކީލުން އެދިގެން ބަދަލުކުރަން ޖެހުމަކީވެސް ދިމާވާ ދަތިތަކެއް ކަމަށެވެ. އއ އަތޮޅާއި ކ އަތޮޅު ނޫން ހުރިހާ އަތޮޅަކުންވެސް ވަނީ ވަކީލުން މަދުވުން ދަތިތަކާއި ކުރިމަތިލާން 
+         ނުވަތަ ތިން ވަކީލުން ބެހެއްޓުމުގެ ވިސްނުން އެބަހުރި ކަމަށެވެ. މިހާރުވެސް ހަތް އަތޮޅެއްގައި ޕީޖީ އޮފީހުގެ ގޮފިތައް ގާއިމްކޮށްފައިވާކަން ފާހަގަކުރައްވާ ޕީޖީ ވިދާޅުވީ ގޮފިތައް ގާއިމު ކުރެވިފައިނުވާ އަތޮޅުތަކުގައި ގޮފިތައް ގާއިމް ކުރުމަށް މަސައްކަތް ކުރަމުންދާ ކަމަށެވެ.
+ނަމަވެސް އެމަސައްކަތަށް ދިމާވާ އެންމެ ބޮޑު ދަތިކަމަކީ ބަޖެޓުގެ ދަތިކަން ކަމަށް ބިޝާމް ވިދާޅުވި އެވެ.
+" ވިސްނުން އަޅުގަނޑުގެ ހުރީ އަޅުގަނޑުމެންގެ ގޮތްޕެއްގައި އެންމެ މަދުވެގެން ތިން ވަކީލުން ބޭތިއްބުމުގެ ވިސްނުން. މިހެން ދެންނެވިޔަސްވެސް ތިބޭފުޅުންނަށްވެސް އެނގިވަޑައިގަންނަވާނެ ބަޖެޓުގެ ދަތިކަން އަޅުގަނޑުމެންނަށްވެސް އެބަހުރި. ބަޖެޓުގެ ދަތިކަން ހުރީތީވެ ޑިލޭސްތަކެއްވެސް އެބައާދޭ އަޅުގަނޑުމެން ކުރަން ބޭނުންވާ މަސައްކަތްތައް އެ ބޭނުންވާ ސްޕީޑުގައި ކުރިއަށް ގެންގޮސް ތަންފީޒު ކުރުމަށްޓަކައި" ޕީޖީ ބިޝާމް ވިދާޅުވި އެވެ.
+         
+         ގާއިމްކުރުމުގެ ވިސްނުމެއް އެބަހުރި ކަމަށް ބިޝާމް ވަނީ ވިދާޅުވެފަ އެވެ. އެހެންވެއްޖެނަމަ ތިންމަސް ނުވަތަ ހަތަރުމަސްދުވަހު މައްސަލަތަކުގައި ދާ ވަކީލުންނަށް މަޑުކޮށްލައިގެން ތިބެވޭނެ އިންތިޒާމެއް ހަމަޖެހިގެންދާނެ ކަމަށް ބިޝާމް ވިދާޅުވި އެވެ.
+ކޯޓުން ޝެޑިއުލްކުރާ މައްސަލަތައް ބަދަލުކުރަން ވަކީލުން އެދުމަކީ ކަންކުރަންޖެހޭނެ ގޮތް ނޫންކަން ފާހަގަކޮށް ބިޝާމް ވިދާޅުވީ މީގެކުރިން އެފަދަމައްސަލައެއް ކުރިމަތިވެފައިނުވާ ކަމަށާއި ނަމަވެސް އެކަން އެގޮތަށް ވާނަމަ އެކަން ހުޓުވުމަށް މަސައްކަތްކުރައްވާނެ ކަމަށެވެ.
+އޭގެއިތުރުންވެސް ގިނަ ކަންބޮޑުވުންތަކެއް ޕީޖީގެ ފަރާތުންވެސް އަދި މެޖިސްޓްރޭޓުންގެ ފަރާތުންވެސް ވަނީ ހިއްސާކުރައްވާފަ އެވެ. އެއްދުވަހުގެ މުއްދަތަކަށް ކުރިއަށް ގެންދާ އެ މަހާސިންތާ ނިންމުމަށް ހަމަޖެހިފައިވަނީ މިއަދު 
+         
+         <span style="font-family:'mv-faseyah';">
+         
+           ރާއްޖޭގެ ބައެއް އަތޮޅުތަކުގައި ދައުލަތުގެ ވަކީލުން މަދުވުމުންނާއި ޕީޖީ އޮފީހުގެ ގޮފިތަށް ނެތުމުން ދަތިތަކާއި ކުރިމަތިވާތީ އަތޮޅުތަކުގެ އިސް މެޖިސްޓްރޭޓުންގެ ޝަކުވާ ޕްރޮސެކުއުޓަރު ޖެނެރަލް އާއިޝަތު ބިޝާމްއަށް ހުށަހަޅައިފި އެވެ.
+މިއަދު ހެނދުނު ފެށިގެން ކުރިއަށްދާ ފަނޑިޔާރުންގެ މަހާސިންތާގައި ޕީޖީ ބިޝާމް އާއެކު ކުރިއަށް ގެންދިޔަ ޝެޝަންގައި މެޖިސްޓްރޭޓުން ވަނީ ގިނަ ޝަކުވާތަކެއް ހުށަހަޚުއްވާފަ އެވެ. އޭގެތެރެއިންވެސް އެންމެ ގިނަ ބޭފުޅުން ޝަކުވާ ހުށަހަޅުއްވާފައިވަނީ ދައުލަތުގެ ވަކީލުންގެ ދަތިކަމާއި ގުޅިގެން މައްސަލަތައް ކުރިއަށް ގެންދިއުމަށް ދަތިވެ ލަސްތަކެއް ކުރިމަތިވަމުންދާ ކަމަށް މެޖިސްޓްރޭޓުން ވަނީ ވިދާޅުވެފަ އެވެ.
+މަހާސިންތާގައި ވާހަކަފުޅުދައްކަވަމުން ލ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް އަލީ ޝަރީފު ވިދާޅުވީ މައްސަލަތައް ކުރިއަށްދާއިރު ޕީޖީ ވަކީލުންގެ ދަތިތައް ކުރިމަތިވާ ކަމަށާއި އެހެންވެ މައްސަލަތައް ކުރިއަށް ގެންދިއުމުގައި ވަރަށް ބޮޑެތި ދަތިތަކާއި ކުރިމަތިލާން ޖެހޭ ކަމަށެވެ. އަދި ރަށްރަށުގައި ކުރިއަށްދާ މައްސަލަތަކަށް ޕީޖީގެ ވަކީލުން ކޯޓުތަކަށް ވަޑައިގަންނަވާއިރު ކުރިން އެކަން އަންގާދިނުމަށް ވެސް ޝަރީފު އެދިވަޑައިގެންނެވި 
+         
+         ވަކީލުން އެކަށީގެންވާ ވަރަށް އަތޮޅުތަކުގައި ނެތީމަ އަޅުގަނޑުމެންގެ މަސައްކަތުގެ ސުޕީޑް ދައްވާތީ އަޅުގަނޑު ހުށަހަޅަން އެންމެ މަދުވެގެން ޕީޖީގެ ދެ ވަކީލުން ތިއްބަވާގޮތަށް ހަމަޖައްސައި ދިނުމަށް. އަދި އެއަތޮޅެއްގައި ހިނގާ މައްސަލަތައް ވީހާވެސް އަވަހަށް ކޯޓުތަކަށް ހުށަހެޅޭނެގޮތެއް ހަމަޖައްސަައިދިނުމަށް އެދެން " ލ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް ވިދާޅުވި އެވެ.
+ރ. އަތޮޅުގައި ޕީޖީ އޮފީހުގެ ގޮތްޕެއް ހުޅުވާނެ ކަމުގެ ވާހަކަތަކެއް މީގެ ތިންމަސް ކުރިން ޕީޖީ ރ. އަތޮޅަށް ކުރެއްވި ދަތުރުފުޅުގައި ދެއްކެވިކަން ފާހަގަކުރައްވާ ރ. އަތޮޅު ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓޭޓް ވަނީ " އަތޮޅު ތެރޭގައި ޕީޖީ އޮފީހުގެ ގޮފިތަށް ގާއިމް ކުރުމަށް ކިހާވަރެއްގެ އިސްކަމެއް ދެއްވަންތޯ؟" އައްސަވާފަ އެވެ.
+         
+ރ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް ވިދާޅުވީ ދައުވާ އުފުލާފައިވާ ބައެއް ފަރާތްތަކީ އާމްދަނީ ހޯދުމުގެ ގޮތުން ރަށުން ބޭރުގައި ވަޒީފާއަދާކުރައްވާ ފަރާތްތައްކަމަށާއި ސިޓީ ފޮނުވައިގެން ވަކި ދުވަހަކަށް އެބޭފުޅުން ކޯޓަށް ހާޒިރުކުރާފަހުން ޝެޑިއުލް ބަދަލުކުރަން ވަކީލުން އެދިގެން ބަދަލުކުރަން ޖެހުމަކީވެސް ދިމާވާ ދަތިތަކެއް ކަމަށެވެ. އއ އަތޮޅާއި ކ އަތޮޅު ނޫން ހުރިހާ އަތޮޅަކުންވެސް ވަނީ ވަކީލުން މަދުވުން ދަތިތަކާއި ކުރިމަތިލާން 
+         ނުވަތަ ތިން ވަކީލުން ބެހެއްޓުމުގެ ވިސްނުން އެބަހުރި ކަމަށެވެ. މިހާރުވެސް ހަތް އަތޮޅެއްގައި ޕީޖީ އޮފީހުގެ ގޮފިތައް ގާއިމްކޮށްފައިވާކަން ފާހަގަކުރައްވާ ޕީޖީ ވިދާޅުވީ ގޮފިތައް ގާއިމު ކުރެވިފައިނުވާ އަތޮޅުތަކުގައި ގޮފިތައް ގާއިމް ކުރުމަށް މަސައްކަތް ކުރަމުންދާ ކަމަށެވެ.
+ނަމަވެސް އެމަސައްކަތަށް ދިމާވާ އެންމެ ބޮޑު ދަތިކަމަކީ ބަޖެޓުގެ ދަތިކަން ކަމަށް ބިޝާމް ވިދާޅުވި އެވެ.
+" ވިސްނުން އަޅުގަނޑުގެ ހުރީ އަޅުގަނޑުމެންގެ ގޮތްޕެއްގައި އެންމެ މަދުވެގެން ތިން ވަކީލުން ބޭތިއްބުމުގެ ވިސްނުން. މިހެން ދެންނެވިޔަސްވެސް ތިބޭފުޅުންނަށްވެސް އެނގިވަޑައިގަންނަވާނެ ބަޖެޓުގެ ދަތިކަން އަޅުގަނޑުމެންނަށްވެސް އެބަހުރި. ބަޖެޓުގެ ދަތިކަން ހުރީތީވެ ޑިލޭސްތަކެއްވެސް އެބައާދޭ އަޅުގަނޑުމެން ކުރަން ބޭނުންވާ މަސައްކަތްތައް އެ ބޭނުންވާ ސްޕީޑުގައި ކުރިއަށް ގެންގޮސް ތަންފީޒު ކުރުމަށްޓަކައި" ޕީޖީ ބިޝާމް ވިދާޅުވި އެވެ.
+         
+         ގާއިމްކުރުމުގެ ވިސްނުމެއް އެބަހުރި ކަމަށް ބިޝާމް ވަނީ ވިދާޅުވެފަ އެވެ. އެހެންވެއްޖެނަމަ ތިންމަސް ނުވަތަ ހަތަރުމަސްދުވަހު މައްސަލަތަކުގައި ދާ ވަކީލުންނަށް މަޑުކޮށްލައިގެން ތިބެވޭނެ އިންތިޒާމެއް ހަމަޖެހިގެންދާނެ ކަމަށް ބިޝާމް ވިދާޅުވި އެވެ.
+ކޯޓުން ޝެޑިއުލްކުރާ މައްސަލަތައް ބަދަލުކުރަން ވަކީލުން އެދުމަކީ ކަންކުރަންޖެހޭނެ ގޮތް ނޫންކަން ފާހަގަކޮށް ބިޝާމް ވިދާޅުވީ މީގެކުރިން އެފަދަމައްސަލައެއް ކުރިމަތިވެފައިނުވާ ކަމަށާއި ނަމަވެސް އެކަން އެގޮތަށް ވާނަމަ އެކަން ހުޓުވުމަށް މަސައްކަތްކުރައްވާނެ ކަމަށެވެ.
+އޭގެއިތުރުންވެސް ގިނަ ކަންބޮޑުވުންތަކެއް ޕީޖީގެ ފަރާތުންވެސް އަދި މެޖިސްޓްރޭޓުންގެ ފަރާތުންވެސް ވަނީ ހިއްސާކުރައްވާފަ އެވެ. އެއްދުވަހުގެ މުއްދަތަކަށް ކުރިއަށް ގެންދާ އެ މަހާސިންތާ ނިންމުމަށް ހަމަޖެހިފައިވަނީ މިއަދު 
+         
+         
+         </span>
+         
+         
+     </p>-->
+<!--    <p class='txt_2_col'>   
+        Archäologische Funde aus der frühen Steinzeit auf Kreta stellen womöglich die bisherige Besiedlungsgeschichte Europas infrage. Lange Zeit gingen Forscher davon aus, dass die Insel, auf der die erste europäische Hochkultur entstand, erst um etwa 6000 vor Christus besiedelt wurde. Doch ein Langzeitprojekt um die Spezialisten Curtis Runnels von der Boston University und Thomas Strasser vom Providence College kommt zu neuen Ergebnissen. Bei Ausgrabungen an der Südküste Kretas entdeckten die Archäologen Steinwerkzeuge aus der Mittelsteinzeit und der Altsteinzeit, die mehr als 130 000 Jahre alt sind. Zahlreiche Thesen über den Mittelmeerraum und die Menschheitsgeschichte müssten damit umformuliert werden, glauben die Wissenschaftler.
+	Da Kreta seit mehr als drei Millionen Jahren vom Festland getrennt ist, könnten die Menschen, die diese Werkzeuge benutzten, über das Meer gekommen sein. Dies galt bisher in dieser frühen Phase der Menschheit, vor dem Auftreten des modernen Menschen in Europa, als unmöglich. Allgemein wird angenommen, dass der moderne Mensch frühestens vor 130 000 Jahren erstmals Afrika Richtung Europa verlassen hat. Den Vorgängern von Homo sapiens hätten aber die intellektuellen Kapazitäten und das Geschick für solch waghalsige Überfahrten gefehlt, hieß es. Anthropologen gingen vielmehr davon aus, dass Frühmenschen wie Homo erectus über den Landweg nach Europa eingewandert sind, erstmals vor mehr als 1,5 Millionen Jahren. Mit den neuen Funden rückt der Seeweg als mögliche Option in den Vordergrund. Auch von anderen Mittelmeerinseln gibt es Funde aus der frühen Steinzeit, die bislang nicht recht ins Bild passten. In einem Artikel in der Fachzeitschrift Antiquity werten Runnels und Strasser jetzt einen bereits 1992 gefundenen Faustkeil aus Zypern als Hinweis auf altsteinzeitliche menschliche Präsenz auf der Insel.
+	Der stärkste Hinweis auf frühe Seefahrer stammt aus Plakias an der Südküste Kretas. Mehr als 2000 Steinwerkzeuge haben die Archäologen dort gefunden. Anhand der geologischen Schichten, in denen sie steckten, lässt sich bestimmen, dass sie älter sein müssen als 130 000 Jahre - die ältesten vielleicht sogar 1,5 Millionen Jahre. Zwar lag der Meeresspiegel innerhalb dieser Zeitspanne teilweise niedriger als heute. Doch eine Landbrücke gab es zu keiner Zeit. Die Menschen, die diese Werkzeuge benutzten, müssen also über das Meer gekommen sein, vermutlich von der Küste des heutigen Libyen aus. Gab es schon während der Steinzeit Handel zwischen den Inseln? ANZEIGE<i>
+	Inzwischen hat Runnels auch an der Nordküste Kretas ähnliche Funde gemacht wie an der Südküste. Brachen Menschen von hier aus auf in den Norden, zum europäischen Festland? Denkbar ist allerdings auch die umgekehrte Richtung: Die Steinzeitmenschen könnten vom griechischen oder türkischen Festland aus die Inseln erkundet haben. Noch lässt sich zudem nicht sagen, wie dauerhaft die Aufenthalte auf Kreta waren, möglicherweise waren es eher kurze Jagdausflüge statt Besiedlungsversuche.</i>
+	Die Funde könnten zudem helfen zu erklären, warum zahlreiche Tiere auf Kreta ausgestorben sind. Auf der Insel lebten hunderttausende Jahre lang Riesenhirsche, Zwergelefanten, Nilpferde von der Größe eines Schweins und Kreta-Zwergmammuts, die kleinste bekannte Mammutart. Nach und nach starben die originellen Tiere aus. Eine Theorie dafür ist, dass es an dem Klimaumschwung gelegen haben könnte, der vor 18 000 Jahren Teile der Insel vergletschern ließ. Die steinzeitlichen Werkzeuge könnten jedoch ein Argument dafür sein, dass der Mensch seinen Teil zum Niedergang der Arten beitrug - entweder durch ausschweifende Jagdzüge innerhalb kurzer Zeit oder die Zerstörung des Lebensraums über viele Jahrhunderte hinweg. Im säurehaltigen Boden in Plakias haben sich keine Knochen erhalten. Die Forscher hoffen jedoch, dass Pollenanalysen Aufschluss darüber geben können, wie die Menschen damals mit ihrer Umwelt interagierten. Die Archäologen wollen auch Felsritzungen in der Höhle von Asphendou in den kretischen Bergen genauer untersuchen. “Bei einigen Bildern, die ich gesehen habe, könnte es sich um Zwerghirsche der Art Candiacervus handeln”, sagt Strasser.
+	Die ältesten Werkzeuge, darunter Faustkeile und sogenannte Kratzer, bestehen aus einheimischen Quartz. Ab 9000 vor Christus, als die Werkzeuge kleiner wurden und bereits Homo sapiens die Welt beherrschte, kam auch lokaler Feuerstein zum Einsatz - und Obsidian, wie die Ausgrabung einer mesolithischen Fundstelle zeigt. Dieses vulkanische Glas kommt auf Kreta nicht vor, sehr wahrscheinlich stammt es von der Nachbarinsel Milos. “Das zeigt, dass die Menschen auf Kreta Teil eines riesigen Handelsnetzwerkes in der Ägäis waren”, vermutet Strasser. Der Handel müsste sich per Schiff abgespielt haben - was bei einer Entfernung von mehr als 100 Kilometern ein ziemliches Abenteuer gewesen sein dürfte.
+        Archäologische Funde aus der frühen Steinzeit auf Kreta stellen womöglich die bisherige Besiedlungsgeschichte Europas infrage. Lange Zeit gingen Forscher davon aus, dass die Insel, auf der die erste europäische Hochkultur entstand, erst um etwa 6000 vor Christus besiedelt wurde. Doch ein Langzeitprojekt um die Spezialisten Curtis Runnels von der Boston University und Thomas Strasser vom Providence College kommt <span class="smcp">ZUNUEN NAH</span> Ergebnissen. Bei Ausgrabungen an der Südküste Kretas entdeckten die Archäologen Steinwerkzeuge aus der Mittelsteinzeit und der Altsteinzeit, die mehr als 130 000 Jahre alt sind. Zahlreiche Thesen über den Mittelmeerraum und die Menschheitsgeschichte müssten damit umformuliert werden, glauben die Wissenschaftler.
+        Da Kreta seit mehr als drei Millionen Jahren vom Festland getrennt ist, könnten die Menschen, die diese Werkzeuge benutzten, über das Meer gekommen sein. Dies galt bisher in dieser frühen Phase der<span class="smcp"> DABBA KO</span>, vor dem Auftreten des modernen Menschen in Europa, als unmöglich. Allgemein wird angenommen, dass der moderne Mensch frühestens vor 130 000 Jahren erstmals Afrika Richtung Europa verlassen hat. Den Vorgängern von Homo sapiens hätten aber die intellektuellen Kapazitäten und das Geschick für solch waghalsige Überfahrten gefehlt, hieß es. Anthropologen <span class="smcp">GINEGN</span> vielmehr davon aus, dass Frühmenschen wie Homo erectus über den Landweg nach Europa eingewandert sind, erstmals vor mehr als 1,5 Millionen Jahren. Mit den neuen Funden rückt der Seeweg als mögliche Option in den Vordergrund. Auch von anderen Mittelmeerinseln gibt es Funde aus der frühen Steinzeit, die bislang nicht recht ins Bild passten. In einem Artikel in der Fachzeitschrift Antiquity werten Runnels und Strasser jetzt einen bereits 1992 gefundenen Faustkeil aus Zypern als Hinweis auf altsteinzeitliche menschliche Präsenz auf der Insel.
+     </p>
+        <p class='txt_3_col'>
+	Der stärkste Hinweis auf frühe Seefahrer stammt aus Plakias an der Südküste Kretas. Mehr als 2000 Steinwerkzeuge haben die Archäologen dort gefunden. Anhand der geologischen Schichten, in denen sie steckten, lässt sich bestimmen, dass sie älter sein müssen als 130 000 Jahre - die ältesten vielleicht sogar 1,5 Millionen Jahre. Zwar lag der Meeresspiegel innerhalb dieser Zeitspanne teilweise niedriger als heute. Doch eine Landbrücke gab es zu keiner Zeit. Die Menschen, die diese Werkzeuge benutzten, müssen also über das Meer gekommen sein, vermutlich von der Küste des heutigen Libyen aus. Gab es schon während der Steinzeit Handel zwischen den Inseln? ANZEIGE<i>
+	Inzwischen hat Runnels auch an der Nordküste Kretas ähnliche Funde gemacht wie an der Südküste. Brachen Menschen von hier aus auf in den Norden, zum europäischen Festland? Denkbar ist allerdings auch die umgekehrte Richtung: Die Steinzeitmenschen könnten vom griechischen oder türkischen Festland aus die Inseln erkundet haben. Noch lässt sich zudem nicht sagen, wie dauerhaft die Aufenthalte auf Kreta waren, möglicherweise waren es eher kurze Jagdausflüge statt Besiedlungsversuche.</i>
+	Die Funde könnten zudem helfen zu erklären, warum zahlreiche Tiere auf Kreta ausgestorben sind. Auf der Insel lebten hunderttausende Jahre lang Riesenhirsche, Zwergelefanten, Nilpferde von der Größe eines Schweins und Kreta-Zwergmammuts, die kleinste bekannte Mammutart. Nach und nach starben die originellen Tiere aus. Eine Theorie dafür ist, dass es an dem Klimaumschwung gelegen haben könnte, der vor 18 000 Jahren Teile der Insel vergletschern ließ. Die steinzeitlichen Werkzeuge könnten jedoch ein Argument dafür sein, dass der Mensch seinen Teil zum Niedergang der Arten beitrug - entweder durch ausschweifende Jagdzüge innerhalb kurzer Zeit oder die Zerstörung des Lebensraums über viele Jahrhunderte hinweg. Im säurehaltigen Boden in Plakias haben sich keine Knochen erhalten. Die Forscher hoffen jedoch, dass Pollenanalysen Aufschluss darüber geben können, wie die Menschen damals mit ihrer Umwelt interagierten. Die Archäologen wollen auch  Archäologische Funde aus der frühen Steinzeit auf Kreta stellen womöglich die bisherige Besiedlungsgeschichte Europas infrage. Lange Zeit gingen Forscher davon aus, dass die Insel, auf der die erste europäische Hochkultur entstand, erst um etwa 6000 vor Christus besiedelt wurde. Doch ein Langzeitprojekt um die Spezialisten Curtis Runnels von der Boston University und Thomas Strasser vom Providence College kommt <span class="smcp">ZUNUEN NAH</span> Ergebnissen. Bei Ausgrabungen an der Südküste Kretas entdeckten die Archäologen Steinwerkzeuge aus der Mittelsteinzeit und der Altsteinzeit, die mehr als 130 000 Jahre alt sind. Zahlreiche Thesen über den Mittelmeerraum und die Menschheitsgeschichte müssten damit umformuliert werden, glauben die Wissenschaftler.
+            އްޖޭގެ ބައެއް އަތޮޅުތަކުގައި ދައުލަތުގެ ވަކީލުން މަދުވުމުންނާއި ޕީޖީ އޮފީހުގެ ގޮފިތަށް ނެތުމުން ދަތިތަކާއި ކުރިމަތިވާތީ އަތޮޅުތަކުގެ އިސް މެޖިސްޓްރޭޓުންގެ ޝަކުވާ ޕްރޮސެކުއުޓަރު ޖެނެރަލް އާއިޝަތު ބިޝާމްއަށް ހުށަހަޅައިފި އެވެ.
+މިއަދު ހެނދުނު ފެށިގެން ކުރިއަށްދާ ފަނޑިޔާރުންގެ މަހާސިންތާގައި ޕީޖީ ބިޝާމް އާއެކު ކުރިއަށް ގެންދިޔަ ޝެޝަންގައި މެޖިސްޓްރޭޓުން ވަނީ ގިނަ ޝަކުވާތަކެއް ހުށަހަޚުއްވާފަ އެވެ. އޭގެތެރެއިންވެސް އެންމެ ގިނަ ބޭފުޅުން ޝަކުވާ ހުށަހަޅުއްވާފައިވަނީ ދައުލަތުގެ ވަކީލުންގެ ދަތިކަމާއި ގުޅިގެން މައްސަލަތައް ކުރިއަށް ގެންދިއުމަށް ދަތިވެ ލަސްތަކެއް ކުރިމަތިވަމުންދާ ކަމަށް މެޖިސްޓްރޭޓުން ވަނީ ވިދާޅުވެފަ އެވެ.
+މަހާސިންތާގައި ވާހަކަފުޅުދައްކަވަމުން ލ. ޖުޑިޝަލް ދާއިރާގެ އިސް މެޖިސްޓްރޭޓް އަލީ ޝަރީފު ވިދާޅުވީ މައްސަލަތައް ކުރިއަށްދާއިރު ޕީޖީ ވަކީލުންގެ ދަތިތައް ކުރިމަތިވާ ކަމަށާއި އެހެންވެ މައްސަލަތައް ކުރިއަށް ގެންދިއުމުގައި ވަރަށް ބޮޑެތި ދަތިތަކާއި ކުރިމަތިލާން ޖެހޭ ކަމަށެވެ. އަދި ރަށްރަށުގައި ކުރިއަށްދާ މައްސަލަތަކަށް ޕީޖީގެ ވަކީލުން ކޯޓުތަކަށް ވަޑައިގަންނަވާއިރު ކުރިން އެކަން އަންގާދިނުމަށް ވެސް ޝަރީފު އެދިވަޑައިގެންނެވި 
+        Da Kreta seit mehr als drei Millionen Jahren vom Festland getrennt ist, könnten die Menschen, die diese Werkzeuge benutzten, über das Meer gekommen sein. Dies galt bisher in dieser frühen Phase der<span class="smcp"> DABBA KO</span>, vor dem Auftreten des modernen Menschen in Europa, als unmöglich. Allgemein wird angenommen, dass der moderne Mensch frühestens vor 130 000 Jahren erstmals Afrika Richtung Europa verlassen hat. Den Vorgängern von Homo sapiens hätten aber die intellektuellen Kapazitäten und das Geschick für solch waghalsige Überfahrten gefehlt, hieß es. Anthropologen <span class="smcp">GINEGN</span>Felsritzungen in der Höhle von Asphendou in den kretischen Bergen genauer untersuchen. “Bei einigen Bildern, die ich gesehen habe, könnte es sich um Zwerghirsche der Art Candiacervus handeln”, sagt Strasser.
+	Die ältesten Werkzeuge, darunter Faustkeile und sogenannte Kratzer, bestehen aus einheimischen Quartz. Ab 9000 vor Christus, als die Werkzeuge kleiner wurden und bereits Homo sapiens die Welt beherrschte, kam auch lokaler Feuerstein zum Einsatz - und Obsidian, wie die Ausgrabung einer mesolithischen Fundstelle zeigt. Dieses vulkanische Glas kommt auf Kreta nicht vor, sehr wahrscheinlich stammt es von der Nachbarinsel Milos. “Das zeigt, dass die Menschen auf Kreta Teil eines riesigen Handelsnetzwerkes in der Ägäis waren”, vermutet Strasser. Der Handel müsste sich per Schiff abgespielt haben - was bei einer Entfernung von mehr als 100 Kilometern ein ziemliches Abenteuer gewesen sein dürfte.
+    </p>-->     
+        </i>
+     </p>
+<p><b>Archäologische Funde aus der frühen Steinzeit auf Kreta stellen </b></p>
+        <p class='txt_2_col'>
+            ශ්‍රීලාංකේය ජනමාධ්‍ය ක්‍ෂේත්‍රයේ, වෙසෙසි ව සාම්ප්‍රදායික සිංහල පුවත්පත් කලාවේ, එක් යුගයක අවසානය නිසැකව ම සටහන් වී තිබේ.
+
+සැබෑවට ම නම් මේ යුගය නිහඬ අවසානයක් සනිටුහන් කළේ මෙයින් දශකයකට එකහමාරකටත් එපිටහකදී ය. විසි එක්වැනි සියවස ඇරැඹෙන ආසන්නයේදී ම වාගේ ය. එහෙත් ඒ යුගය අවරට ගියායින් පසුවත් අතු ඉති හැකි පමණින් වනා සිය ඔදතෙද පෑ, ඒ ඓතිහාසික යුගයෙන් පැවත ආ සංකේතමය මහ වෘක්ෂයක් බඳු එකලා මිනිසා ඇදවැටුණේ අදින් වසරකට ඉහතිනි.
+
+ඒ තමන් නියෝජනය කළ පුවත්පත් කලා යුගයේ කල් ඉකුත් වූ මරණය ද නිල වශයෙන් ප්‍රකාශයට පත්කර, එමතුයෙහි අවසන් මුද්‍රාව ද හොවමිනි.
+
+ඒ ඇදවැටුණු මහ රුක අනෙකකු නොව, මෙයින් වසරකට පෙර, එනම් 2015 අප්‍රේල් 21 වැනිදා මෙලොවින් සමුගත් පත්‍රකලාවේදී යුග පුරුෂයකු වූ, ඩී එෆ් කාරියකරවන ය.
+
+ඔහු ගේ මරණය විසින් නිල වශයෙන් අවසානය නිවේදනය කරන්නට යෙදුණු ඒ සාම්ප්‍රදායික සිංහල පත්තර යුගයේ, නැතිනම් ඊනියා 'ජාතික පුවත්පත්' මුල්කොටගත් පත්‍රකලා යුගයේ විශේෂතා කවරේද?
+
+මගේ පරම්පරාවේ බහුතරයක් ජනමාධ්‍ය වෘත්තියට හෙවත් පත්තර රස්සාවට පැමිණි ‘90 දශකය මුල් භාගය මෙකියන ඓතිහාසික යුගය මන්දගාමී අවසානයක් එනතුරු මරණ මංචකයේ වැදහොත් සමය යයි මම සිතමි. එනයින් අප ද ඒ යුගයේ සර්ව සම්පූර්ණ කොටස්කාරයන් නො වන්නාහු මුත්, එහි රුවගුණ යම් තරමකට හෝ විඳගත් අවසාන පරපුර අපය'යි කීමට මම කැමැති වෙමි.
+
+එය දේශපාලනිකව පරිණත, ප්‍රගතිශීලී දෘෂ්ටිවාදයක් හෝ එවැන්නකින් පණපෙවුණු තියුණු ජනමාධ්‍ය පන්නරයක් සහිත යුගයක් නොවී ය. ඒ වෙනුවට එය හැකි හැම විට ම පවත්නා බලාධිකාරයන්ට එරෙහිව නො යමින්, ඊට අනුකූල, හීලෑ ප්‍රතිපදාවක් දක්වන්නට වෑයම් කළ සම්මුතිවාදී යුගයකි. ඒ යුගයේ අතිප්‍රධාන ලක්ෂණයක් නම් භාෂාමය නිවැරැදිභාවය කෙරේ වූ කැපවීම යි. එහෙත් හුදු බස්වඩුවන් වනවා වෙනුවට බස යනු විකාසනයක් සහිත නිර්මාණශීලී උපකරණයකැ'යි එහි ප්‍රමුඛ නියමුවන් අතලොස්සවත් ඇදහූ බවට ලිඛිත සාක්ෂ්‍ය තිබේ.
+
+<b>භාෂා ඥාණය</b>
+
+භාෂා නිරවද්‍යතාව හා අත්වැල් බැඳගත් කරුණුමය නිවැරැදි භාවය පැතීම, දැඩි විවාදාපන්න කාරණා වරින් වර පැනනැගුණු විකල්ප පුවත්පත් දහරාවට පවරා ඇස කණ පියාගෙන සිටීම, සරල සුගම සන්නිවේදන විලාසයට නතුවීම, සාම්ප්‍රදායික ආචාරධර්මයන් කෙරේ බය පක්ෂපාතීත්වය, ගතානුගතික පුවත්පත් සාරධර්ම කෙරේ පූර්ණානුකූලත්වය හා සාම්ප්‍රදායික පුවත්පත් කලාවේ මහේශාඛ්‍ය බව කෙරේ වූ අත්‍යන්ත අනුරාගය ආදිය එහි අනෙකුත් ප්‍රධාන අංග ලක්ෂණයෝ වූහ'යි සිතමි. රැඩිකල් කැරලිගැසීම් වෙනුවට කතුවැකිය අතින් ලියා අච්චු ගැස්සවීම වැනි සාම්ප්‍රදායික රාමුව තුළ දියත් වූ 'පෙරළිකාරකම්' ගැන ඒ යුගය හා අනුරාගයෙන් බැඳුණෝ අදටත් උදම් අනනු ඉඳහිට ඇසේ. එබඳු පෙරළිකාරකම්වල මුලට ම ඈඳුණු නමකි, 'කාරියකරවන.'
+
+කර්මාන්තයක් වශයෙන් ජනමාධ්‍යයේ සාතිශය පුළුල්වීම, වේගයෙන් නැඟ ආ විද්‍යුත් මාධ්‍යවල ආධිපත්‍යය සේම පරිගණක තාක්ෂණයේ ආක්‍රමණය, අන්තර්ජාල සන්නිවේදනයේ නැඟීම ආදී සැඩපහරවල් එකිනෙක කඩාවදිද්දී මේ සාම්ප්‍රදායික පත්තර යුගයේ මළගම ක්‍රමිකව සටහන් වීම අනිවාර්යයක් වූ සේ ය. එවැනි යුගයක් අපේ මතක නිම්වළල්ලට මෙපිටහින් ම පැවැති බව අපට නිරන්තර මෙනෙහි කරදුන් මහ බලකණුවක් බඳු මිනිසා ඇදවැටීමෙන් පසු, ඒ යුගය මිහිදන් වී අවසන් බව සැකහැර අපට කියන්නට පිළිවන.
+<i
+ඒ ඓතිහාසික යුගයේ අවරගිරෙන් අනතුරුව බිහිවූ අලුත් යුගයේ, පුවත්පත් කලාවෙන් හැලීයන පුරුෂාර්ථ සුන්බුන්වලින් යමක් යළි පමණකට හෝ ස්ථාපිත කරවීමට වැරවැඩූ ප්‍රමුඛතමයා ද කාරියකරවනයෝ ම වූහ. ඒ කාරියට ඔහු අතගැසූයේ අර යුගය මැරී හමාර බව ඔහු ම පිරිසිඳ දැනගත්තාට පසුව වන්නට බොහෝකොට ඉඩ ඇත.
+
+නිසැකව ම මියගොස් හමාර අතීත යුගයකින් තමන් කරා එන නශ්ඨාවශේෂ පුරුෂාර්ථයන්ට සොල්මන් අවතාරවලට තරමට ම බිය වූයේ ද අපට වඩා ඈතක සිට ඒ අතීත යුගය පියමැන ආ, ඒ යුගයේ වෙසෙද්දී ඒ සාරාර්ථ හිස්මුදුන්හි වඩම්මාගෙන ගියවුන් වීම දෛවෝපගත ය.
+
+වසර ගණනාවක් තිස්සේ ඔහු ලියමින් ආ ලිපි පෙළක් වූයේ පුවත්පත්වල එදිනෙදා සිදුවන භාෂා වැරැදි පෙන්වා ඒවායේ නිවැරැදි භාෂා රීතීන් සරල සුගම අයුරකින් දක්වන තීරුවකි. මුලින් ඔහු මෙම තීරුව ලීවේ 'අසවල් දින අසවල් පුවත්පතේ අසවල් පිටුවේ අසවල් පුවතේ/ලිපියේ වූ අසවල් දොස' ආදී වශයෙන් නිශ්චිත වගවාසගම් සමඟිනි. එහෙත් විශේෂයෙන් පුවත්පත්වල සහාය සංස්කාරක මණ්ඩලවල සිටියෝ - ඇතැම් විට අර යුගය පියමැන ආ ඔහුගේ ම ගෝලයන් වූ පිරිස් - මෙම තීරුවට බෙහෙවින් බියවූහ. ඔවුන් කළේ කාරියකරවනයන්ගෙන් යළිත් වතාවක් උගෙන වරද නිවරද කරගැනීම නොව වැරැදි දැක්වීම එසේ නිශ්චිත පුවත් හුවාදක්වමින් කරන්නට ඉඩනොදෙන්නැ'යි එම තීරුලිපි පලවන පුවත්පත්වල කතුවරුන්ට කනිපින්දම් ගෑම ය.
+
+පුවත්පත් කතුවරුන් කළේ සිය පුවත්පත් නිදොස් බසට හැරවීමේ අමාරු කාර්යයට වඩා සංස්කාරක ඉල්ලීම් අනුයමින්, භාෂාමය වැරැදි සිදුවූ තැනක් පිළිබඳ වගවාසගම් නො සපයා තීරුව ලියන්නැ'යි කාරියකරවනයන්ගෙන් ඉල්ලා සිටීම ය. මේ කතුවරුන් වැඩිදෙනෙක් කලෙක ඔහුගේ ම ගෝලයන් වීම උත්ප්‍රාසාත්මක ය. ඒ අනුව කාරියකරවනයන් ගේ <i>'බස් නිදොස්'</i> තීරුව ජනමාධ්‍යකරණයේ නියැලි කිසිවකුත් සදොස් බස් නිදොස් කරගන්නා පාඩමක් කරගත්තේ නැත. ඒ වෙනුවට එය හුදෙක් පත්තරවල විවිධාංගීකරණයට යොදන කටගැස්මක, කලඑළියට එල්ලන ආභරණයක තැනට පත්වී තිබිණැ'යි සංවේගයෙන් වුව කියන්නට සිදුවේ. තමන් විසින් ම පලකරන දෙයෙහි සාරය තමන් තුළ ම අස්තංගත කරගැනීමේ විරුද්ධාභාසය තමන් ගේ අජානේය ලක්ෂණයක් බව මිහිදන් යුගයේ පත්‍රකලා දෑවැන්තයකු වූ කාරියකරවනයන් ම සාක්කියට තබාගෙන කියාපාන්නට තරම් මේ නව ජනමාධ්‍ය යුගය සූක්ෂම වීම සිත් වසඟකරවන සුළු රූපකයකි.
+         
+         </p>
+
+         <p class='txt_3_col'>
+         උචුටුඨුඩුඪුඬුඛුඞුඵුබුමුඹුථුධුවුපුෂුඡුජුඦුසුඝුෆුයුණුභුහුඣුකුතුනුගුඟුශුදුඳුඤුඥුලුරුළු
+
+         බුර්ෂුවා අපේක්ෂාවන්ට අනුව ජීවත්වීම ජීවිතයයැයි වරදවා වටහාගැනීම මගින් අපෞද්ගලිකත්වයට පත්ව පරාරෝපිතයකු වී සිටින මිනිසුන්ගේ ජීවිතවල විකාරය පරිහාසයට ලක්කිරීම ඉයුජින් අයෙනෙස්කෝ ඇතුළු විකාරරූපී නාට්‍ය සම්ප‍්‍රදායේ නිර්මාණකරුවන්ගේ නාට්‍ය ව්‍යාපාරයේ එක් පරමාර්ථයක් විය. අයෙනෙස්කෝගේ The
+Bold Soprano නාට්‍යයද සාංදෘෂ්ටිකවාදී දර්ශනයෙන් ඔප්නැගුණු විකාරරූපී නාට්‍ය ව්‍යාකරණයට අනුකූලව නිර්මාණය වූ විශිෂ්ට නාට්‍යයකි. එම නාට්‍යයේ දාර්ශනික හරය ඉස්මතු වන ලෙස කංචුකා ධර්මසිරි අධ්‍යක්ෂණය කළ ‘තට්ට ගායිකාව’ නාට්‍යය ඒකාකාරී තේමා රැගත් ලාංකේය වේදිකා නාට්‍ය ක්ෂේත‍්‍රයට කළ සාධනීය මැදිහත්වීමක් මෙන්ම පොදුවේ සමස්ත ලාංකේය කලා ක්ෂේත‍්‍රය තුළම සිදුවූ රැඩිකල් මැදිහත්වීමක් වශයෙන්ද පෙනී යයි.
+
+සාත්‍රේ ප‍්‍රකාශ කළ ආකාරයට මිනිසකුට ජීව විද්‍යාත්මක උපතක් මෙන්ම සංස්කෘතික උපතක්ද ඇත. සංස්කෘතික උපත මිනිසාට ජීවිතය ලබාදෙන අතර අතිරේකයක් ලෙස අසහනයද දායාද කරයි. මේ නිසා මිනිසකු මිනිසකු වන්නේ අපේක්ෂා භංගත්වයද අතැතිවමය. සමාජ නිර්මිත අපේක්ෂා තමන්ගේම අපේක්ෂායැයි භාරගැනීමෙන් පමණක් මිනිසකුට මිනිසකු වීමට සිදුවෙයි. එහෙත් මෙකී අපේක්ෂාවලට අමතරව ඒවා ළඟා කරගැනීමට විරුද්ධ බලවේගද සමාජය විසින් නිර්මාණය කොට පවත්වාගෙන යනු ලබයි. මෙකී පරස්පරයේ විකාරසහගත බවත්, විපරීත ස්වභාවයත්, හාස්‍යානුසාරයෙන් පෙන්වාදීම විකාරරූපී නාට්‍යකරුවන්ගේ මූලික අභිප‍්‍රාය වී තිබේ. එකී නාට්‍ය සම්ප‍්‍රදාය හා අත්වැල් බැඳගත් සංදෘෂ්ටිකවාදීන් විසින්ද අවධානය යොමු කරන්නේ, ජීවත්වන මිනිසා සහ ඔහුට මුණගැසෙන ලෝකය ඉදිරියේ ඔහුගේ බලාපෙරොත්තු බිඳවැටෙන ආකාරයත්, එයට මුහුණදීමට නොහැකිව මිනිසුන් වික්ෂිප්ත වන ආකාරයත් පිළිබඳවය.
+
+තට්ට ගායිකාව නාට්‍යයේදී අපට මෙය දැකගත හැකිය. අයෙනෙස්කෝගේ නාට්‍ය පිටපත අනුවර්තනය කළ කංචුකා ධර්මසිරි සහ ලොහාන් ගුණවීර සාංදෘෂ්ටිකවාදයත් අයෙනෙස්කොගේ දර්ශනයත් මැනවින් වටහාගෙන ඇති සෙයකි. මතු නොව කලා සංස්කෘතික ප‍්‍රකාශනයන්ගේ දේශපාලන ශක්‍යතාව හා විභවයද සියුම්ව තේරුම්ගෙන ඇත්තා සේය.
+කංචුකාගේ නාට්‍යයෙහි විශේෂතා කිහිපයකි. ඒ සියලූ සුවිශේෂතා විකාරරූපී නාට්‍යකරුවන් හඳුන්වා දුන් නාට්‍ය වින්‍යාසයේ ව්‍යාකරණය තුළ හසුරුවා ගන්නට හැකිවී තිබීම මගින් පැහැදිලි වන්නේ තත් විෂය සම්බන්ධයෙන් ඇය සතු පරිණත බවයි. මෙම නාට්‍යයේ මුල, මැද සහ අග ගැළපූ නිශ්චිත කතා වින්‍යාසයක් නොමැත. එය ඇරිස්ටෝටලියානු සෞන්දර්ය කලා ආකෘතියකට තවදුරටත් පසු ධනවාදී සමාජ ක‍්‍රමයේ නිෂ්ක‍්‍රිය සහ අධිපරිභෝජනවාදී විපරීත මිනිස් දිවිය ප‍්‍රතිනිර්මාණය කළ නොහැකි බව කංචුකා විශ්වාස කරන බවක් පෙනීයයි. ඇරිස්ටෝටල්ට අනුව නාට්‍යයක වැදගත්ම සහ අනිවාර්ය අංගය වන්නේත් කතා වින්‍යාසයය. තට්ට ගායිකාව නාට්‍යයේ තවත් විශේෂත්වයක් වන්නේ සුදු, කළු ලෙස ලේබල් ඇලවූ පැතලි චරිත දැකගැනීමට නොහැකිවීමයි. මෙහි සිටින චරිත හුදු සංකේත පමණක්මදැයි සිතෙන තරම්ය. එම චරිතවල අනන්‍යතා මොහොතින් මොහොත විකාර අන්තයකට ගෙනයනු පෙනේ. ඒ හරහා චරිතවල අනන්‍යතාව භාෂාමය ක‍්‍රීඩාවකින් විසංයෝජනය වන අතර අනන්‍යතාව යනු භාෂාවේ වචනවලින් අසංගතව ගොඩනැඟුණු ප‍්‍රහේළිකාවක් බවට පත් කෙරෙයි. චරිතයකට හිමි අනන්‍යතාව සුළු මොහොතකින් වෙනත් අනන්‍යතාවකට මාරු වෙයි. මෙහෙකාරිය එක් විටෙක තමන් ෂර්ලොක් හෝම්ස් යැයි පවසන අතර, ඇගේ හැසිරීම් ක්ෂණිකව එකිනෙකට ප‍්‍රතිවිරුද්ධ අන්තයන්ට ගමන් කිරීමට සලස්වා තිබේ. මෙය ලැකානියානු මනෝ විශ්ලේෂණයේ බෙදුණු ආත්මය පිළිබඳ අදහස ප‍්‍රකට කරන අවස්ථාවක් වශයෙන්ද හැඳින්විය හැකිය. භාෂාවේ වචනවල අන්තර් විනිවිදීම සහ සහසම්බන්ධතාව මගින් අනන්‍යතා නිර්මාණය කෙරෙන බව ප‍්‍රකට කෙරෙන අවස්ථාවක් වශයෙන් දීප්ති ජයරත්න පිළිබඳ සංවාදයද දැක්විය හැකිය. මෙම සංවාදයේදී දීප්ති ජයරත්න නම් වචනයට අදාළ මූලාශ‍්‍රය (Refferent Point) කුමක්දැයි සිතාගත නොහැකි තරමටම අවුලක් නිර්මාණය කෙරේ. දීප්ති ජයරත්න යනු ගැහැනියකද, පිරිමියකුද, ඔහු හෝ ඇය ජීවත් වන්නේද, මරණයට පත්වී ඇත්ද යන්න තේරුම්ගත නොහැකිය.
+
+මෙම නාට්‍යයේ තවත් සුවිශේෂී අංශයක් වන්නේ එකිනෙකට සම්බන්ධයක් නැති දෙබස්ය. දෙබස් තුළ කිසිදු තර්කානුකූල බවක් දැකගත නොහැකිය. මෙය මෙකී නාට්‍යය ආකෘතියේ ආවේණික ව්‍යාකරණ ගුණයකි. සන්දර්භය අහිමි වචන හුදු දෙඩවිලි ස්වරූපයක් ගන්නා අතර, කෙනෙක් සංවාදවලින් යමක් ඉගෙනීමට උත්සාහ කරන්නේ නම් එය නිෂ්ඵල වෑයමක් බව ප‍්‍රත්‍යක්ෂ කරන්නේ මානසික වෙහෙසක් ශේෂ කරවමිනි. මැගිලින් නමැති චරිතය වේදිකාවට පැමිණෙමින් කියා සිටින්නේ මෙවැන්නකි.
+<i>
+‘මමයි මෙහෙ සර්වන්ට්. මම හරිම සන්තෝස හිතෙන හැන්දෑවක් ගතකෙරුවා. මම මිනිහෙක් එක්ක ෆිල්ම් හෝල් එකට ගිහිල්ලා ගෑනුත් එක්ක චිත‍්‍රපටියක් බැලූවා. ඊට පස්සේ අපි බ‍්‍රැන්ඩිත් එක්ක කිරි බීලා පත්තරේ කියෙව්වා.’
+තවත් අවස්ථාවක තවත් චරිතයක් හරහා මෙසේද කියැවෙයි. ‘ඉස්කෝලේ ටීච ළමයින්ට කියවන්න උගන්වනවා, හැබැයි පූසි පැටවුන්ට කිරි දෙන්නේ උන් පොඩි කාලෙ.’ මෙම සංවාදාවලිය නාට්‍ය අවසන් වනවිට තව තවත් වැඩිවන හෙයින් විපරීත බවද තව තවත් තීව‍්‍ර වන බවක් දැකගත හැකිය.
+</i>
+‘පය ගහපු අත්තත් නැතිවෙනකොට වැටත් නියරත් ගොයම් කා නම්.’
+‘ඔයා මට ඔයාගේ මහත්තයාගේ මිනී පෙට්ටිය දෙනවා නම් මම මගෙ නැන්දම්මගෙ සෙරෙප්පු දෙක දෙන්නම්.’
+නාට්‍ය අවසානයේදී චරිත සියල්ලෝම එක ළඟට පැමිණ සම්පූර්ණයෙන්ම වියරු වැටී එකිනෙකාගේ කන්වලට බෙරිහන් දී ගනිමින්,
+‘අතන නෙවෙයි මෙතනෟ එතන නෙවෙයි ඔතනෟ මෙතන නෙවෙයි අතනෟ අතන නෙවෙයි මෙතනෟ… ආදි වශයෙන් ප‍්‍රකාශ කිරීම මගින් විකාරය තුළ පේ‍්‍රක්ෂකයා තුෂ්ණිම්භූත කරවනු ලැබෙයි. මීළඟට සිදුවන්නේ කුමක්දැයි යන්න වෙනුවට මේ සිදුවන්නේ කුමක්දැයි වික්ෂිප්ත දෑසින් පේ‍්‍රක්ෂකයෝ බලා සිටිති.
+
+මෙම දෙබස් පිටුපස විට්ගන්ස්ටයින්, රසල්, සෝෂියර්, බාර්ත්, සාත්‍රේ, හයිඩෙගර්, ඬේකාට්ස්, ඩෙරීඩා වැනි දාර්ශනිකයන්ගේ අවතාර හොල්මන් කරනවා බඳුය. එකී දාර්ශනිකයන්ගේ භාෂාව පිළිබඳ දාර්ශනික අදහස් තේරුම්කර දෙන ප‍්‍රත්‍යෙක අධ්‍යයනයක් ලෙසද පේ‍්‍රක්ෂකයකුට මෙය භාර ගැනීමට අවස්ථාව සැලසේ. එහෙත් එය නාට්‍ය නිර්මාණය කරන්නාගේ අපේක්ෂාව නොවීමට බොහෝ දුරට ඉඩ තිබේ.
+
+වචනවලින් නිර්මිත දෙබස්වලට අමතරව නිහඬත්වය හැඟවුම්කාරකයක් ලෙසත්, සංකේතයක් ලෙසත් භාවිතයට ගෙන තිබෙන අතර නිහඬත්වය සහ හඬ අතර පරතරය පෙන්වීමට ඔරලෝසුවේ හඬ උපක‍්‍රමශීලීව යොදාගෙන තිබෙන අයුරු අපූරුය.
+
+මෙකී සියලූ විශේෂතා අන්තර්ගත කර ගනිමින් මෙවැනි වින්‍යාසගත කිරීමකින් කංචුකා බලාපොරොත්තු වන්නේ කුමක්දැයි සවිඥානික පේ‍්‍රක්ෂකයකුට සිතීමට ඉඩ තිබේ. මේ වනාහි අපගේම ජීවිතය අපටම පෙන්වීම සහ ඊට අපටම සිනාසීමට සැලැස්වීමක් නොවේදැයිද කෙනෙකුට සිතීමට ඉඩ තිබේ. එහෙත් මෙහි ඇති පරමාර්ථය කුමක්ද? එදිනෙදා ජීවිතයේ අතිසියුම් චලනයන් රංගගත කිරීමෙහිත් ඊට අපටම සිනාසීමට සැලැස්වීමෙහිත් ඇති කලාත්මකය කුමක්දැයි කෙනෙකුට සිතෙන්නට පුළුවන. එහෙත් මේ වනාහි අපගේ ජීවිතයම යැයිද මේ සිටින්නේ අපම නොවේදැයි යන්න වටහා ගැනීමත් සමග ඇතිවන අපහසුතාව තුළින් අපගේම ජීවිත වෙත යළිත් හැරී බැලීමටත් සැබෑ වගකීම හා නිදහස තෝරාගැනීමට යෝජනා කිරීමටත් කංචුකා දේශපාලනිකව සවිඥානික වී තිබෙන්නා සේය. ඒ අර්ථයෙන් මේ වෑයම රැුඩිකල් මෙන්ම දේශපාලනිකද වෙයි. කෙසේ වෙතත් තට්ට ගායිකාවට පේ‍්‍රක්ෂක රුචිකත්වය වෙනස් කිරීමේ දේශපාලනයෙහි සාර්ථකත්වය ළඟා කරගත හැකි වන්නේ නාට්‍යයෙන් බැහැර බාහිර සමාජයේ පේ‍්‍රක්ෂකයා සමග අන්තර් ක‍්‍රියාකාරී කතිකාවකට අවතීර්ණ වීමෙන් පමණක්ම යැයි නිගමනය කිරීමට නම් අපහසු වන්නේ නැත.
+
+- See more at: http://ravaya.lk/?p=13265#sthash.bwiQltwr.dpuf
+         
+         
+         </p>
+         
+</section> 
+</div>  
+    
+    
+  
+
+    <script>
+(function() {
+	//elements
+	var elem = document.getElementById('editable');
+
+	//button
+	var button = document.getElementById('button');
+
+  	function toggle() {
+  		elem.classList.toggle('adobe_blank');
+  	}
+
+  	button.addEventListener('click',toggle, false);
+})();
+</script>
+    
+    
+<script>
+var editable = document.getElementById('editable');
+
+addEvent(editable, 'blur', function () {
+  // lame that we're hooking the blur event
+  localStorage.setItem('contenteditable', this.innerHTML);
+  document.designMode = 'off';
+});
+
+addEvent(editable, 'focus', function () {
+  document.designMode = 'on';
+});
+
+addEvent(document.getElementById('clear'), 'click', function () {
+  localStorage.clear();
+  window.location.reload(); // refresh
+});
+
+if (localStorage.getItem('contenteditable')) {
+  editable.innerHTML = localStorage.getItem('contenteditable');
+}
+
+</script> 
+</section>
+</body>
 </html>

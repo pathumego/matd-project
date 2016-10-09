@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>English Font Tester</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8" />
+
+    <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/custom_styles.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/typeplate.css" rel="stylesheet" type="text/css" />
+    <link href="./adobe-blank/adobe-blank.css" rel="stylesheet" type="text/css" />
+    <script charset="utf-8" src="./js/otfeatures.js" type="text/javascript">
+    </script>
+    <script src="/socket.io/socket.io.js">
+    </script>
+    <script src="js/jquery.js">
+    </script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="//cdn.jsdelivr.net/medium-editor/latest/js/medium-editor.min.js"></script>
+    </script>
+</head>
+<body>
+    <div class="container"> 
+
+<div class="controls" id="controls">
+    <a href=./index.html>Home</a>
+    <a href=./en_UK.html>Latin</a>
+    <a href=./si_LK.html>Sinhala</a>
+    <a href=./tm_IN.html>Tamil</a>
+    <a href=./dv_MV.html>Divehi</a>
+</div>
+</div><div class="container controls">
+
+    <div id="controls">
+
+         Press Ctrl+g to toggle between English and other selected input lanaguage
+    <div id='translControl'>
+      <input type="checkbox" id="checkboxId" onclick="javascript:checkboxClickHandler()"></input>
+      Type in <select id="languageDropDown" onchange="javascript:languageChangeHandler()"></select>
+    </div>
+
+<br />
+        <input  style="float: left;" type="button" id="clear" value="Clear changes" />
+        <button style="float: left;" id="button">Show/Hide unavialabe glyphs</button>
+        <button href="javascript://" id="showhide">OpenType Features ↓ </button>
+         </div>
+            <div style="clear:both"></div>
+
+    <div id="otfeatures" style="display: none;">
+        <br/>
+        <table width="100%">
+            <tr>
+                <td valign="top" width="25%">
+                    <input checked id="kern" onchange="refreshFeatures()" type="checkbox">OpenType Kerning
+                    <br>
+                    <input checked id="liga" onchange="refreshFeatures()" type="checkbox">Standard Ligatures
+                    <br>
+                    <input checked id="calt" onchange="refreshFeatures()" type="checkbox">Contextual Alternates
+                    <br>
+                    <br>
+                    <input id="dlig" onchange="refreshFeatures()" type="checkbox">Discretionary Ligatures
+                    <br>
+                    <input id="hlig" onchange="refreshFeatures()" type="checkbox">Historical Ligatures
+                    <br>
+                    <input id="swsh" onchange="refreshFeatures()" type="checkbox">Swashes
+                    <br>
+                    <input id="salt" onchange="refreshFeatures()" type="checkbox">Stylistic Alternates</td>
+                <td valign="top" width="25%">
+                    <input checked name="smcp" onchange="refreshFeatures()" type="radio">SmallCaps Off
+                    <br>
+                    <input id="fake-smcp" name="smcp" onchange="refreshFeatures()" type="radio">Fake SmallCaps
+                    <br>
+                    <input id="smcp" name="smcp" onchange="refreshFeatures()" type="radio">True SmallCaps
+                    <br>
+                    <input id="c2sc" onchange="refreshFeatures()" type="checkbox">Capitals to Small Caps</td>
+                <td valign="top" width="25%">
+                    <input checked name="numsty" onchange="refreshFeatures()" type="radio">Default Figures Style
+                    <br>
+                    <input id="lnum" name="numsty" onchange="refreshFeatures()" type="radio">Lining Figures
+                    <br>
+                    <input id="onum" name="numsty" onchange="refreshFeatures()" type="radio">Oldstyle Figures
+                    <br>
+                    <br>
+                    <input checked name="numspc" onchange="refreshFeatures()" type="radio">Default Figures Width
+                    <br>
+                    <input id="pnum" name="numspc" onchange="refreshFeatures()" type="radio">Proportional Figures
+                    <br>
+                    <input id="tnum" name="numspc" onchange="refreshFeatures()" type="radio">Tabular Figures</td>
+                <td valign="top" width="25%">
+                    <input id="frac" name="frac" onchange="refreshFeatures()" type="checkbox">Fractions
+                    <br>
+                    <input id="zero" onchange="refreshFeatures()" type="checkbox">Slashed zero
+                    <br>
+                    <br>
+                    <input id="ordn" onchange="refreshFeatures()" type="checkbox">Ordinals
+                    <br>
+                    <br>
+                    <input id="sups" onchange="refreshFeatures()" type="checkbox">Superiors
+                    <br>
+                    <input id="sinf" onchange="refreshFeatures()" type="checkbox">Inferiors
+                    <br>
+                    <input id="numr" onchange="refreshFeatures()" type="checkbox">Numerator
+                    <br>
+                    <input id="dnom" onchange="refreshFeatures()" type="checkbox">Denominator</td>
+            </tr>
+            <tr>
+                <td colspan="4" valign="top">
+                    <input id="ss01" onchange="refreshFeatures()" type="checkbox">ss01&nbsp;
+                    <input id="ss02" onchange="refreshFeatures()" type="checkbox">ss02&nbsp;
+                    <input id="ss03" onchange="refreshFeatures()" type="checkbox">ss03&nbsp;
+                    <input id="ss04" onchange="refreshFeatures()" type="checkbox">ss04&nbsp;
+                    <input id="ss05" onchange="refreshFeatures()" type="checkbox">ss05&nbsp;
+                    <input id="ss06" onchange="refreshFeatures()" type="checkbox">ss06&nbsp;
+                    <input id="ss07" onchange="refreshFeatures()" type="checkbox">ss07&nbsp;
+                    <input id="ss08" onchange="refreshFeatures()" type="checkbox">ss08&nbsp;
+                    <input id="ss09" onchange="refreshFeatures()" type="checkbox">ss09&nbsp;
+                    <input id="ss10" onchange="refreshFeatures()" type="checkbox">ss10
+                    <br>
+                </td>
+            </tr>
+            <tr <td colspan="4" valign="top">
+                <input id="ss11" onchange="refreshFeatures()" type="checkbox">ss11&nbsp;
+                <input id="ss12" onchange="refreshFeatures()" type="checkbox">ss12&nbsp;
+                <input id="ss13" onchange="refreshFeatures()" type="checkbox">ss13&nbsp;
+                <input id="ss14" onchange="refreshFeatures()" type="checkbox">ss14&nbsp;
+                <input id="ss15" onchange="refreshFeatures()" type="checkbox">ss15&nbsp;
+                <input id="ss16" onchange="refreshFeatures()" type="checkbox">ss16&nbsp;
+                <input id="ss17" onchange="refreshFeatures()" type="checkbox">ss17&nbsp;
+                <input id="ss18" onchange="refreshFeatures()" type="checkbox">ss18&nbsp;
+                <input id="ss19" onchange="refreshFeatures()" type="checkbox">ss19&nbsp;
+                <input id="ss20" onchange="refreshFeatures()" type="checkbox">ss20
+                <br>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<br><br>
+    <div contenteditable="true" id="transliterate" class="container" style="direction:;">
+        <section id="fullSection" class="txt_2_col otfeat adobe_blank" spellcheck="false" contenteditable="true" ```>
+<h1>Remarkable</h1>
+<blockquote>
+<p>Experience real-time editing with Remarkable!</p>
+</blockquote>
+<p>Click the <code>clear</code> link to start with a clean slate, or get the <code>permalink</code> to share or save your results.</p>
+<hr>
+<h1>h1 Heading</h1>
+<h2>h2 Heading</h2>
+<h3>h3 Heading</h3>
+<h4>h4 Heading</h4>
+<h5>h5 Heading</h5>
+<h6>h6 Heading</h6>
+<h2>Horizontal Rules</h2>
+<hr>
+<hr>
+<hr>
+<h2>Typographic replacements</h2>
+<p>Enable typographer option to see result.</p>
+<p>© © ® ® ™ ™ § § ±</p>
+<p>test… test… test… test?.. test!..</p>
+<p>!!! ??? ,</p>
+<p>Remarkable – awesome</p>
+<p>«Smartypants, double quotes»</p>
+<p>‘Smartypants, single quotes’</p>
+<h2>Emphasis</h2>
+<p><strong>This is bold text</strong></p>
+<p><strong>This is bold text</strong></p>
+<p><em>This is italic text</em></p>
+<p><em>This is italic text</em></p>
+<p><del>Deleted text</del></p>
+<p>Superscript: 19<sup>th</sup></p>
+<p>Subscript: H<sub>2</sub>O</p>
+<p><ins>Inserted text</ins></p>
+<p><mark>Marked text</mark></p>
+<h2>Blockquotes</h2>
+<blockquote>
+<p>Blockquotes can also be nested…</p>
+<blockquote>
+<p>…by using additional greater-than signs right next to each other…</p>
+<blockquote>
+<p>…or with spaces between arrows.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2>Lists</h2>
+<p>Unordered</p>
+<ul>
+<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
+<li>Sub-lists are made by indenting 2 spaces:
+<ul>
+<li>Marker character change forces new list start:
+<ul>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+<ul>
+<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+<ul>
+<li>Nulla volutpat aliquam velit</li>
+</ul></li>
+</ul></li>
+<li>Very easy!</li>
+</ul>
+<p>Ordered</p>
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>Integer molestie lorem at massa</li>
+</ol>
+<ol>
+<li>You can use sequential numbers…</li>
+<li>…or keep all the numbers as <code>1.</code></li>
+</ol>
+<p>Start numbering with offset:</p>
+<ol start="57">
+<li>foo</li>
+<li>bar</li>
+</ol>
+<h2>Code</h2>
+<p>Inline <code>code</code></p>
+<p>Indented code</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<p>Block code «fences»</p>
+<pre><code>Sample text here...
+</code></pre>
+<p>Syntax highlighting</p>
+<pre><code class="language-js">var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+</code></pre>
+<h2>Tables</h2>
+<table>
+<thead>
+<tr><th>Option</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>data</td><td>path to data files to supply the data that will be passed into templates.</td></tr>
+<tr><td>engine</td><td>engine to be used for processing templates. Handlebars is the default.</td></tr>
+<tr><td>ext</td><td>extension to be used for dest files.</td></tr>
+</tbody>
+</table>
+<p>Right aligned columns</p>
+<table>
+<thead>
+<tr><th style="text-align:right">Option</th><th style="text-align:right">Description</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:right">data</td><td style="text-align:right">path to data files to supply the data that will be passed into templates.</td></tr>
+<tr><td style="text-align:right">engine</td><td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td></tr>
+<tr><td style="text-align:right">ext</td><td style="text-align:right">extension to be used for dest files.</td></tr>
+</tbody>
+</table>
+<h2>Links</h2>
+<p><a href="http://dev.nodeca.com">link text</a></p>
+<p><a href="http://nodeca.github.io/pica/demo/" title="title text!">link with title</a></p>
+<p>Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</p>
+<h2>Images</h2>
+<p><img src="https://octodex.github.com/images/minion.png" alt="Minion"><br>
+<img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat"></p>
+<p>Like links, Images also have a footnote style syntax</p>
+<p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat"></p>
+<p>With a reference later in the document defining the URL location:</p>
+<h2>Footnotes</h2>
+<p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
+<p>Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
+<p>Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.</p>
+<p>Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2]</a></sup>.</p>
+<h2>Definition lists</h2>
+<dl>
+<dt>Term 1</dt>
+<dd><p>Definition 1<br>
+with lazy continuation.</p>
+</dd>
+<dt>Term 2 with <em>inline markup</em></dt>
+<dd><p>Definition 2</p>
+<pre><code>  { some code, part of Definition 2 }
+</code></pre>
+<p>Third paragraph of definition 2.</p>
+</dd>
+</dl>
+<p><em>Compact style:</em></p>
+<dl>
+<dt>Term 1</dt>
+<dd>Definition 1
+</dd>
+<dt>Term 2</dt>
+<dd>Definition 2a
+</dd>
+<dd>Definition 2b
+</dd>
+</dl>
+<h2>Abbreviations</h2>
+<p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p>
+<p>It converts &quot;<abbr title="Hyper Text Markup Language">HTML</abbr>&quot;, but keep intact partial entries like «xxxHTMLyyy» and so on.</p>
+<hr>
+<p><strong>Advertisement :)</strong></p>
+<ul>
+<li><strong><a href="https://nodeca.github.io/pica/demo/">pica</a></strong> - high quality and fast image<br>
+resize in browser.</li>
+<li><strong><a href="https://github.com/nodeca/babelfish/">babelfish</a></strong> - developer friendly<br>
+i18n with plurals support and easy syntax.</li>
+</ul>
+<p>You’ll like those projects! :)</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1"  class="footnote-item"><p>Footnote <strong>can have markup</strong></p>
+<p>and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn2"  class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩</a> <a href="#fnref2:1" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn3"  class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+
+      </section>
+    </div>
+    <br><div id="errorDiv"></div>
+    <script>var editor = new MediumEditor('.otfeat');</script>
+
+<script src="js/font-tester.js">
+</script>
+<script src="js/config.js"></script>
+<script src="js/transliterate.js" /></script>
+<script>
+    // OT Features Panel
+    $('#showhide').click(function () {
+        $('#otfeatures').slideToggle("fast", function () {
+            $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features ↑" : "OpenType Features ↓");
+        });
+    });
+</script>
+<script>
+(function() {
+//elements
+var elem = document.getElementById('editable');
+
+//button
+var button = document.getElementById('button');
+
+function toggle() {
+  elem.classList.toggle('adobe_blank');
+}
+
+button.addEventListener('click',toggle, false);
+})();
+</script>
+</body>
+</html>

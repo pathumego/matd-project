@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Experiment-Latin</string>
+    <key>styleName</key>
+    <string>Latin</string>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>versionMinor</key>
+    <integer>1</integer>
+    <key>copyright</key>
+    <string>Copyright (c) 2015, Pathum Egodawatta</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>1000</integer>
+    <key>descender</key>
+    <integer>0</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string>2015-9-29: Created with FontForge (http://fontforge.org)</string>
+    <key>openTypeHeadCreated</key>
+    <string>2015/09/29 16:06:30</string>
+    <key>openTypeHheaAscender</key>
+    <integer>873</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>166</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>122</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 0.001</string>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>PfEd</string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1129</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>0</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>122</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>973</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>-144</integer>
+    <key>postscriptFontName</key>
+    <string>Experiment-Latin</string>
+    <key>postscriptFullName</key>
+    <string>Experiment-Latin</string>
+    <key>postscriptWeightName</key>
+    <string>Regular</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>49</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>100</integer>
+  </dict>
+</plist>

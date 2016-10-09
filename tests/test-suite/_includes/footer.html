@@ -1,0 +1,29 @@
+<script src="js/font-tester.js">
+</script>
+<script src="js/config.js"></script>
+<script src="js/transliterate.js" /></script>
+<script>
+    // OT Features Panel
+    $('#showhide').click(function () {
+        $('#otfeatures').slideToggle("fast", function () {
+            $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features ↑" : "OpenType Features ↓");
+        });
+    });
+</script>
+<script>
+(function() {
+//elements
+var elem = document.getElementById('editable');
+
+//button
+var button = document.getElementById('button');
+
+function toggle() {
+  elem.classList.toggle('adobe_blank');
+}
+
+button.addEventListener('click',toggle, false);
+})();
+</script>
+</body>
+</html>
