@@ -1,0 +1,58 @@
+= A New Typeface Family for Newspaper Design
+Pathum Egodawatta
+University of Reading, Department of Typography and Graphic Communication
+
+:icons: font
+:sectnums:
+:sectnumlevels: 5
+:source-highlighter: pygments
+
+== Abstract
+This project will focus on developing a typeface family for present day web & print newspapers with complex typographic layouts. These layouts require typographers to set content of varying lengths into a predetermined space.
+
+== Introduction
+The type family will contain a set of fonts with different overall widths but will maintain the same appearance and color as the primary face. The project is not explicitly targeted towards a specific medium such as web or print. The character set will support Latin extended, Thaana, and Sinhala languages.
+
+== Background
+Newspapers, both web and print, are considered some of the most challenging and complicated pieces of typographic design. They require a clear typographic hierarchy within a strict space structure and ensure that the typographic arrangement does not interfere with the meaning of the text. Recent projects like Guardian Egyptian exemplify the demand for a wide range of weights in type design.
+
+== Project Brief
+.Generated on 03, December 15 / 1.20
+image::Figure_1[Caption="A List Apart responsively switches from Georgia Pro to Georgia Pro Condensed when horizontal space is tight.", width=400, align="center"]
+[insert image here - Figure 1]
+
+== Specific Concerns in Thaana Script
+Thaana script is used to write Divehi, the native language of the Maldives. It is a vocalized abjad and written from right to left. The script includes 24 consonants and 10 vowel marks. Modifications to the script over time have introduced characters such as Tikijehi Thaana to accommodate additional sounds.
+image::Figure_2[Caption="Thaana script vowel strokes.", width=400, align="center"]
+[insert image here - Figure 2]
+image::Figure_3[Caption="Development of Thaana script over time, showing early and modern manuscripts.", width=400, align="center"]
+[insert image here - Figure 3]
+
+== Thaana Typography in Modern Times
+The Thaana script has evolved to have a more monolinear stroke behavior. Current typographic forms are structured and linear, requiring high line heights to maintain legibility due to identical forms of above and below base marks.
+image::Figure_4[Caption="A lithographed book from 1960 showcasing common use of Arabic script.", width=400, align="center"]
+[insert image here - Figure 4]
+image::Figure_5[Caption="A page from Havveru, the national newspaper of Maldives, set in MV Waheed typeface for titles and Faseyah for body.", width=400, align="center"]
+[insert image here - Figure 5]
+image::Figure_6[Caption="Use of slanted Latin characters with Thaana script.", width=400, align="center"]
+[insert image here - Figure 6]
+
+== Specific Concerns in Sinhala Script
+Sinhala script is predominantly used in Sri Lanka and has evolved from early Brahmic forms to more circular and complex letterforms. The script requires ample spacing for a comfortable reading experience, often leading to increased leading and tracking.
+image::Figure_7[Caption="FM Abhaya, the industry standard text face for Sinhala.", width=400, align="center"]
+[insert image here - Figure 7]
+image::Figure_8[Caption="Scaled type in newspapers to manage space effectively.", width=400, align="center"]
+[insert image here - Figure 8]
+image::Figure_9[Caption="Early and modern Sinhala types, highlighting changes in letterform modulation.", width=400, align="center"]
+[insert image here - Figure 9]
+
+== Conclusion
+This project aims to create a typeface family that addresses the specific needs of newspaper design in Thaana and Sinhala scripts, providing solutions that enhance space economy and readability.
+
+== References
+- Linotype Legibility Series
+- The Reading Edge fonts by Font Bureau
+- Gulliver and Coranto by Gerard Unger
+- Chronicle Text by Hoefler & Co.
+- Experimental No. 223 by W. A. Dwiggins
+- Various academic and industry sources
