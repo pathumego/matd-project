@@ -1,58 +1,36 @@
-= A New Typeface Family for Newspaper Design
+= A New Face for News
 Pathum Egodawatta
 University of Reading, Department of Typography and Graphic Communication
-
 :icons: font
 :sectnums:
 :sectnumlevels: 5
 :source-highlighter: pygments
 
-== Abstract
-This project will focus on developing a typeface family for present day web & print newspapers with complex typographic layouts. These layouts require typographers to set content of varying lengths into a predetermined space.
-
-== Introduction
-The type family will contain a set of fonts with different overall widths but will maintain the same appearance and color as the primary face. The project is not explicitly targeted towards a specific medium such as web or print. The character set will support Latin extended, Thaana, and Sinhala languages.
+== Project Overview
+This project will focus on developing a typeface family for present day web & print newspapers with complex typographic layouts which require typographers to set content with different lengths into a predetermined space. The type family will contain a set of fonts with different overall widths but have the same appearance and color as the primary face. The project is not explicitly targeted towards a medium such as web or print. The character set will support Latin extended, Thaana and Sinhala languages.
 
 == Background
-Newspapers, both web and print, are considered some of the most challenging and complicated pieces of typographic design. They require a clear typographic hierarchy within a strict space structure and ensure that the typographic arrangement does not interfere with the meaning of the text. Recent projects like Guardian Egyptian exemplify the demand for a wide range of weights in type design.
+Newspapers, both web and print can be considered as one of the most challenging and complicated pieces of typographic design. Newspapers require the building of a clear typographic hierarchy in a strict space structure and make sure that typographic arrangement does not interfere with the meaning of the text. When setting sensitive pieces of news in a strict space it is important to maintain a clear differentiation. In a single page of a newspaper we can observe a range of typographic elements such as titles, subtitles, pull quotes and meta information. Making the task more complicated, typographers have to fit in as much as possible text into a page without compromising any of the above mentioned aspects. Typographers use of type families with a range of styles to build aforementioned complex structures. Recent projects like Guardian Egyptian is an example where type designers were asked 'to draw as wide a range of weights as possible'.^1^
 
-== Project Brief
-.Generated on 03, December 15 / 1.20
-image::Figure_1[Caption="A List Apart responsively switches from Georgia Pro to Georgia Pro Condensed when horizontal space is tight.", width=400, align="center"]
+In the age of web newspapers, the typographers are facing the same challenges in a different context. More medium specific information elements and interactive elements such as hyperlinks and audiovisual content have become an integral part of a web newspaper. This interactivity and the dynamic nature of the web poses new possibilities and challenges to designers. A typographer designing for the web has to think about their design as a system that would adapt to different sizes than a static design. Since the start of digital type the type size has been an abstract metaphor that is realised only once a design is printed. But in web publishing the typographer has completely lost control over the size of the type. On the web, the size is a more abstract formula that is defined by the relationship between screen size, design elements, typographic elements and user preference.
+
+This project is focusing on space economy related to newspaper design. It is a common concern for newspapers published in any language and often for Indic scripts with wider letterforms this is crucial.
+
+image::figure_1.jpg[title="Figure 1: A List Apart responsively switches from Georgia Pro to Georgia Pro Condensed when horizontal space is tight."]
 [insert image here - Figure 1]
 
-== Specific Concerns in Thaana Script
-Thaana script is used to write Divehi, the native language of the Maldives. It is a vocalized abjad and written from right to left. The script includes 24 consonants and 10 vowel marks. Modifications to the script over time have introduced characters such as Tikijehi Thaana to accommodate additional sounds.
-image::Figure_2[Caption="Thaana script vowel strokes.", width=400, align="center"]
+== Specific concerns in Thaana script
+Thaana script is used to write Divehi, the native language of Maldives. The script is used by around two hundred and seventy thousand people living in the Republic of Maldives a set of islands southwest of India. Thaana is a vocalized abjad and written and read from right to left. The Thaana script has 24 consonants (Akuru), a null consonant (Alifu) and 10 vowel marks (Fili). Fili’s are added to above or below the base consonant to make it a syllable. Thaana uses Arabic numerals. Arabic characters such as XX are commonly used Thaana texts.
+
+Maldives had at least two more distinctive writing systems prior to Thaana, Eveyla Akuru and Dhives / Divehi Akuru both of them were left-to-right scripts. Thaana script was developed in 18th century to meet the needs of the Dhivehi language by the scholars who were fluent in both Arabic and Divehi Akuru. It shared many characteristics of Arabic scripts since the alphabet has derived from Arabic and ancient Divehi Akuru. Some of the characteristics of Arabic writing had been modified in connection with Divehi Akuru early in the development of the script and overtime the relationship to Arabic has faded.^2^ ^3^
+
+image::figure_2.jpg[title="Figure 2: Thaana script vowel strokes."]
 [insert image here - Figure 2]
-image::Figure_3[Caption="Development of Thaana script over time, showing early and modern manuscripts.", width=400, align="center"]
+
+image::figure_3.jpg[title="Figure 3: Development of Thaana script. Left, Divehi Akuru manuscript from early 1600 CE. Middle Early Thaana manuscript from 1700. Right A page handwritten book from 1945.", width="100%"]
 [insert image here - Figure 3]
 
-== Thaana Typography in Modern Times
-The Thaana script has evolved to have a more monolinear stroke behavior. Current typographic forms are structured and linear, requiring high line heights to maintain legibility due to identical forms of above and below base marks.
-image::Figure_4[Caption="A lithographed book from 1960 showcasing common use of Arabic script.", width=400, align="center"]
-[insert image here - Figure 4]
-image::Figure_5[Caption="A page from Havveru, the national newspaper of Maldives, set in MV Waheed typeface for titles and Faseyah for body.", width=400, align="center"]
-[insert image here - Figure 5]
-image::Figure_6[Caption="Use of slanted Latin characters with Thaana script.", width=400, align="center"]
-[insert image here - Figure 6]
-
-== Specific Concerns in Sinhala Script
-Sinhala script is predominantly used in Sri Lanka and has evolved from early Brahmic forms to more circular and complex letterforms. The script requires ample spacing for a comfortable reading experience, often leading to increased leading and tracking.
-image::Figure_7[Caption="FM Abhaya, the industry standard text face for Sinhala.", width=400, align="center"]
-[insert image here - Figure 7]
-image::Figure_8[Caption="Scaled type in newspapers to manage space effectively.", width=400, align="center"]
-[insert image here - Figure 8]
-image::Figure_9[Caption="Early and modern Sinhala types, highlighting changes in letterform modulation.", width=400, align="center"]
-[insert image here - Figure 9]
-
-== Conclusion
-This project aims to create a typeface family that addresses the specific needs of newspaper design in Thaana and Sinhala scripts, providing solutions that enhance space economy and readability.
-
 == References
-- Linotype Legibility Series
-- The Reading Edge fonts by Font Bureau
-- Gulliver and Coranto by Gerard Unger
-- Chronicle Text by Hoefler & Co.
-- Experimental No. 223 by W. A. Dwiggins
-- Various academic and industry sources
+1. M. Stanley, 'On the classification of typographical variations', in Letterforms: typographic and scriptorial (Point Roberts, WA: Hartley & Marks, 1997), pp. 3–94 (p. 16).
+2. Bell, H.C.P. 1919. “Appendices.” W. Geiger, Maldivian Linguistic Studies, Journal of the Ceylon Branch of the Royal Asiatic Society 27 (extra number), edited by H.C.P Bell.
+3. Muhammad, Naseema, 1999. Dhivehi Writing Systems, National Centre for Linguistic and Historical Research, Male, Maldives
