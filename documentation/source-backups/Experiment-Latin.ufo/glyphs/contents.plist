@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>space</key>
+    <string>space.glif</string>
+    <key>a</key>
+    <string>uni0061.glif</string>
+    <key>n</key>
+    <string>uni006E_.glif</string>
+    <key>d</key>
+    <string>uni0064.glif</string>
+    <key>h</key>
+    <string>uni0068.glif</string>
+    <key>e</key>
+    <string>uni0065.glif</string>
+    <key>i</key>
+    <string>uni0069.glif</string>
+    <key>s</key>
+    <string>uni0073.glif</string>
+    <key>o</key>
+    <string>o.glif</string>
+    <key>b</key>
+    <string>b.glif</string>
+    <key>r</key>
+    <string>r.glif</string>
+  </dict>
+</plist>
